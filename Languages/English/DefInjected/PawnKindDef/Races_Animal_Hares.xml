@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ArcticHare -->
+
+  <CK_ArcticHare.label>artic hare</CK_ArcticHare.label>
+  <CK_ArcticHare.labelPlural>artic hares</CK_ArcticHare.labelPlural>
+  <CK_ArcticHare.lifeStages.0.label>artic hare</CK_ArcticHare.lifeStages.0.label>
+  <CK_ArcticHare.lifeStages.0.labelPlural>artic hare</CK_ArcticHare.lifeStages.0.labelPlural>
+  <CK_ArcticHare.lifeStages.0.labelMale>male artic hare</CK_ArcticHare.lifeStages.0.labelMale>
+  <CK_ArcticHare.lifeStages.0.labelMalePlural>male artic hares</CK_ArcticHare.lifeStages.0.labelMalePlural>
+  <CK_ArcticHare.lifeStages.0.labelFemale>female artic hare</CK_ArcticHare.lifeStages.0.labelFemale>
+  <CK_ArcticHare.lifeStages.0.labelFemalePlural>female artic hares</CK_ArcticHare.lifeStages.0.labelFemalePlural>
+  <CK_ArcticHare.lifeStages.1.label>artic hare</CK_ArcticHare.lifeStages.1.label>
+  <CK_ArcticHare.lifeStages.1.labelPlural>artic hare</CK_ArcticHare.lifeStages.1.labelPlural>
+  <CK_ArcticHare.lifeStages.1.labelMale>male artic hare</CK_ArcticHare.lifeStages.1.labelMale>
+  <CK_ArcticHare.lifeStages.1.labelMalePlural>male artic hares</CK_ArcticHare.lifeStages.1.labelMalePlural>
+  <CK_ArcticHare.lifeStages.1.labelFemale>female artic hare</CK_ArcticHare.lifeStages.1.labelFemale>
+  <CK_ArcticHare.lifeStages.1.labelFemalePlural>female artic hares</CK_ArcticHare.lifeStages.1.labelFemalePlural>
+  <CK_ArcticHare.lifeStages.2.label>artic hare</CK_ArcticHare.lifeStages.2.label>
+  <CK_ArcticHare.lifeStages.2.labelPlural>artic hare</CK_ArcticHare.lifeStages.2.labelPlural>
+  <CK_ArcticHare.lifeStages.2.labelMale>male artic hare</CK_ArcticHare.lifeStages.2.labelMale>
+  <CK_ArcticHare.lifeStages.2.labelMalePlural>male artic hares</CK_ArcticHare.lifeStages.2.labelMalePlural>
+  <CK_ArcticHare.lifeStages.2.labelFemale>female artic hare</CK_ArcticHare.lifeStages.2.labelFemale>
+  <CK_ArcticHare.lifeStages.2.labelFemalePlural>female artic hares</CK_ArcticHare.lifeStages.2.labelFemalePlural>
+  <CK_ArcticHare.labelMale>male artic hare</CK_ArcticHare.labelMale>
+  <CK_ArcticHare.labelMalePlural>male artic hares</CK_ArcticHare.labelMalePlural>
+  <CK_ArcticHare.labelFemale>female artic hare</CK_ArcticHare.labelFemale>
+  <CK_ArcticHare.labelFemalePlural>female artic hares</CK_ArcticHare.labelFemalePlural>
+
+
+</LanguageData>

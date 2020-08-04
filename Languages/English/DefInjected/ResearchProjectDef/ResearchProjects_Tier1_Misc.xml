@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 1: pre-electricity -->
+
+  <CK_TropicalWoodGrowing.label>tropical wood growing</CK_TropicalWoodGrowing.label>
+  <CK_TropicalWoodGrowing.description>Allows colonists to plant all rainforest trees.</CK_TropicalWoodGrowing.description>
+
+  <CK_Beekeeping.label>beekeeping</CK_Beekeeping.label>
+  <CK_Beekeeping.description>Allows colonists to use apiaries in growing zone</CK_Beekeeping.description>
+
+
+</LanguageData>

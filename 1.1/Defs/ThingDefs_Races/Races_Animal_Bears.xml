@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="BaseBear">
     <defName>CK_Panda</defName>
     <label>panda</label>
@@ -19,7 +18,6 @@
       <li>AnimalExotic</li>
     </tradeTags>
   </ThingDef>
-
   <PawnKindDef ParentName="BearBase">
     <defName>CK_Panda</defName>
     <label>panda</label>
@@ -69,5 +67,4 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
 </Defs>

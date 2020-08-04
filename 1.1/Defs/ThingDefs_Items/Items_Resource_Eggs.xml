@@ -1,9 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- Komodo dragon -->
-
   <ThingDef ParentName="EggFertBase">
     <defName>CK_EggKomodoFertilized</defName>
     <label>Komodo dragon egg (fert.)</label>
@@ -22,9 +19,7 @@
       </li>
     </comps>
   </ThingDef>
-
   <!-- Python -->
-
   <ThingDef ParentName="EggFertBase">
     <defName>CK_EggPythonFertilized</defName>
     <label>Python egg (fert.)</label>
@@ -43,9 +38,7 @@
       </li>
     </comps>
   </ThingDef>
-
   <!-- Peafowl -->
-
   <ThingDef ParentName="EggUnfertBase">
     <defName>CK_EggPeafowlUnfertilized</defName>
     <label>peafowl egg (unfert.)</label>
@@ -57,7 +50,6 @@
       <MarketValue>7.0</MarketValue>
     </statBases>
   </ThingDef>
-
   <ThingDef ParentName="EggFertBase">
     <defName>CK_EggPeafowlFertilized</defName>
     <label>peafowl egg (fert.)</label>
@@ -76,9 +68,7 @@
       </li>
     </comps>
   </ThingDef>
-
   <!-- Junglefowl -->
-
   <ThingDef ParentName="EggUnfertBase">
     <defName>CK_EggJunglefowlUnfertilized</defName>
     <label>junglehen egg (unfert.)</label>
@@ -90,7 +80,6 @@
       <MarketValue>7.0</MarketValue>
     </statBases>
   </ThingDef>
-
   <ThingDef ParentName="EggFertBase">
     <defName>CK_EggJunglefowlFertilized</defName>
     <label>junglefowl egg (fert.)</label>
@@ -109,5 +98,4 @@
       </li>
     </comps>
   </ThingDef>
-
 </Defs>

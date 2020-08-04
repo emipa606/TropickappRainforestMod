@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<!--============== ArcticHare ====================== -->
+  <!--============== ArcticHare ====================== -->
   <ThingDef ParentName="BaseHare">
     <defName>CK_ArcticHare</defName>
     <label>artic hare</label>
@@ -18,7 +17,6 @@
       <li>AnimalCommon</li>
     </tradeTags>
   </ThingDef>
-
   <PawnKindDef ParentName="HareBase">
     <defName>CK_ArcticHare</defName>
     <label>artic hare</label>
@@ -63,6 +61,5 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
-<!--================================================ -->
+  <!--================================================ -->
 </Defs>

@@ -1,7 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="LeatherBase">
     <defName>CK_LeatherPanda</defName>
     <label>pandaskin</label>
@@ -20,7 +18,6 @@
       <commonality>0.01</commonality>
     </stuffProps>
   </ThingDef>
-
   <ThingDef ParentName="LeatherBase">
     <defName>CK_LeatherTiger</defName>
     <label>tiger skin</label>
@@ -38,7 +35,6 @@
       <commonality>0.015</commonality>
     </stuffProps>
   </ThingDef>
-
   <ThingDef ParentName="LeatherBase">
     <defName>CK_LeatherWhiteTiger</defName>
     <label>white tiger skin</label>
@@ -56,7 +52,6 @@
       <commonality>0.005</commonality>
     </stuffProps>
   </ThingDef>
-
   <ThingDef ParentName="LeatherBase">
     <defName>CK_LeatherSnowLeopard</defName>
     <label>snow leopard skin</label>
@@ -74,7 +69,6 @@
       <commonality>0.015</commonality>
     </stuffProps>
   </ThingDef>
-
   <ThingDef ParentName="LeatherBase">
     <defName>CK_LeatherJaguar</defName>
     <label>jaguar skin</label>
@@ -92,7 +86,6 @@
       <commonality>0.015</commonality>
     </stuffProps>
   </ThingDef>
-
   <ThingDef ParentName="LeatherBase">
     <defName>CK_LeatherArcticHare</defName>
     <label>arctic hare leather</label>
@@ -111,7 +104,6 @@
       <commonality>0.05</commonality>
     </stuffProps>
   </ThingDef>
-
   <ThingDef ParentName="LeatherBase">
     <defName>CK_LeatherKomodoDragon</defName>
     <label>Komodo dragon skin</label>
@@ -131,7 +123,6 @@
       <commonality>0.015</commonality>
     </stuffProps>
   </ThingDef>
-
   <ThingDef ParentName="LeatherBase">
     <defName>CK_LeatherMonkey</defName>
     <label>monkey hide</label>
@@ -150,7 +141,6 @@
       <commonality>0.05</commonality>
     </stuffProps>
   </ThingDef>
-
   <ThingDef ParentName="LeatherBase">
     <defName>CK_LeatherPython</defName>
     <label>Python skin</label>
@@ -170,5 +160,4 @@
       <commonality>0.015</commonality>
     </stuffProps>
   </ThingDef>
-
 </Defs>

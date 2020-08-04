@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
-  <Defs>
-<!--========================== Food crops =============================-->
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--========================== Food crops =============================-->
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantTaro</defName>
     <label>taro plant</label>
@@ -38,7 +37,6 @@
       <purpose>Food</purpose>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantJitterWeed</defName>
     <label>jitter weed</label>
@@ -75,7 +73,6 @@
       <wildOrder>2</wildOrder>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantLemongrass</defName>
     <label>lemongrass</label>
@@ -113,7 +110,6 @@
       <purpose>Food</purpose>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="TreeBase">
     <defName>CK_PlantTreeCoconutPalm</defName>
     <label>coconut palm tree</label>
@@ -126,9 +122,9 @@
       <texPath>Things/Plant/TreeCoconutPalm</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
-				<volume>(0.18, 0.3, 0.15)</volume>
+        <volume>(0.18, 0.3, 0.15)</volume>
         <offset>(0.03,0,-0.44)</offset>
-			</shadowData>
+      </shadowData>
     </graphicData>
     <statBases>
       <Beauty>1</Beauty>
@@ -154,68 +150,66 @@
       <purpose>Food</purpose>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
-      <defName>CK_PlantTreeBanana</defName>
-      <label>banana tree</label>
-      <description>The banana plant is the largest herbaceous flowering plant. All the above-ground parts of a banana plant grow from a structure usually called a "corm". Plants are normally tall and fairly sturdy, and are often mistaken for trees, but what appears to be a trunk is actually a "false stem" or pseudostem. Bananas grow in a wide variety of soils, as long as the soil is at least 60 cm deep, has good drainage and is not compacted. Cultivated banana plants vary in height depending on the variety and growing conditions. Most are around 5 m (16 ft) tall, with a range from around 3 m (10 ft) to 7 m (23 ft) or more. Leaves are spirally arranged and they are easily torn by the wind, resulting in the familiar frond look.
+    <defName>CK_PlantTreeBanana</defName>
+    <label>banana tree</label>
+    <description>The banana plant is the largest herbaceous flowering plant. All the above-ground parts of a banana plant grow from a structure usually called a "corm". Plants are normally tall and fairly sturdy, and are often mistaken for trees, but what appears to be a trunk is actually a "false stem" or pseudostem. Bananas grow in a wide variety of soils, as long as the soil is at least 60 cm deep, has good drainage and is not compacted. Cultivated banana plants vary in height depending on the variety and growing conditions. Most are around 5 m (16 ft) tall, with a range from around 3 m (10 ft) to 7 m (23 ft) or more. Leaves are spirally arranged and they are easily torn by the wind, resulting in the familiar frond look.
 
       When a banana plant is mature, the corm stops producing new leaves and begins to form a flower spike or inflorescence. The banana fruits develop from the banana heart, in a large hanging cluster, made up of tiers (called "hands"). Individual banana fruits (commonly known as a banana or "finger") average 125 grams (0.276 lb), of which approximately 75% is water and 25% dry matter. In cultivated varieties, the seeds are diminished nearly to non-existence; their remnants are tiny black specks in the interior of the fruit.
 
       Bananas are naturally slightly radioactive, more so than most other fruits, because of their potassium content and the small amounts of the isotope potassium-40 found in naturally occurring potassium. The banana equivalent dose of radiation is sometimes used in nuclear communication to compare radiation levels and exposures.</description>
-      <altitudeLayer>Building</altitudeLayer>
-      <statBases>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Nutrition>1.50</Nutrition>
-      </statBases>
-      <graphicData>
-        <texPath>Things/Plant/TreeBanana</texPath>
-        <graphicClass>Graphic_Random</graphicClass>
-        <shadowData>
-          <volume>(0.3, 0.3, 0.3)</volume>
-        </shadowData>
-      </graphicData>
-      <passability>PassThroughOnly</passability>
-      <blockWind>true</blockWind>
-      <selectable>true</selectable>
-      <fillPercent>0.35</fillPercent>
-      <pathCost>80</pathCost>
-      <ingestible>
-        <preferability>RawBad</preferability>
-      </ingestible>
-      <plant>
-        <growDays>17</growDays>
-        <sowWork>1500</sowWork>
-        <harvestWork>800</harvestWork>
-        <harvestTag>Standard</harvestTag>
-        <harvestedThingDef>CK_RawBanana</harvestedThingDef>
-        <harvestYield>50</harvestYield>
-        <harvestMinGrowth>0.80</harvestMinGrowth>
-        <harvestFailable>false</harvestFailable>
-        <blockAdjacentSow>true</blockAdjacentSow>
-        <sowTags>
-          <li>Ground</li>
-        </sowTags>
-        <visualSizeRange>
-          <min>0.8</min>
-          <max>2.6</max>
-        </visualSizeRange>
-        <fertilityMin>0.7</fertilityMin>
-        <topWindExposure>0.25</topWindExposure>
-        <fertilitySensitivity>0.5</fertilitySensitivity>
-        <sowMinSkill>5</sowMinSkill>
-        <sowResearchPrerequisites>
-          <li>CK_TropicalWoodGrowing</li>
-        </sowResearchPrerequisites>
-        <wildClusterRadius>8</wildClusterRadius>
-        <wildClusterWeight>24</wildClusterWeight>
-        <wildOrder>3</wildOrder>
-        <interferesWithRoof>true</interferesWithRoof>
-      </plant>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>1.50</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/TreeBanana</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.3, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <blockWind>true</blockWind>
+    <selectable>true</selectable>
+    <fillPercent>0.35</fillPercent>
+    <pathCost>80</pathCost>
+    <ingestible>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <growDays>17</growDays>
+      <sowWork>1500</sowWork>
+      <harvestWork>800</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>CK_RawBanana</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestMinGrowth>0.80</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>0.8</min>
+        <max>2.6</max>
+      </visualSizeRange>
+      <fertilityMin>0.7</fertilityMin>
+      <topWindExposure>0.25</topWindExposure>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <sowMinSkill>5</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>CK_TropicalWoodGrowing</li>
+      </sowResearchPrerequisites>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
   </ThingDef>
-
-<!--====================== Production crops ===========================-->
-<!--========================== Drug crops =============================-->
+  <!--====================== Production crops ===========================-->
+  <!--========================== Drug crops =============================-->
   <ThingDef ParentName="BushBase">
     <defName>CK_PlantBushDreamVine</defName>
     <label>dream vine</label>
@@ -253,11 +247,11 @@
         <max>2</max>
       </visualSizeRange>
       <wildClusterRadius>3</wildClusterRadius>
-			<wildClusterWeight>4</wildClusterWeight>
+      <wildClusterWeight>4</wildClusterWeight>
       <topWindExposure>0.2</topWindExposure>
     </plant>
   </ThingDef>
-<!--========================= Special - Apiary ========================-->
+  <!--========================= Special - Apiary ========================-->
   <ThingDef ParentName="TreeBase">
     <defName>CK_SpecialTreeApiary</defName>
     <label>apiary</label>
@@ -282,7 +276,7 @@
       <harvestFailable>true</harvestFailable>
       <harvestTag>Standard</harvestTag>
       <fertilityMin>0.1</fertilityMin>
-	  	<fertilitySensitivity>0.2</fertilitySensitivity>
+      <fertilitySensitivity>0.2</fertilitySensitivity>
       <visualSizeRange>
         <min>1.5</min>
         <max>1.5</max>

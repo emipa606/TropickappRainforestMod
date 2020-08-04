@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tapir -->
+
+  <CK_Tapir.label>tapir</CK_Tapir.label>
+  <CK_Tapir.labelPlural>tapirs</CK_Tapir.labelPlural>
+  <CK_Tapir.lifeStages.0.label>tapir</CK_Tapir.lifeStages.0.label>
+  <CK_Tapir.lifeStages.0.labelPlural>tapir</CK_Tapir.lifeStages.0.labelPlural>
+  <CK_Tapir.lifeStages.0.labelMale>male tapir</CK_Tapir.lifeStages.0.labelMale>
+  <CK_Tapir.lifeStages.0.labelMalePlural>male tapirs</CK_Tapir.lifeStages.0.labelMalePlural>
+  <CK_Tapir.lifeStages.0.labelFemale>female tapir</CK_Tapir.lifeStages.0.labelFemale>
+  <CK_Tapir.lifeStages.0.labelFemalePlural>female tapirs</CK_Tapir.lifeStages.0.labelFemalePlural>
+  <CK_Tapir.lifeStages.1.label>tapir</CK_Tapir.lifeStages.1.label>
+  <CK_Tapir.lifeStages.1.labelPlural>tapir</CK_Tapir.lifeStages.1.labelPlural>
+  <CK_Tapir.lifeStages.1.labelMale>male tapir</CK_Tapir.lifeStages.1.labelMale>
+  <CK_Tapir.lifeStages.1.labelMalePlural>male tapirs</CK_Tapir.lifeStages.1.labelMalePlural>
+  <CK_Tapir.lifeStages.1.labelFemale>female tapir</CK_Tapir.lifeStages.1.labelFemale>
+  <CK_Tapir.lifeStages.1.labelFemalePlural>female tapirs</CK_Tapir.lifeStages.1.labelFemalePlural>
+  <CK_Tapir.lifeStages.2.label>tapir</CK_Tapir.lifeStages.2.label>
+  <CK_Tapir.lifeStages.2.labelPlural>tapir</CK_Tapir.lifeStages.2.labelPlural>
+  <CK_Tapir.lifeStages.2.labelMale>male tapir</CK_Tapir.lifeStages.2.labelMale>
+  <CK_Tapir.lifeStages.2.labelMalePlural>male tapirs</CK_Tapir.lifeStages.2.labelMalePlural>
+  <CK_Tapir.lifeStages.2.labelFemale>female tapir</CK_Tapir.lifeStages.2.labelFemale>
+  <CK_Tapir.lifeStages.2.labelFemalePlural>female tapirs</CK_Tapir.lifeStages.2.labelFemalePlural>
+  <CK_Tapir.labelMale>male tapir</CK_Tapir.labelMale>
+  <CK_Tapir.labelMalePlural>male tapirs</CK_Tapir.labelMalePlural>
+  <CK_Tapir.labelFemale>female tapir</CK_Tapir.labelFemale>
+  <CK_Tapir.labelFemalePlural>female tapirs</CK_Tapir.labelFemalePlural>
+
+
+  <!-- Okapi -->
+
+  <CK_Okapi.label>okapi</CK_Okapi.label>
+  <CK_Okapi.labelPlural>okapis</CK_Okapi.labelPlural>
+  <CK_Okapi.lifeStages.0.label>okapi</CK_Okapi.lifeStages.0.label>
+  <CK_Okapi.lifeStages.0.labelPlural>okapi</CK_Okapi.lifeStages.0.labelPlural>
+  <CK_Okapi.lifeStages.0.labelMale>male okapi</CK_Okapi.lifeStages.0.labelMale>
+  <CK_Okapi.lifeStages.0.labelMalePlural>male okapis</CK_Okapi.lifeStages.0.labelMalePlural>
+  <CK_Okapi.lifeStages.0.labelFemale>female okapi</CK_Okapi.lifeStages.0.labelFemale>
+  <CK_Okapi.lifeStages.0.labelFemalePlural>female okapis</CK_Okapi.lifeStages.0.labelFemalePlural>
+  <CK_Okapi.lifeStages.1.label>okapi</CK_Okapi.lifeStages.1.label>
+  <CK_Okapi.lifeStages.1.labelPlural>okapi</CK_Okapi.lifeStages.1.labelPlural>
+  <CK_Okapi.lifeStages.1.labelMale>male okapi</CK_Okapi.lifeStages.1.labelMale>
+  <CK_Okapi.lifeStages.1.labelMalePlural>male okapis</CK_Okapi.lifeStages.1.labelMalePlural>
+  <CK_Okapi.lifeStages.1.labelFemale>female okapi</CK_Okapi.lifeStages.1.labelFemale>
+  <CK_Okapi.lifeStages.1.labelFemalePlural>female okapis</CK_Okapi.lifeStages.1.labelFemalePlural>
+  <CK_Okapi.lifeStages.2.label>okapi</CK_Okapi.lifeStages.2.label>
+  <CK_Okapi.lifeStages.2.labelPlural>okapi</CK_Okapi.lifeStages.2.labelPlural>
+  <CK_Okapi.lifeStages.2.labelMale>male okapi</CK_Okapi.lifeStages.2.labelMale>
+  <CK_Okapi.lifeStages.2.labelMalePlural>male okapis</CK_Okapi.lifeStages.2.labelMalePlural>
+  <CK_Okapi.lifeStages.2.labelFemale>female okapi</CK_Okapi.lifeStages.2.labelFemale>
+  <CK_Okapi.lifeStages.2.labelFemalePlural>female okapis</CK_Okapi.lifeStages.2.labelFemalePlural>
+  <CK_Okapi.labelMale>male okapi</CK_Okapi.labelMale>
+  <CK_Okapi.labelMalePlural>male okapis</CK_Okapi.labelMalePlural>
+  <CK_Okapi.labelFemale>female okapi</CK_Okapi.labelFemale>
+  <CK_Okapi.labelFemalePlural>female okapis</CK_Okapi.labelFemalePlural>
+
+
+</LanguageData>

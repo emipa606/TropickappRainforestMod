@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- ============== Base Definition ======================= -->
   <!-- ============== Small MonkeyBase ======================= -->
   <ThingDef Name="SmallMonkeyThingBase" ParentName="AnimalThingBase" Abstract="True">
-  	<statBases>
-  		<MoveSpeed>4.84</MoveSpeed>
-  		<ComfyTemperatureMin>-5</ComfyTemperatureMin>
-  		<MarketValue>300</MarketValue>
-  	</statBases>
+    <statBases>
+      <MoveSpeed>4.84</MoveSpeed>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <MarketValue>300</MarketValue>
+    </statBases>
     <tools>
       <li>
         <label>left fist</label>
@@ -48,51 +48,50 @@
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
-	  <race>
-	  	<body>Monkey</body>
-	  	<petness>0.25</petness>
-	  	<baseBodySize>0.35</baseBodySize>
-	  	<baseHungerRate>0.25</baseHungerRate>
-	  	<baseHealthScale>0.45</baseHealthScale>
-	  	<foodType>OmnivoreRoughAnimal</foodType>
+    <race>
+      <body>Monkey</body>
+      <petness>0.25</petness>
+      <baseBodySize>0.35</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>0.45</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
       <leatherDef>CK_LeatherMonkey</leatherDef>
-	  	<!-- <leatherLabel>monkey hide</leatherLabel>
+      <!-- <leatherLabel>monkey hide</leatherLabel>
 	  	<leatherColor>(124,53,29)</leatherColor>
 	  	<leatherInsulation>0.75</leatherInsulation>
 	  	<meatLabel>monkey meat</meatLabel> -->
-	  	<trainability>Advanced</trainability>
-	  	<wildness>0.60</wildness>
-	  	<herdAnimal>true</herdAnimal>
-	  	<nuzzleMtbHours>72</nuzzleMtbHours>
-	  	<gestationPeriodDays>16</gestationPeriodDays>
-	  	<lifeExpectancy>15</lifeExpectancy>
-	  	<lifeStageAges>
-	  		<li>
-	  			<def>AnimalBaby</def>
-	  			<minAge>0</minAge>
-	  		</li>
-	  		<li>
-	  			<def>AnimalJuvenile</def>
-	  			<minAge>0.25</minAge>
-	  		</li>
-	  		<li>
-	  			<def>AnimalAdult</def>
-	  			<minAge>0.9</minAge>
-	  			<soundWounded>Pawn_Monkey_Wounded</soundWounded>
-	  			<soundDeath>Pawn_Monkey_Death</soundDeath>
-	  			<soundCall>Pawn_Monkey_Call</soundCall>
-	  			<soundAngry>Pawn_Monkey_Angry</soundAngry>
-	  		</li>
-	  	</lifeStageAges>
-	  	<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-	  	<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-	  	<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-	  </race>
-	  <tradeTags>
-	  	<li>AnimalUncommon</li>
-	  </tradeTags>
-	</ThingDef>
-
+      <trainability>Advanced</trainability>
+      <wildness>0.60</wildness>
+      <herdAnimal>true</herdAnimal>
+      <nuzzleMtbHours>72</nuzzleMtbHours>
+      <gestationPeriodDays>16</gestationPeriodDays>
+      <lifeExpectancy>15</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.9</minAge>
+          <soundWounded>Pawn_Monkey_Wounded</soundWounded>
+          <soundDeath>Pawn_Monkey_Death</soundDeath>
+          <soundCall>Pawn_Monkey_Call</soundCall>
+          <soundAngry>Pawn_Monkey_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
   <PawnKindDef Name="SmallMonkeyKindBase" ParentName="AnimalKindBase" Abstract="True">
     <combatPower>35</combatPower>
     <ecoSystemWeight>0.7</ecoSystemWeight>
@@ -103,7 +102,6 @@
   </PawnKindDef>
   <!-- ============== Base Definition ======================= -->
   <!-- ============== Ape Monkey Base ======================= -->
-
   <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="ApeMonkeyThingBase">
     <statBases>
       <MoveSpeed>4.2</MoveSpeed>
@@ -197,7 +195,6 @@
       <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
-
   <PawnKindDef Name="ApeMonkeyKindBase" ParentName="AnimalKindBase" Abstract="True">
     <combatPower>200</combatPower>
     <ecoSystemWeight>0.9</ecoSystemWeight>
@@ -206,9 +203,8 @@
       <max>5</max>
     </wildGroupSize>
   </PawnKindDef>
-
   <!-- ============== Squirrel Monkey ======================= -->
-<!--   <ThingDef ParentName="SmallMonkeyThingBase">
+  <!--   <ThingDef ParentName="SmallMonkeyThingBase">
     <defName>CK_SquirrelMonkey</defName>
     <label>squirrel monkey</label>
     <description>The common squirrel monkey prefers to live in the middle canopy, but occasionally comes to the ground or goes up into the high canopy. They like vegetation which provides good cover from birds of prey in the rainforest, savannah, mangroves, or marshlands.</description>
@@ -257,9 +253,8 @@
       </li>
     </lifeStages>
   </PawnKindDef>   -->
-
   <!-- ================= Gorilla ========================== -->
-<!--   <ThingDef ParentName="ApeMonkeyThingBase">
+  <!--   <ThingDef ParentName="ApeMonkeyThingBase">
     <defName>CK_Gorilla</defName>
     <label>gorilla</label>
     <description>Gorillas are ground-dwelling, predominantly herbivorous apes that inhabit forests. They are the largest living primates. Gorillas' natural habitats cover tropical or subtropical forests. </description>
@@ -314,9 +309,8 @@
       </li>
     </lifeStages>
   </PawnKindDef> -->
-
-<!-- =============== Spider Monkey ======================= -->
-<!--  <ThingDef ParentName="SmallMonkeyThingBase">
+  <!-- =============== Spider Monkey ======================= -->
+  <!--  <ThingDef ParentName="SmallMonkeyThingBase">
     <defName>CK_SpiderMonkey</defName>
     <label>spider monkey</label>
     <description>Disproportionately long limbs and long prehensile tails make them one of the largest (Ol' Earth) New World monkeys and give rise to their common name. Spider monkeys live in the upper layers of the rainforest, and forage in the high canopy, from 25 to 30 m (82 to 98 ft).They primarily eat fruits, but will also occasionally consume leaves, flowers, and insects. Due to their large size, spider monkeys require large tracts of moist evergreen forests, and prefer undisturbed primary rainforest. They are social animals and live in bands of up to 35 individuals but will split up to forage during the day.</description>
@@ -366,9 +360,8 @@
       </li>
     </lifeStages>
   </PawnKindDef> -->
-
   <!-- ============== Capuchin Monkey ======================= -->
-<!--   <ThingDef ParentName="SmallMonkeyThingBase">
+  <!--   <ThingDef ParentName="SmallMonkeyThingBase">
     <defName>CK_CapuchinMonkey</defName>
     <label>capuchin monkey</label>
     <description>Capuchins are diurnal and arboreal. With the exception of a midday nap, they spend their entire day searching for food. At night, they sleep in the trees, wedged between branches. They are undemanding regarding their habitat and can thus be found in many differing areas. They are omnivores, and consume a variety of plant parts such as leaves, flower and fruit, seeds, pith, woody tissue, sugarcane, bulb, and exudates, as well as arthropods, molluscs, a variety of vertebrates, and even primates. They are characterized as innovative and extreme foragers because of their ability to acquire sustenance from a wide collection of unlikely food, which may assure them survival in habitats with extreme food limitation. Capuchin monkeys often live in large groups of 10 to 35 individuals within the forest, although they can easily adapt to places colonized by humans. Usually, a single male will dominate the group.</description>
@@ -420,5 +413,4 @@
       </li>
     </lifeStages>
   </PawnKindDef>  -->
-
 </Defs>

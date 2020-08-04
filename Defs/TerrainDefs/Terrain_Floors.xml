@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<!-- ================= Misc ================= -->
-
+  <!-- ================= Misc ================= -->
   <TerrainDef ParentName="FloorBase">
     <defName>CK_TrampledEarthWithLine</defName>
     <label>trampled vegetation</label>
@@ -25,7 +23,6 @@
     <takeFootprints>True</takeFootprints>
     <acceptTerrainSourceFilth>False</acceptTerrainSourceFilth>
   </TerrainDef>
-
   <TerrainDef ParentName="FloorBase">
     <defName>CK_PackedDirt</defName>
     <label>packed dirt</label>
@@ -49,5 +46,4 @@
     <takeFootprints>True</takeFootprints>
     <acceptTerrainSourceFilth>False</acceptTerrainSourceFilth>
   </TerrainDef>
-
 </Defs>

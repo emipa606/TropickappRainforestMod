@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CK_LeatherPanda.label>pandaskin</CK_LeatherPanda.label>
+  <CK_LeatherPanda.description>The strong furry leather of a giant panda. Compared to most leather, it is quite a bit tougher and a bit better at all kinds of temperature regulation.</CK_LeatherPanda.description>
+
+  <CK_LeatherTiger.label>tiger skin</CK_LeatherTiger.label>
+  <CK_LeatherTiger.description>A soft furry pelt harvested from a tiger. It is difficult to pierce and insulates well against heat.</CK_LeatherTiger.description>
+
+  <CK_LeatherWhiteTiger.label>white tiger skin</CK_LeatherWhiteTiger.label>
+  <CK_LeatherWhiteTiger.description>A soft furry pelt harvested from a white tiger. It is difficult to pierce and insulates well against heat.</CK_LeatherWhiteTiger.description>
+
+  <CK_LeatherSnowLeopard.label>snow leopard skin</CK_LeatherSnowLeopard.label>
+  <CK_LeatherSnowLeopard.description>A soft furry pelt harvested from a snow leopard. It is difficult to pierce and insulates well against cold.</CK_LeatherSnowLeopard.description>
+
+  <CK_LeatherJaguar.label>jaguar skin</CK_LeatherJaguar.label>
+  <CK_LeatherJaguar.description>A soft furry pelt harvested from a jaguar. It is difficult to pierce and insulates well against heat.</CK_LeatherJaguar.description>
+
+  <CK_LeatherArcticHare.label>arctic hare leather</CK_LeatherArcticHare.label>
+  <CK_LeatherArcticHare.description>Lightweight, thin leather from an arctic hare. Not as protective as thicker leathers, but insulates well against the cold.</CK_LeatherArcticHare.description>
+
+  <CK_LeatherKomodoDragon.label>Komodo dragon skin</CK_LeatherKomodoDragon.label>
+  <CK_LeatherKomodoDragon.description>The tanned skin of a Komodo dragon. It is reasonably tough, but does not insulate well at all.</CK_LeatherKomodoDragon.description>
+
+  <CK_LeatherMonkey.label>monkey hide</CK_LeatherMonkey.label>
+  <CK_LeatherMonkey.description>Tanned, dried, scraped monkey hide. While a decent leather, it neither protects nor insulates particularly well.</CK_LeatherMonkey.description>
+
+  <CK_LeatherPython.label>Python skin</CK_LeatherPython.label>
+  <CK_LeatherPython.description>The tanned skin of a python. It is reasonably tough, but does not insulate well at all.</CK_LeatherPython.description>
+
+
+</LanguageData>

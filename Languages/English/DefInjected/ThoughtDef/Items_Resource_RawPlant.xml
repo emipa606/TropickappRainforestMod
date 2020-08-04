@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CK_AteRawJitterBerries.stages.0.label>speed from jitter</CK_AteRawJitterBerries.stages.0.label>
+  <CK_AteRawJitterBerries.stages.0.description>Those jitter berries... tastes like s%$#, but man are they strong.</CK_AteRawJitterBerries.stages.0.description>
+
+
+  <!-- Jitter addiction -->
+
+  <CK_JitterWithdrawal.stages.1.label>Jitter withdrawal</CK_JitterWithdrawal.stages.1.label>
+  <CK_JitterWithdrawal.stages.1.description>I really need jitter... Even those disgusting raw berries</CK_JitterWithdrawal.stages.1.description>
+
+  <Inebriated.stages.0.label>buzzed-hidden</Inebriated.stages.0.label>
+  <Inebriated.stages.0.description>Should not appear.</Inebriated.stages.0.description>
+  <Inebriated.stages.1.label>Inebriated (warm)</Inebriated.stages.1.label>
+  <Inebriated.stages.1.description>I just feel a bit more relaxed. That's good.</Inebriated.stages.1.description>
+  <Inebriated.stages.2.label>Inebriated (tipsy)</Inebriated.stages.2.label>
+  <Inebriated.stages.2.description>I'm a bit wobbly! And this is quite enjoyable.</Inebriated.stages.2.description>
+  <Inebriated.stages.3.label>Inebriated (drunk)</Inebriated.stages.3.label>
+  <Inebriated.stages.3.description>I feel so uninhibited and unafraid! This is a great time!</Inebriated.stages.3.description>
+  <Inebriated.stages.4.label>Inebriated (hammered)</Inebriated.stages.4.label>
+  <Inebriated.stages.4.description>Wooo! What is going on?</Inebriated.stages.4.description>
+
+
+</LanguageData>

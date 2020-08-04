@@ -1,20 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-
-    <name>Tropi[CKAPP] Rainforest Mod (Continued)</name>
-  	<packageId>Mlie.TropickappRainforestMod</packageId>
-	<author>Mlie</author>
-	<url>https://github.com/emipa606/TropickappRainforestMod</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter>
-		<li>spoonshortage.ADogSaidAnimalProsthetics</li>
-	</loadAfter>
-	<description>Update of KapTaiN_KaVerNs mod for RimWorld 1.1
+  <name>Tropi[CKAPP] Rainforest Mod (Continued)</name>
+  <packageId>Mlie.TropickappRainforestMod</packageId>
+  <author>Mlie</author>
+  <url>https://github.com/emipa606/TropickappRainforestMod</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter>
+    <li>spoonshortage.ADogSaidAnimalProsthetics</li>
+  </loadAfter>
+  <description>Update of KapTaiN_KaVerNs mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1110093272
+
+[img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
 
 Support-chat:
 https://discord.gg/SuhwVpM
@@ -64,5 +66,4 @@ Compatibility
 ____________________________________
 All animals and plants were designed by Coercion
 Pith helmet was designed by Thirite</description>
-
 </ModMetaData>

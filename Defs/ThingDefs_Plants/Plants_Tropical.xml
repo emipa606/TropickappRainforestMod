@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<!--========================= Special - Hive Tree ========================-->
+  <!--========================= Special - Hive Tree ========================-->
   <ThingDef ParentName="PlantBase">
     <defName>CK_SpecialTreeHive</defName>
     <label>bee hive</label>
@@ -9,9 +9,9 @@
     <selectable>true</selectable>
     <fillPercent>0.65</fillPercent>
     <graphicData>
-        <shadowData>
-          <volume>(0.3, 0.3, 0.3)</volume>
-        </shadowData>
+      <shadowData>
+        <volume>(0.3, 0.3, 0.3)</volume>
+      </shadowData>
       <texPath>Things/Plant/TreeHive/TreeHive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -40,16 +40,19 @@
       <fertilityMin>0.01</fertilityMin>
       <blockAdjacentSow>true</blockAdjacentSow>
       <topWindExposure>0.25</topWindExposure>
-	  <fertilitySensitivity>0</fertilitySensitivity>  <!-- A16 -->
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>0</fertilityFactorGrowthRate> -->
       <!-- <wildClusterSizeRange>
         <min>1</min>
         <max>1</max>
       </wildClusterSizeRange> -->
       <wildClusterRadius>20</wildClusterRadius>
-	  <!-- <reproduceMtbDays>32.5</reproduceMtbDays> --> <!-- A16 -->
-    <!-- <seedEmitMTBDays>32.5</seedEmitMTBDays> -->
-	  <!-- <reproduceRadius>100</reproduceRadius> --> <!-- A16 -->
+      <!-- <reproduceMtbDays>32.5</reproduceMtbDays> -->
+      <!-- A16 -->
+      <!-- <seedEmitMTBDays>32.5</seedEmitMTBDays> -->
+      <!-- <reproduceRadius>100</reproduceRadius> -->
+      <!-- A16 -->
       <!-- <seedShootRadius>100</seedShootRadius> -->
       <visualSizeRange>
         <min>1.9</min>
@@ -57,26 +60,25 @@
       </visualSizeRange>
     </plant>
   </ThingDef>
-<!--===========  Wild - clustering bushes (some harvestable) =============-->
-
-<ThingDef ParentName="PlantBase">
-	<defName>CK_PlantBushPalm</defName>
-	<label>bush palm</label>
-	<description>A short palm.</description>
-	<statBases>
-		<MaxHitPoints>120</MaxHitPoints>
-    <Nutrition>0.8</Nutrition>
-	</statBases>
-	<graphicData>
-		<texPath>Things/Plant/Palm</texPath>
-		<graphicClass>Graphic_Random</graphicClass>
-		<shadowData>
-			<volume>(0.37, 0.2, 0.37)</volume>
-		</shadowData>
-	</graphicData>
-	<selectable>true</selectable>
-	<fillPercent>0.25</fillPercent>
-	<pathCost>30</pathCost>
+  <!--===========  Wild - clustering bushes (some harvestable) =============-->
+  <ThingDef ParentName="PlantBase">
+    <defName>CK_PlantBushPalm</defName>
+    <label>bush palm</label>
+    <description>A short palm.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>0.8</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Palm</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.37, 0.2, 0.37)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>30</pathCost>
     <plant>
       <harvestYield>6</harvestYield>
       <harvestWork>600</harvestWork>
@@ -94,13 +96,12 @@
         <max>2</max>
       </visualSizeRange>
       <growDays>7</growDays>
-	    <!-- <reproduceMtbDays>2.5</reproduceMtbDays> -->
+      <!-- <reproduceMtbDays>2.5</reproduceMtbDays> -->
       <topWindExposure>0.3</topWindExposure>
-	  	<fertilitySensitivity>0.5</fertilitySensitivity>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
     </plant>
-</ThingDef>
-
-<ThingDef ParentName="PlantBase">
+  </ThingDef>
+  <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildTaro</defName>
     <label>taro plant</label>
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
@@ -109,8 +110,8 @@
       <Nutrition>0.2</Nutrition>
     </statBases>
     <graphicData>
-    	<texPath>Things/Plant/Taro</texPath>
-    	<graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Plant/Taro</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <selectable>true</selectable>
     <fillPercent>0.15</fillPercent>
@@ -132,12 +133,11 @@
       </visualSizeRange>
       <growDays>4</growDays>
       <topWindExposure>0.3</topWindExposure>
-	    <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
-	  	<fertilitySensitivity>0.3</fertilitySensitivity>
+      <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
+      <fertilitySensitivity>0.3</fertilitySensitivity>
     </plant>
-</ThingDef>
-
-<ThingDef ParentName="PlantBase">
+  </ThingDef>
+  <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildJitterWeed</defName>
     <label>jitter weed</label>
     <description>A weedy plant which yields jitter berries.</description>
@@ -180,7 +180,6 @@
       <!-- <reproduceMtbDays>4</reproduceMtbDays> -->
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildBushDreamVine</defName>
     <label>dream vine</label>
@@ -216,13 +215,11 @@
       </visualSizeRange>
       <growDays>7</growDays>
       <topWindExposure>0.3</topWindExposure>
-	  	<fertilitySensitivity>0.5</fertilitySensitivity>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
       <!-- <reproduceMtbDays>4</reproduceMtbDays> -->
     </plant>
   </ThingDef>
-
-<!--======================= Wild plants - carpets ========================-->
-
+  <!--======================= Wild plants - carpets ========================-->
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantFern</defName>
     <label>fern</label>
@@ -251,7 +248,6 @@
       <topWindExposure>0.4</topWindExposure>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantRafflesia</defName>
     <label>rafflesia</label>
@@ -285,7 +281,6 @@
       <wildClusterRadius>8</wildClusterRadius>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantBromeliad</defName>
     <label>bromeliad</label>
@@ -325,7 +320,6 @@
       <wildClusterRadius>4</wildClusterRadius>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantHeliconia</defName>
     <label>heliconia</label>
@@ -363,7 +357,6 @@
       <wildClusterRadius>4</wildClusterRadius>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildLemongrass</defName>
     <label>lemongrass</label>
@@ -400,11 +393,7 @@
       </wildClusterSizeRange> -->
     </plant>
   </ThingDef>
-
-
-
-<!--=========================== Wild - Trees ===========================-->
-
+  <!--=========================== Wild - Trees ===========================-->
   <ThingDef ParentName="TreeBase">
     <defName>CK_PlantTreePalm</defName>
     <label>palm tree</label>
@@ -429,9 +418,8 @@
       </sowResearchPrerequisites>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="TreeBase">
-  	<defName>CK_PlantTreeWildCoconutPalm</defName>
+    <defName>CK_PlantTreeWildCoconutPalm</defName>
     <label>coconut palm tree</label>
     <description>The coconut tree is a member of the palm tree family and the only living species of the genus Cocos. The term "coconut" can refer to the whole coconut palm, the seed, or the fruit. The term is derived from the 16th-century Portuguese and Spanish word coco meaning "head" or "skull" after the three indentations on the coconut shell that resemble facial features.
 
@@ -439,35 +427,36 @@
 
     Mature, ripe coconuts can be used as edible seeds, or processed for oil and plant milk from the flesh, charcoal from the hard shell, and coir from the fibrous husk. Dried coconut flesh is called copra, and the oil and milk derived from it are commonly used in cooking as well as in soaps and cosmetics. The hard shells, fibrous husks and long pinnate leaves can be used as material to make a variety of products for furnishing and decorating. The coconut also has cultural and religious significance in certain societies, particularly in India, where it is used in Hindu rituals.</description>
     <graphicData>
-    	<texPath>Things/Plant/TreeCoconutPalm</texPath>
-    	<graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Plant/TreeCoconutPalm</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-    	<Beauty>1</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
     <plant>
-    	<growDays>18</growDays>
-    	<sowWork>1500</sowWork>
-	    <harvestWork>1500</harvestWork>
-  		<harvestTag>Standard</harvestTag>
-  		<!-- <harvestDestroys>false</harvestDestroys> -->
-  		<harvestedThingDef>CK_Coconuts</harvestedThingDef>
-  		<harvestYield>10</harvestYield>
-  		<harvestMinGrowth>0.70</harvestMinGrowth>
-  		<harvestFailable>false</harvestFailable>
-  		<!-- <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction> -->
-  		<blockAdjacentSow>true</blockAdjacentSow>
-  		<sowTags></sowTags>
-  		<visualSizeRange>
-  			<min>1.5</min>
-  			<max>3</max>
-  		</visualSizeRange>
-  		<fertilityMin>0.2</fertilityMin>
-		<fertilitySensitivity>0.5</fertilitySensitivity>  <!-- A16 -->
-  		<!-- <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate> -->
-      </plant>
+      <growDays>18</growDays>
+      <sowWork>1500</sowWork>
+      <harvestWork>1500</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <!-- <harvestDestroys>false</harvestDestroys> -->
+      <harvestedThingDef>CK_Coconuts</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <harvestMinGrowth>0.70</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <!-- <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction> -->
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.5</min>
+        <max>3</max>
+      </visualSizeRange>
+      <fertilityMin>0.2</fertilityMin>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <!-- A16 -->
+      <!-- <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate> -->
+    </plant>
   </ThingDef>
-
   <ThingDef ParentName="TreeBase">
     <defName>CK_PlantTreeMahogany</defName>
     <label>mahogany tree</label>
@@ -493,7 +482,6 @@
       </sowResearchPrerequisites>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="TreeBase">
     <defName>CK_PlantTreeStranglerFig</defName>
     <label>strangler fig tree</label>
@@ -518,7 +506,6 @@
       </sowResearchPrerequisites>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="TreeBase">
     <defName>CK_PlantTreeTreeStump</defName>
     <label>tree (dead)</label>
@@ -531,7 +518,8 @@
       <Beauty>-2</Beauty>
     </statBases>
     <plant>
-      <sowTags></sowTags>
+      <sowTags>
+      </sowTags>
       <growDays>20</growDays>
       <harvestWork>1000</harvestWork>
       <harvestYield>20</harvestYield>
@@ -541,64 +529,64 @@
       </visualSizeRange>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
-    	<defName>CK_PlantTreeWildBanana</defName>
-    	<label>banana</label>
-      <description>The banana plant is the largest herbaceous flowering plant. All the above-ground parts of a banana plant grow from a structure usually called a "corm". Plants are normally tall and fairly sturdy, and are often mistaken for trees, but what appears to be a trunk is actually a "false stem" or pseudostem. Bananas grow in a wide variety of soils, as long as the soil is at least 60 cm deep, has good drainage and is not compacted. Cultivated banana plants vary in height depending on the variety and growing conditions. Most are around 5 m (16 ft) tall, with a range from around 3 m (10 ft) to 7 m (23 ft) or more. Leaves are spirally arranged and they are easily torn by the wind, resulting in the familiar frond look.
+    <defName>CK_PlantTreeWildBanana</defName>
+    <label>banana</label>
+    <description>The banana plant is the largest herbaceous flowering plant. All the above-ground parts of a banana plant grow from a structure usually called a "corm". Plants are normally tall and fairly sturdy, and are often mistaken for trees, but what appears to be a trunk is actually a "false stem" or pseudostem. Bananas grow in a wide variety of soils, as long as the soil is at least 60 cm deep, has good drainage and is not compacted. Cultivated banana plants vary in height depending on the variety and growing conditions. Most are around 5 m (16 ft) tall, with a range from around 3 m (10 ft) to 7 m (23 ft) or more. Leaves are spirally arranged and they are easily torn by the wind, resulting in the familiar frond look.
 
       When a banana plant is mature, the corm stops producing new leaves and begins to form a flower spike or inflorescence. The banana fruits develop from the banana heart, in a large hanging cluster, made up of tiers (called "hands"). Individual banana fruits (commonly known as a banana or "finger") average 125 grams (0.276 lb), of which approximately 75% is water and 25% dry matter. In cultivated varieties, the seeds are diminished nearly to non-existence; their remnants are tiny black specks in the interior of the fruit.
 
       Bananas are naturally slightly radioactive, more so than most other fruits, because of their potassium content and the small amounts of the isotope potassium-40 found in naturally occurring potassium. The banana equivalent dose of radiation is sometimes used in nuclear communication to compare radiation levels and exposures.</description>
-    	<altitudeLayer>Building</altitudeLayer>
-    	<statBases>
-    		<MaxHitPoints>120</MaxHitPoints>
-        <Nutrition>1.50</Nutrition>
-    	</statBases>
-    	<graphicData>
-    		<texPath>Things/Plant/TreeBanana</texPath>
-    		<graphicClass>Graphic_Random</graphicClass>
-    		<shadowData>
-    			<volume>(0.3, 0.3, 0.3)</volume>
-    		</shadowData>
-    	</graphicData>
-    	<passability>PassThroughOnly</passability>
-    	<blockWind>true</blockWind>
-    	<selectable>true</selectable>
-    	<fillPercent>0.35</fillPercent>
-	    <pathCost>80</pathCost>
-    	<ingestible>
-      		<preferability>RawBad</preferability>
-      	</ingestible>
-	    <plant>
-	    	<growDays>17</growDays>
-	    	<sowWork>1500</sowWork>
-	    	<harvestWork>800</harvestWork>
-  			<harvestTag>Standard</harvestTag>
-  			<!-- <harvestDestroys>false</harvestDestroys> -->
-  			<harvestedThingDef>CK_RawBanana</harvestedThingDef>
-  			<harvestYield>12</harvestYield>
-  			<harvestMinGrowth>0.40</harvestMinGrowth>
-  			<harvestFailable>false</harvestFailable>
-  			<!-- <wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction> -->
-  			<blockAdjacentSow>true</blockAdjacentSow>
-  			<sowTags></sowTags>
-  			<visualSizeRange>
-  				<min>1</min>
-  				<max>3</max>
-  			</visualSizeRange>
-  			<fertilityMin>0.3</fertilityMin>
-  			<topWindExposure>0.25</topWindExposure>
-			<fertilitySensitivity>0.5</fertilitySensitivity>  <!-- A16 -->
-  			<!-- <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate> -->
-  			<!-- <wildClusterSizeRange>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>1.50</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/TreeBanana</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.3, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <blockWind>true</blockWind>
+    <selectable>true</selectable>
+    <fillPercent>0.35</fillPercent>
+    <pathCost>80</pathCost>
+    <ingestible>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <growDays>17</growDays>
+      <sowWork>1500</sowWork>
+      <harvestWork>800</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <!-- <harvestDestroys>false</harvestDestroys> -->
+      <harvestedThingDef>CK_RawBanana</harvestedThingDef>
+      <harvestYield>12</harvestYield>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <!-- <wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction> -->
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+      </sowTags>
+      <visualSizeRange>
+        <min>1</min>
+        <max>3</max>
+      </visualSizeRange>
+      <fertilityMin>0.3</fertilityMin>
+      <topWindExposure>0.25</topWindExposure>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <!-- A16 -->
+      <!-- <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate> -->
+      <!-- <wildClusterSizeRange>
   				<min>8</min>
   				<max>30</max>
   			</wildClusterSizeRange> -->
-  			<wildClusterRadius>8</wildClusterRadius>
-      </plant>
-	</ThingDef>
-
+      <wildClusterRadius>8</wildClusterRadius>
+    </plant>
+  </ThingDef>
   <ThingDef ParentName="TreeBase">
     <defName>CK_PlantTreeBamboo</defName>
     <label>bamboo</label>
@@ -619,14 +607,12 @@
       <harvestWork>600</harvestWork>
       <harvestYield>15</harvestYield>
       <visualSizeRange>
-      	<min>0.8</min>
-      	<max>3</max>
+        <min>0.8</min>
+        <max>3</max>
       </visualSizeRange>
       <sowResearchPrerequisites>
         <li>CK_TropicalWoodGrowing</li>
       </sowResearchPrerequisites>
     </plant>
-
   </ThingDef>
-
 </Defs>

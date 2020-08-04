@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="HatBase">
     <defName>Apparel_CK_SafariHat</defName>
     <label>pith helmet</label>
@@ -38,5 +37,4 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-
 </Defs>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantPottedFern</defName>
     <label>fern</label>
@@ -37,7 +36,6 @@
       <purpose>Beauty</purpose>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantPottedBromeliad</defName>
     <label>bromeliad</label>
@@ -73,7 +71,6 @@
       <purpose>Beauty</purpose>
     </plant>
   </ThingDef>
-
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantPottedHeliconia</defName>
     <label>heliconia</label>
@@ -109,5 +106,4 @@
       <purpose>Beauty</purpose>
     </plant>
   </ThingDef>
-
 </Defs>

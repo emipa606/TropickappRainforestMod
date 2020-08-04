@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<ThingDef ParentName="PlantFoodRawBase">
+  <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_TaroRoot</defName>
     <label>taro roots</label>
     <description>Taro roots.</description>
@@ -20,9 +19,8 @@
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
-</ThingDef>
-
-<ThingDef ParentName="PlantFoodRawBase">
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawBanana</defName>
     <label>bananas</label>
     <description>Bananas. Nice to eat, even when raw.</description>
@@ -40,20 +38,20 @@
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-      <tasteThought></tasteThought>
+      <tasteThought>
+      </tasteThought>
       <foodType>VegetableOrFruit</foodType>
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
     </ingestible>
-</ThingDef>
-
-<ThingDef ParentName="PlantFoodRawBase">
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawLemongrass</defName>
     <label>lemongrass</label>
     <description>Cymbopogon, better known as lemongrass, is a genus of Asian, African, Australian, and tropical island plants in the grass family.Some species (particularly Cymbopogon citratus) are commonly cultivated as culinary and medicinal herbs because of their scent, resembling that of lemons. Lemongrass is widely used as a culinary herb in Asian cuisines and also as a medicinal herb in India. It has a subtle citrus flavor and can be dried and powdered, or used fresh. It is commonly used in teas, soups, and curries. It is also suitable for use with poultry, fish, beef, and seafood. It is often used as a tea in African countries such as Togo, south eastern Ghana Volta Region and the Democratic Republic of the Congo and Latin American countries such as Mexico.</description>
     <graphicData>
-    	<texPath>Things/Item/Resource/PlantFoodRaw/Lemongrass</texPath>
-    	<graphicClass>Graphic_StackCount</graphicClass>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Lemongrass</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>1.6</MarketValue>
@@ -67,8 +65,7 @@
     <ingestible>
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
-</ThingDef>
-
+  </ThingDef>
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_Coconuts</defName>
     <label>coconuts</label>
@@ -87,157 +84,159 @@
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-      <tasteThought></tasteThought>
+      <tasteThought>
+      </tasteThought>
       <foodType>VegetableOrFruit</foodType>
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
     </ingestible>
   </ThingDef>
-
-	<ThingDef ParentName="PlantFoodRawBase">
-	    <defName>CK_RawJitterBerries</defName>
-	    <label>jitter berries</label>
-	    <description>Give a little boost to movement speed and "Rest need" if eaten raw, but taste bad.</description>
-	    <soundInteract>Grain_Drop</soundInteract>
-	    <soundDrop>Grain_Drop</soundDrop>
-	    <graphicData>
-	      <texPath>Things/Item/Resource/PlantFoodRaw/JitterBerries</texPath>
-	    </graphicData>
-	    <statBases>
-	      <MarketValue>2</MarketValue>
-        <Nutrition>0.02</Nutrition>
-	    </statBases>
-	    <socialPropernessMatters>true</socialPropernessMatters>
-	    <ingestible>
-        <foodType>VegetableOrFruit</foodType>
-        <drugCategory>Medical</drugCategory>
-	      <ingestCommandString>Ingest {0}</ingestCommandString>
-	      <ingestReportString>Ingesting {0}.</ingestReportString>
-	      <nurseable>true</nurseable>
-	      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
-	      <baseIngestTicks>120</baseIngestTicks>
-	      <joyKind>Chemical</joyKind>
-	      <joy>0.01</joy>
-        <outcomeDoers>
-          <li Class="IngestionOutcomeDoer_OffsetNeed">
-            <need>Rest</need>
-            <offset>0.1</offset>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>CK_RawJitterBerries</defName>
+    <label>jitter berries</label>
+    <description>Give a little boost to movement speed and "Rest need" if eaten raw, but taste bad.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/JitterBerries</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2</MarketValue>
+      <Nutrition>0.02</Nutrition>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <drugCategory>Medical</drugCategory>
+      <ingestCommandString>Ingest {0}</ingestCommandString>
+      <ingestReportString>Ingesting {0}.</ingestReportString>
+      <nurseable>true</nurseable>
+      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <baseIngestTicks>120</baseIngestTicks>
+      <joyKind>Chemical</joyKind>
+      <joy>0.01</joy>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.1</offset>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>CK_AteRawJitterBerries</hediffDef>
+          <severity>0.3</severity>
+          <toleranceChemical>Jitter</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>CK_JitterTolerance</hediffDef>
+          <severity>0.02</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Drug">
+        <chemical>Jitter</chemical>
+        <addictiveness>0.008</addictiveness>
+        <minToleranceToAddict>0.3</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.03</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>20</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>CK_AteRawJitterBerries</defName>
+    <label>Jitter rush</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <!-- Apparently the new name -->
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>speed from jitter</label>
+        <hungerRateFactor>1.1</hungerRateFactor>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.05</offset>
           </li>
-          <li Class="IngestionOutcomeDoer_GiveHediff">
-	          <hediffDef>CK_AteRawJitterBerries</hediffDef>
-	          <severity>0.3</severity>
-	          <toleranceChemical>Jitter</toleranceChemical>
-	        </li>
-	        <li Class="IngestionOutcomeDoer_GiveHediff">
-	        	<hediffDef>CK_JitterTolerance</hediffDef>
-	        	<severity>0.02</severity>
-	        </li>
-        </outcomeDoers>
-      </ingestible>
-      <comps>
-        <li Class="CompProperties_Rottable">
-          <daysToRotStart>14</daysToRotStart>
-          <rotDestroys>true</rotDestroys>
-        </li>
-        <li Class="CompProperties_Drug">
-          <chemical>Jitter</chemical>
-          <addictiveness>0.008</addictiveness>
-          <minToleranceToAddict>0.3</minToleranceToAddict>
-          <existingAddictionSeverityOffset>0.03</existingAddictionSeverityOffset>
-          <needLevelOffset>1</needLevelOffset>
-          <listOrder>20</listOrder>
-        </li>
-      </comps>
-    </ThingDef>
-    <HediffDef>
-	    <defName>CK_AteRawJitterBerries</defName>
-	    <label>Jitter rush</label>
-	    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-	    <maxSeverity>1.0</maxSeverity>
-	    <hediffClass>HediffWithComps</hediffClass>
-		  <comps> <!-- Apparently the new name -->
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-1.0</severityPerDay>
-			</li>
-		</comps>
-      <stages>
-        <li>
-          <label>speed from jitter</label>
-	        <hungerRateFactor>1.1</hungerRateFactor>
-	        <capMods>
-            <li>
-              <capacity>Moving</capacity>
-              <offset>0.05</offset>
-            </li>
-          </capMods>
-        </li>
-      </stages>
-    </HediffDef>
-    <ThoughtDef>
-	    <defName>CK_AteRawJitterBerries</defName>
-	    <workerClass>ThoughtWorker_Hediff</workerClass>
-	    <hediff>CK_AteRawJitterBerries</hediff>
-		<validWhileDespawned>true</validWhileDespawned>
-	    <stages>
-	      <li>
-	        <label>speed from jitter</label>
-	        <description>Those jitter berries... tastes like s%$#, but man are they strong.</description>
-	        <baseMoodEffect>2</baseMoodEffect>
-	      </li>
-      </stages>
-    </ThoughtDef>
-<!-- Jitter addiction -->
-    <ChemicalDef>
-      <defName>Jitter</defName>
-      <label>Jitter</label>
-      <addictionHediff>CK_JitterAddiction</addictionHediff>
-      <toleranceHediff>CK_JitterTolerance</toleranceHediff>
-    </ChemicalDef>
-    <NeedDef ParentName="DrugAddictionNeedBase">
-      <defName>CK_Chemical_Jitter</defName>
-      <needClass>Need_Chemical</needClass>
-      <label>Jitter</label>
-      <description>Because of a developed Jitter dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
-      <listPriority>25</listPriority>
-    </NeedDef>
-    <HediffDef ParentName="DrugToleranceBase">
-      <defName>CK_JitterTolerance</defName>
-      <label>Jitter tolerance</label>
-      <comps>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>CK_AteRawJitterBerries</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>CK_AteRawJitterBerries</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>speed from jitter</label>
+        <description>Those jitter berries... tastes like s%$#, but man are they strong.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- Jitter addiction -->
+  <ChemicalDef>
+    <defName>Jitter</defName>
+    <label>Jitter</label>
+    <addictionHediff>CK_JitterAddiction</addictionHediff>
+    <toleranceHediff>CK_JitterTolerance</toleranceHediff>
+  </ChemicalDef>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>CK_Chemical_Jitter</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Jitter</label>
+    <description>Because of a developed Jitter dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>25</listPriority>
+  </NeedDef>
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>CK_JitterTolerance</defName>
+    <label>Jitter tolerance</label>
+    <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.015</severityPerDay>
       </li>
-	   <li Class="HediffCompProperties_DrugEffectFactor">
+      <li Class="HediffCompProperties_DrugEffectFactor">
         <chemical>Jitter</chemical>
       </li>
-      </comps>
-    </HediffDef>
-    <HediffDef ParentName="AddictionBase">
-      <defName>CK_JitterAddiction</defName>
-      <hediffClass>Hediff_Addiction</hediffClass>
-      <label>Jitter dependence</label>
-      <causesNeed>CK_Chemical_Jitter</causesNeed>
-	<comps>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="AddictionBase">
+    <defName>CK_JitterAddiction</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>Jitter dependence</label>
+    <causesNeed>CK_Chemical_Jitter</causesNeed>
+    <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1.5</severityPerDay>
       </li>
     </comps>
-      <stages>
-        <li></li>
-        <li>
-          <label>withdrawal</label>
-          <capMods>
-            <li>
-              <capacity>Consciousness</capacity>
-              <offset>-0.05</offset>
-            </li>
-            <li>
-              <capacity>Moving</capacity>
-              <offset>-0.05</offset>
-            </li>
-          </capMods>
-        </li>
-      </stages>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
   </HediffDef>
   <ThoughtDef>
     <defName>CK_JitterWithdrawal</defName>
@@ -255,7 +254,6 @@
       </li>
     </stages>
   </ThoughtDef>
-
   <ThingDef ParentName="OrganicProductBase">
     <defName>CK_Honeycomb</defName>
     <label>honeycomb</label>
@@ -281,7 +279,6 @@
       <li>AnimalProductRaw</li>
     </thingCategories>
   </ThingDef>
-
   <ThingDef ParentName="RoughPlantBase">
     <defName>CK_DreamVineRoot</defName>
     <label>dream root</label>
@@ -366,6 +363,4 @@
       </li>
     </stages>
   </ThoughtDef>
-
-
 </Defs>

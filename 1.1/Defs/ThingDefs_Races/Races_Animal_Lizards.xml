@@ -1,9 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- ====================================================== -->
-
-<ThingDef ParentName="AnimalThingBase">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>CK_KomodoDragon</defName>
     <label>Komodo Dragon</label>
     <description>Also known as the monitor lizard, this is a large species of lizard found in Indonesian islands on old Earth. Komodo dragon group behaviour in hunting is exceptional in the reptile world./nAs a result of their size, these lizards dominated the ecosystems in which they lived. The diet of the Komodo dragon mainly consists of deer, though they also eat considerable amounts of carrion. Komodo dragons also occasionally attack humans.</description>
@@ -123,7 +121,6 @@
       <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
-
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>CK_KomodoDragon</defName>
     <label>Komodo dragon</label>
@@ -173,5 +170,4 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
 </Defs>

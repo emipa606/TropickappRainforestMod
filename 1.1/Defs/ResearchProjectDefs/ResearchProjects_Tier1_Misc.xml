@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- <ResearchProjectDef>
     <defName></defName>
     <label></label>
@@ -8,9 +7,7 @@
     <baseCost></baseCost>
     <techLevel></techLevel>
   </ResearchProjectDef> -->
-
   <!--=============================== Tier 1: pre-electricity ===================================-->
-
   <ResearchProjectDef>
     <defName>CK_TropicalWoodGrowing</defName>
     <label>tropical wood growing</label>
@@ -20,18 +17,16 @@
     <tags>
       <li>TribalStart</li>
     </tags>
-		<researchViewX>0.5</researchViewX>
-		<researchViewY>2</researchViewY>	
+    <researchViewX>0.5</researchViewX>
+    <researchViewY>2</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>CK_Beekeeping</defName>
     <label>beekeeping</label>
     <description>Allows colonists to use apiaries in growing zone</description>
     <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
-		<researchViewX>0.5</researchViewX>
-		<researchViewY>2.5</researchViewY>
+    <researchViewX>0.5</researchViewX>
+    <researchViewY>2.5</researchViewY>
   </ResearchProjectDef>
-
 </Defs>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CK_TaroRoot.label>taro roots</CK_TaroRoot.label>
+  <CK_TaroRoot.description>Taro roots.</CK_TaroRoot.description>
+
+  <CK_RawBanana.label>bananas</CK_RawBanana.label>
+  <CK_RawBanana.description>Bananas. Nice to eat, even when raw.</CK_RawBanana.description>
+
+  <CK_RawLemongrass.label>lemongrass</CK_RawLemongrass.label>
+  <CK_RawLemongrass.description>Cymbopogon, better known as lemongrass, is a genus of Asian, African, Australian, and tropical island plants in the grass family.Some species (particularly Cymbopogon citratus) are commonly cultivated as culinary and medicinal herbs because of their scent, resembling that of lemons. Lemongrass is widely used as a culinary herb in Asian cuisines and also as a medicinal herb in India. It has a subtle citrus flavor and can be dried and powdered, or used fresh. It is commonly used in teas, soups, and curries. It is also suitable for use with poultry, fish, beef, and seafood. It is often used as a tea in African countries such as Togo, south eastern Ghana Volta Region and the Democratic Republic of the Congo and Latin American countries such as Mexico.</CK_RawLemongrass.description>
+
+  <CK_Coconuts.label>coconuts</CK_Coconuts.label>
+  <CK_Coconuts.description>Coconuts. Nice to eat, even when raw.</CK_Coconuts.description>
+
+  <CK_RawJitterBerries.label>jitter berries</CK_RawJitterBerries.label>
+  <CK_RawJitterBerries.description>Give a little boost to movement speed and "Rest need" if eaten raw, but taste bad.</CK_RawJitterBerries.description>
+  <CK_RawJitterBerries.ingestible.ingestCommandString>Ingest {0}</CK_RawJitterBerries.ingestible.ingestCommandString>
+  <CK_RawJitterBerries.ingestible.ingestReportString>Ingesting {0}.</CK_RawJitterBerries.ingestible.ingestReportString>
+
+
+  <!-- Jitter addiction -->
+
+  <CK_Honeycomb.label>honeycomb</CK_Honeycomb.label>
+  <CK_Honeycomb.description>Honey stored and used as food by bees. It is smooth, rich, and brings joy to those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots.</CK_Honeycomb.description>
+
+  <CK_DreamVineRoot.label>dream root</CK_DreamVineRoot.label>
+  <CK_DreamVineRoot.description>Dream Vine Roots are traditionally used to induce vivid lucid dreams during the initiation process of shamans to help them remember their dreams.</CK_DreamVineRoot.description>
+  <CK_DreamVineRoot.ingestible.ingestCommandString>Ingest {0}</CK_DreamVineRoot.ingestible.ingestCommandString>
+  <CK_DreamVineRoot.ingestible.ingestReportString>Ingesting {0}.</CK_DreamVineRoot.ingestible.ingestReportString>
+
+
+</LanguageData>
