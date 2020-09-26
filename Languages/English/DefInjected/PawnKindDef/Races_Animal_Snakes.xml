@@ -1,30 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <CK_Python.label>python</CK_Python.label>
-  <CK_Python.labelPlural>pythons</CK_Python.labelPlural>
-  <CK_Python.lifeStages.0.label>python</CK_Python.lifeStages.0.label>
-  <CK_Python.lifeStages.0.labelPlural>python</CK_Python.lifeStages.0.labelPlural>
-  <CK_Python.lifeStages.0.labelMale>male python</CK_Python.lifeStages.0.labelMale>
-  <CK_Python.lifeStages.0.labelMalePlural>male pythons</CK_Python.lifeStages.0.labelMalePlural>
-  <CK_Python.lifeStages.0.labelFemale>female python</CK_Python.lifeStages.0.labelFemale>
-  <CK_Python.lifeStages.0.labelFemalePlural>female pythons</CK_Python.lifeStages.0.labelFemalePlural>
-  <CK_Python.lifeStages.1.label>python</CK_Python.lifeStages.1.label>
-  <CK_Python.lifeStages.1.labelPlural>python</CK_Python.lifeStages.1.labelPlural>
-  <CK_Python.lifeStages.1.labelMale>male python</CK_Python.lifeStages.1.labelMale>
-  <CK_Python.lifeStages.1.labelMalePlural>male pythons</CK_Python.lifeStages.1.labelMalePlural>
-  <CK_Python.lifeStages.1.labelFemale>female python</CK_Python.lifeStages.1.labelFemale>
-  <CK_Python.lifeStages.1.labelFemalePlural>female pythons</CK_Python.lifeStages.1.labelFemalePlural>
-  <CK_Python.lifeStages.2.label>python</CK_Python.lifeStages.2.label>
-  <CK_Python.lifeStages.2.labelPlural>python</CK_Python.lifeStages.2.labelPlural>
-  <CK_Python.lifeStages.2.labelMale>male python</CK_Python.lifeStages.2.labelMale>
-  <CK_Python.lifeStages.2.labelMalePlural>male pythons</CK_Python.lifeStages.2.labelMalePlural>
-  <CK_Python.lifeStages.2.labelFemale>female python</CK_Python.lifeStages.2.labelFemale>
-  <CK_Python.lifeStages.2.labelFemalePlural>female pythons</CK_Python.lifeStages.2.labelFemalePlural>
-  <CK_Python.labelMale>male python</CK_Python.labelMale>
-  <CK_Python.labelMalePlural>male pythons</CK_Python.labelMalePlural>
-  <CK_Python.labelFemale>female python</CK_Python.labelFemale>
-  <CK_Python.labelFemalePlural>female pythons</CK_Python.labelFemalePlural>
-
+  <!--<CK_Python.label>python</CK_Python.label>-->
+  <!--<CK_Python.labelPlural>pythons</CK_Python.labelPlural>-->
+  <!--<CK_Python.lifeStages.0.label>python</CK_Python.lifeStages.0.label>-->
+  <!--<CK_Python.lifeStages.0.labelPlural>python</CK_Python.lifeStages.0.labelPlural>-->
+  <!--<CK_Python.lifeStages.0.labelMale>male python</CK_Python.lifeStages.0.labelMale>-->
+  <!--<CK_Python.lifeStages.0.labelMalePlural>male pythons</CK_Python.lifeStages.0.labelMalePlural>-->
+  <!--<CK_Python.lifeStages.0.labelFemale>female python</CK_Python.lifeStages.0.labelFemale>-->
+  <!--<CK_Python.lifeStages.0.labelFemalePlural>female pythons</CK_Python.lifeStages.0.labelFemalePlural>-->
+  <!--<CK_Python.lifeStages.1.label>python</CK_Python.lifeStages.1.label>-->
+  <!--<CK_Python.lifeStages.1.labelPlural>python</CK_Python.lifeStages.1.labelPlural>-->
+  <!--<CK_Python.lifeStages.1.labelMale>male python</CK_Python.lifeStages.1.labelMale>-->
+  <!--<CK_Python.lifeStages.1.labelMalePlural>male pythons</CK_Python.lifeStages.1.labelMalePlural>-->
+  <!--<CK_Python.lifeStages.1.labelFemale>female python</CK_Python.lifeStages.1.labelFemale>-->
+  <!--<CK_Python.lifeStages.1.labelFemalePlural>female pythons</CK_Python.lifeStages.1.labelFemalePlural>-->
+  <!--<CK_Python.lifeStages.2.label>python</CK_Python.lifeStages.2.label>-->
+  <!--<CK_Python.lifeStages.2.labelPlural>python</CK_Python.lifeStages.2.labelPlural>-->
+  <!--<CK_Python.lifeStages.2.labelMale>male python</CK_Python.lifeStages.2.labelMale>-->
+  <!--<CK_Python.lifeStages.2.labelMalePlural>male pythons</CK_Python.lifeStages.2.labelMalePlural>-->
+  <!--<CK_Python.lifeStages.2.labelFemale>female python</CK_Python.lifeStages.2.labelFemale>-->
+  <!--<CK_Python.lifeStages.2.labelFemalePlural>female pythons</CK_Python.lifeStages.2.labelFemalePlural>-->
+  <!--<CK_Python.labelMale>male python</CK_Python.labelMale>-->
+  <!--<CK_Python.labelMalePlural>male pythons</CK_Python.labelMalePlural>-->
+  <!--<CK_Python.labelFemale>female python</CK_Python.labelFemale>-->
+  <!--<CK_Python.labelFemalePlural>female pythons</CK_Python.labelFemalePlural>-->
 
 </LanguageData>

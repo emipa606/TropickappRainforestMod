@@ -1,23 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <CK_Peafowl.label>peafowl</CK_Peafowl.label>
-  <CK_Peafowl.description>A peafowl</CK_Peafowl.description>
-  <CK_Peafowl.tools.0.label>claws</CK_Peafowl.tools.0.label>
-  <CK_Peafowl.tools.1.label>beak</CK_Peafowl.tools.1.label>
-  <CK_Peafowl.tools.2.label>head</CK_Peafowl.tools.2.label>
-  <CK_Peafowl.tools.3.label>claws</CK_Peafowl.tools.3.label>
-  <CK_Peafowl.tools.4.label>beak</CK_Peafowl.tools.4.label>
-  <CK_Peafowl.tools.5.label>head</CK_Peafowl.tools.5.label>
-
-  <CK_Junglefowl.label>junglefowl</CK_Junglefowl.label>
-  <CK_Junglefowl.description>The junglefowl is a tropical member of the family Phasianidae (Same as pheasants, chickens and peafowl). It is thought to be ancestral to the domestic chicken. The red junglefowl was first domesticated at least from 5,400 BC in ol'Earth Asia</CK_Junglefowl.description>
-  <CK_Junglefowl.tools.0.label>claws</CK_Junglefowl.tools.0.label>
-  <CK_Junglefowl.tools.1.label>beak</CK_Junglefowl.tools.1.label>
-  <CK_Junglefowl.tools.2.label>head</CK_Junglefowl.tools.2.label>
-  <CK_Junglefowl.tools.3.label>claws</CK_Junglefowl.tools.3.label>
-  <CK_Junglefowl.tools.4.label>beak</CK_Junglefowl.tools.4.label>
-  <CK_Junglefowl.tools.5.label>head</CK_Junglefowl.tools.5.label>
-
+  <!--<CK_Peafowl.label>peafowl</CK_Peafowl.label>-->
+  <!--<CK_Peafowl.description>A peafowl</CK_Peafowl.description>-->
+  <!--<CK_Peafowl.tools.0.label>claws</CK_Peafowl.tools.0.label>-->
+  <!--<CK_Peafowl.tools.1.label>beak</CK_Peafowl.tools.1.label>-->
+  <!--<CK_Peafowl.tools.2.label>head</CK_Peafowl.tools.2.label>-->
+  <!--<CK_Peafowl.tools.3.label>claws</CK_Peafowl.tools.3.label>-->
+  <!--<CK_Peafowl.tools.4.label>beak</CK_Peafowl.tools.4.label>-->
+  <!--<CK_Peafowl.tools.5.label>head</CK_Peafowl.tools.5.label>-->
+  <!--<CK_Junglefowl.label>junglefowl</CK_Junglefowl.label>-->
+  <!--<CK_Junglefowl.description>The junglefowl is a tropical member of the family Phasianidae (Same as pheasants, chickens and peafowl). It is thought to be ancestral to the domestic chicken. The red junglefowl was first domesticated at least from 5,400 BC in ol'Earth Asia</CK_Junglefowl.description>-->
+  <!--<CK_Junglefowl.tools.0.label>claws</CK_Junglefowl.tools.0.label>-->
+  <!--<CK_Junglefowl.tools.1.label>beak</CK_Junglefowl.tools.1.label>-->
+  <!--<CK_Junglefowl.tools.2.label>head</CK_Junglefowl.tools.2.label>-->
+  <!--<CK_Junglefowl.tools.3.label>claws</CK_Junglefowl.tools.3.label>-->
+  <!--<CK_Junglefowl.tools.4.label>beak</CK_Junglefowl.tools.4.label>-->
+  <!--<CK_Junglefowl.tools.5.label>head</CK_Junglefowl.tools.5.label>-->
 
 </LanguageData>

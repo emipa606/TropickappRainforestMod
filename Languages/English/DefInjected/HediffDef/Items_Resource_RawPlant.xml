@@ -1,16 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <CK_AteRawJitterBerries.label>Jitter rush</CK_AteRawJitterBerries.label>
-  <CK_AteRawJitterBerries.stages.0.label>speed from jitter</CK_AteRawJitterBerries.stages.0.label>
-
-
+  <!--<CK_AteRawJitterBerries.label>Jitter rush</CK_AteRawJitterBerries.label>-->
+  <!--<CK_AteRawJitterBerries.stages.0.label>speed from jitter</CK_AteRawJitterBerries.stages.0.label>-->
   <!-- Jitter addiction -->
-
-  <CK_JitterTolerance.label>Jitter tolerance</CK_JitterTolerance.label>
-
-  <CK_JitterAddiction.label>Jitter dependence</CK_JitterAddiction.label>
-  <CK_JitterAddiction.stages.1.label>withdrawal</CK_JitterAddiction.stages.1.label>
-
+  <!--<CK_JitterTolerance.label>Jitter tolerance</CK_JitterTolerance.label>-->
+  <!--<CK_JitterAddiction.label>Jitter dependence</CK_JitterAddiction.label>-->
+  <!--<CK_JitterAddiction.stages.1.label>withdrawal</CK_JitterAddiction.stages.1.label>-->
 
 </LanguageData>

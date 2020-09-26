@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <CK_Python.label>python</CK_Python.label>
-  <CK_Python.description>A large snake.</CK_Python.description>
-  <CK_Python.tools.1.label>head</CK_Python.tools.1.label>
-
+  <!--<CK_Python.label>python</CK_Python.label>-->
+  <!--<CK_Python.description>A large snake.</CK_Python.description>-->
+  <!--<CK_Python.tools.1.label>head</CK_Python.tools.1.label>-->
 
 </LanguageData>

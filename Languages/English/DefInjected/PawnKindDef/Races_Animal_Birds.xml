@@ -1,55 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <CK_Peafowl.label>peafowl</CK_Peafowl.label>
-  <CK_Peafowl.labelPlural>peafowls</CK_Peafowl.labelPlural>
-  <CK_Peafowl.lifeStages.0.label>peachick</CK_Peafowl.lifeStages.0.label>
-  <CK_Peafowl.lifeStages.0.labelPlural>peachicks</CK_Peafowl.lifeStages.0.labelPlural>
-  <CK_Peafowl.lifeStages.0.labelMale>male peachick</CK_Peafowl.lifeStages.0.labelMale>
-  <CK_Peafowl.lifeStages.0.labelMalePlural>male peachicks</CK_Peafowl.lifeStages.0.labelMalePlural>
-  <CK_Peafowl.lifeStages.0.labelFemale>female peachick</CK_Peafowl.lifeStages.0.labelFemale>
-  <CK_Peafowl.lifeStages.0.labelFemalePlural>female peachicks</CK_Peafowl.lifeStages.0.labelFemalePlural>
-  <CK_Peafowl.lifeStages.1.label>peafowl</CK_Peafowl.lifeStages.1.label>
-  <CK_Peafowl.lifeStages.1.labelPlural>peafowl</CK_Peafowl.lifeStages.1.labelPlural>
-  <CK_Peafowl.lifeStages.1.labelMale>peacock</CK_Peafowl.lifeStages.1.labelMale>
-  <CK_Peafowl.lifeStages.1.labelMalePlural>male peafowls</CK_Peafowl.lifeStages.1.labelMalePlural>
-  <CK_Peafowl.lifeStages.1.labelFemale>peahen</CK_Peafowl.lifeStages.1.labelFemale>
-  <CK_Peafowl.lifeStages.1.labelFemalePlural>female peafowls</CK_Peafowl.lifeStages.1.labelFemalePlural>
-  <CK_Peafowl.lifeStages.2.label>peafowl</CK_Peafowl.lifeStages.2.label>
-  <CK_Peafowl.lifeStages.2.labelPlural>peafowl</CK_Peafowl.lifeStages.2.labelPlural>
-  <CK_Peafowl.lifeStages.2.labelMale>peacock</CK_Peafowl.lifeStages.2.labelMale>
-  <CK_Peafowl.lifeStages.2.labelMalePlural>male peafowls</CK_Peafowl.lifeStages.2.labelMalePlural>
-  <CK_Peafowl.lifeStages.2.labelFemale>peahen</CK_Peafowl.lifeStages.2.labelFemale>
-  <CK_Peafowl.lifeStages.2.labelFemalePlural>female peafowls</CK_Peafowl.lifeStages.2.labelFemalePlural>
-  <CK_Peafowl.labelMale>peacock</CK_Peafowl.labelMale>
-  <CK_Peafowl.labelMalePlural>peacocks</CK_Peafowl.labelMalePlural>
-  <CK_Peafowl.labelFemale>peahen</CK_Peafowl.labelFemale>
-  <CK_Peafowl.labelFemalePlural>peahens</CK_Peafowl.labelFemalePlural>
-
-  <CK_Junglefowl.label>junglefowl</CK_Junglefowl.label>
-  <CK_Junglefowl.labelPlural>junglefowls</CK_Junglefowl.labelPlural>
-  <CK_Junglefowl.lifeStages.0.label>jungle chick</CK_Junglefowl.lifeStages.0.label>
-  <CK_Junglefowl.lifeStages.0.labelPlural>jungle chicks</CK_Junglefowl.lifeStages.0.labelPlural>
-  <CK_Junglefowl.lifeStages.0.labelMale>male jungle chick</CK_Junglefowl.lifeStages.0.labelMale>
-  <CK_Junglefowl.lifeStages.0.labelMalePlural>male jungle chicks</CK_Junglefowl.lifeStages.0.labelMalePlural>
-  <CK_Junglefowl.lifeStages.0.labelFemale>female jungle chick</CK_Junglefowl.lifeStages.0.labelFemale>
-  <CK_Junglefowl.lifeStages.0.labelFemalePlural>female jungle chicks</CK_Junglefowl.lifeStages.0.labelFemalePlural>
-  <CK_Junglefowl.lifeStages.1.label>junglefowl</CK_Junglefowl.lifeStages.1.label>
-  <CK_Junglefowl.lifeStages.1.labelPlural>junglefowl</CK_Junglefowl.lifeStages.1.labelPlural>
-  <CK_Junglefowl.lifeStages.1.labelMale>male junglefowl</CK_Junglefowl.lifeStages.1.labelMale>
-  <CK_Junglefowl.lifeStages.1.labelMalePlural>male junglefowls</CK_Junglefowl.lifeStages.1.labelMalePlural>
-  <CK_Junglefowl.lifeStages.1.labelFemale>jungle hen</CK_Junglefowl.lifeStages.1.labelFemale>
-  <CK_Junglefowl.lifeStages.1.labelFemalePlural>female junglefowls</CK_Junglefowl.lifeStages.1.labelFemalePlural>
-  <CK_Junglefowl.lifeStages.2.label>junglefowl</CK_Junglefowl.lifeStages.2.label>
-  <CK_Junglefowl.lifeStages.2.labelPlural>junglefowl</CK_Junglefowl.lifeStages.2.labelPlural>
-  <CK_Junglefowl.lifeStages.2.labelMale>male junglefowl</CK_Junglefowl.lifeStages.2.labelMale>
-  <CK_Junglefowl.lifeStages.2.labelMalePlural>male junglefowls</CK_Junglefowl.lifeStages.2.labelMalePlural>
-  <CK_Junglefowl.lifeStages.2.labelFemale>jungle hen</CK_Junglefowl.lifeStages.2.labelFemale>
-  <CK_Junglefowl.lifeStages.2.labelFemalePlural>female junglefowls</CK_Junglefowl.lifeStages.2.labelFemalePlural>
-  <CK_Junglefowl.labelMale>male junglefowl</CK_Junglefowl.labelMale>
-  <CK_Junglefowl.labelMalePlural>male junglefowls</CK_Junglefowl.labelMalePlural>
-  <CK_Junglefowl.labelFemale>jungle hen</CK_Junglefowl.labelFemale>
-  <CK_Junglefowl.labelFemalePlural>jungle hens</CK_Junglefowl.labelFemalePlural>
-
+  <!--<CK_Peafowl.label>peafowl</CK_Peafowl.label>-->
+  <!--<CK_Peafowl.labelPlural>peafowls</CK_Peafowl.labelPlural>-->
+  <!--<CK_Peafowl.lifeStages.0.label>peachick</CK_Peafowl.lifeStages.0.label>-->
+  <!--<CK_Peafowl.lifeStages.0.labelPlural>peachicks</CK_Peafowl.lifeStages.0.labelPlural>-->
+  <!--<CK_Peafowl.lifeStages.0.labelMale>male peachick</CK_Peafowl.lifeStages.0.labelMale>-->
+  <!--<CK_Peafowl.lifeStages.0.labelMalePlural>male peachicks</CK_Peafowl.lifeStages.0.labelMalePlural>-->
+  <!--<CK_Peafowl.lifeStages.0.labelFemale>female peachick</CK_Peafowl.lifeStages.0.labelFemale>-->
+  <!--<CK_Peafowl.lifeStages.0.labelFemalePlural>female peachicks</CK_Peafowl.lifeStages.0.labelFemalePlural>-->
+  <!--<CK_Peafowl.lifeStages.1.label>peafowl</CK_Peafowl.lifeStages.1.label>-->
+  <!--<CK_Peafowl.lifeStages.1.labelPlural>peafowl</CK_Peafowl.lifeStages.1.labelPlural>-->
+  <!--<CK_Peafowl.lifeStages.1.labelMale>peacock</CK_Peafowl.lifeStages.1.labelMale>-->
+  <!--<CK_Peafowl.lifeStages.1.labelMalePlural>male peafowls</CK_Peafowl.lifeStages.1.labelMalePlural>-->
+  <!--<CK_Peafowl.lifeStages.1.labelFemale>peahen</CK_Peafowl.lifeStages.1.labelFemale>-->
+  <!--<CK_Peafowl.lifeStages.1.labelFemalePlural>female peafowls</CK_Peafowl.lifeStages.1.labelFemalePlural>-->
+  <!--<CK_Peafowl.lifeStages.2.label>peafowl</CK_Peafowl.lifeStages.2.label>-->
+  <!--<CK_Peafowl.lifeStages.2.labelPlural>peafowl</CK_Peafowl.lifeStages.2.labelPlural>-->
+  <!--<CK_Peafowl.lifeStages.2.labelMale>peacock</CK_Peafowl.lifeStages.2.labelMale>-->
+  <!--<CK_Peafowl.lifeStages.2.labelMalePlural>male peafowls</CK_Peafowl.lifeStages.2.labelMalePlural>-->
+  <!--<CK_Peafowl.lifeStages.2.labelFemale>peahen</CK_Peafowl.lifeStages.2.labelFemale>-->
+  <!--<CK_Peafowl.lifeStages.2.labelFemalePlural>female peafowls</CK_Peafowl.lifeStages.2.labelFemalePlural>-->
+  <!--<CK_Peafowl.labelMale>peacock</CK_Peafowl.labelMale>-->
+  <!--<CK_Peafowl.labelMalePlural>peacocks</CK_Peafowl.labelMalePlural>-->
+  <!--<CK_Peafowl.labelFemale>peahen</CK_Peafowl.labelFemale>-->
+  <!--<CK_Peafowl.labelFemalePlural>peahens</CK_Peafowl.labelFemalePlural>-->
+  <!--<CK_Junglefowl.label>junglefowl</CK_Junglefowl.label>-->
+  <!--<CK_Junglefowl.labelPlural>junglefowls</CK_Junglefowl.labelPlural>-->
+  <!--<CK_Junglefowl.lifeStages.0.label>jungle chick</CK_Junglefowl.lifeStages.0.label>-->
+  <!--<CK_Junglefowl.lifeStages.0.labelPlural>jungle chicks</CK_Junglefowl.lifeStages.0.labelPlural>-->
+  <!--<CK_Junglefowl.lifeStages.0.labelMale>male jungle chick</CK_Junglefowl.lifeStages.0.labelMale>-->
+  <!--<CK_Junglefowl.lifeStages.0.labelMalePlural>male jungle chicks</CK_Junglefowl.lifeStages.0.labelMalePlural>-->
+  <!--<CK_Junglefowl.lifeStages.0.labelFemale>female jungle chick</CK_Junglefowl.lifeStages.0.labelFemale>-->
+  <!--<CK_Junglefowl.lifeStages.0.labelFemalePlural>female jungle chicks</CK_Junglefowl.lifeStages.0.labelFemalePlural>-->
+  <!--<CK_Junglefowl.lifeStages.1.label>junglefowl</CK_Junglefowl.lifeStages.1.label>-->
+  <!--<CK_Junglefowl.lifeStages.1.labelPlural>junglefowl</CK_Junglefowl.lifeStages.1.labelPlural>-->
+  <!--<CK_Junglefowl.lifeStages.1.labelMale>male junglefowl</CK_Junglefowl.lifeStages.1.labelMale>-->
+  <!--<CK_Junglefowl.lifeStages.1.labelMalePlural>male junglefowls</CK_Junglefowl.lifeStages.1.labelMalePlural>-->
+  <!--<CK_Junglefowl.lifeStages.1.labelFemale>jungle hen</CK_Junglefowl.lifeStages.1.labelFemale>-->
+  <!--<CK_Junglefowl.lifeStages.1.labelFemalePlural>female junglefowls</CK_Junglefowl.lifeStages.1.labelFemalePlural>-->
+  <!--<CK_Junglefowl.lifeStages.2.label>junglefowl</CK_Junglefowl.lifeStages.2.label>-->
+  <!--<CK_Junglefowl.lifeStages.2.labelPlural>junglefowl</CK_Junglefowl.lifeStages.2.labelPlural>-->
+  <!--<CK_Junglefowl.lifeStages.2.labelMale>male junglefowl</CK_Junglefowl.lifeStages.2.labelMale>-->
+  <!--<CK_Junglefowl.lifeStages.2.labelMalePlural>male junglefowls</CK_Junglefowl.lifeStages.2.labelMalePlural>-->
+  <!--<CK_Junglefowl.lifeStages.2.labelFemale>jungle hen</CK_Junglefowl.lifeStages.2.labelFemale>-->
+  <!--<CK_Junglefowl.lifeStages.2.labelFemalePlural>female junglefowls</CK_Junglefowl.lifeStages.2.labelFemalePlural>-->
+  <!--<CK_Junglefowl.labelMale>male junglefowl</CK_Junglefowl.labelMale>-->
+  <!--<CK_Junglefowl.labelMalePlural>male junglefowls</CK_Junglefowl.labelMalePlural>-->
+  <!--<CK_Junglefowl.labelFemale>jungle hen</CK_Junglefowl.labelFemale>-->
+  <!--<CK_Junglefowl.labelFemalePlural>jungle hens</CK_Junglefowl.labelFemalePlural>-->
 
 </LanguageData>

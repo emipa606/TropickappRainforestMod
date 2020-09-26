@@ -1,23 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Tapir -->
-
-  <CK_Tapir.label>tapir</CK_Tapir.label>
-  <CK_Tapir.description>A large, herbivorous mammal, similar in shape to a pig, with a short, prehensile snout. Tapirs inhabit jungle and forest regions. Their closest relatives are the other odd-toed ungulates, which include horses, donkeys, zebras and rhinoceroses. Tapirs are generally shy, but when scared they can defend themselves with their very powerful jaws.</CK_Tapir.description>
-  <CK_Tapir.tools.0.label>left claw</CK_Tapir.tools.0.label>
-  <CK_Tapir.tools.1.label>right claw</CK_Tapir.tools.1.label>
-  <CK_Tapir.tools.3.label>head</CK_Tapir.tools.3.label>
-
-
+  <!--<CK_Tapir.label>tapir</CK_Tapir.label>-->
+  <!--<CK_Tapir.description>A large, herbivorous mammal, similar in shape to a pig, with a short, prehensile snout. Tapirs inhabit jungle and forest regions. Their closest relatives are the other odd-toed ungulates, which include horses, donkeys, zebras and rhinoceroses. Tapirs are generally shy, but when scared they can defend themselves with their very powerful jaws.</CK_Tapir.description>-->
+  <!--<CK_Tapir.tools.0.label>left claw</CK_Tapir.tools.0.label>-->
+  <!--<CK_Tapir.tools.1.label>right claw</CK_Tapir.tools.1.label>-->
+  <!--<CK_Tapir.tools.3.label>head</CK_Tapir.tools.3.label>-->
   <!-- Okapi -->
-
-  <CK_Okapi.label>okapi</CK_Okapi.label>
-  <CK_Okapi.description>A giraffid artiodactyl mammal native to old Earth Central Africa. Okapis are primarily diurnal but may be active for a few hours in darkness. They are essentially solitary, coming together only to breed. Okapis are herbivores, feeding on tree leaves and buds, grasses, ferns, fruits, and fungi. Okapis inhabit canopy forests at altitudes of 500–1,500 m (1,600–4,900 ft).</CK_Okapi.description>
-  <CK_Okapi.tools.0.label>left hoof</CK_Okapi.tools.0.label>
-  <CK_Okapi.tools.1.label>right hoof</CK_Okapi.tools.1.label>
-  <CK_Okapi.tools.2.label>teeth</CK_Okapi.tools.2.label>
-  <CK_Okapi.tools.3.label>head</CK_Okapi.tools.3.label>
-
+  <!--<CK_Okapi.label>okapi</CK_Okapi.label>-->
+  <!--<CK_Okapi.description>A giraffid artiodactyl mammal native to old Earth Central Africa. Okapis are primarily diurnal but may be active for a few hours in darkness. They are essentially solitary, coming together only to breed. Okapis are herbivores, feeding on tree leaves and buds, grasses, ferns, fruits, and fungi. Okapis inhabit canopy forests at altitudes of 500–1,500 m (1,600–4,900 ft).</CK_Okapi.description>-->
+  <!--<CK_Okapi.tools.0.label>left hoof</CK_Okapi.tools.0.label>-->
+  <!--<CK_Okapi.tools.1.label>right hoof</CK_Okapi.tools.1.label>-->
+  <!--<CK_Okapi.tools.2.label>teeth</CK_Okapi.tools.2.label>-->
+  <!--<CK_Okapi.tools.3.label>head</CK_Okapi.tools.3.label>-->
 
 </LanguageData>

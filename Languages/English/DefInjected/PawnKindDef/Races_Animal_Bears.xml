@@ -1,30 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <CK_Panda.label>panda</CK_Panda.label>
-  <CK_Panda.labelPlural>pandas</CK_Panda.labelPlural>
-  <CK_Panda.lifeStages.0.label>panda</CK_Panda.lifeStages.0.label>
-  <CK_Panda.lifeStages.0.labelPlural>panda</CK_Panda.lifeStages.0.labelPlural>
-  <CK_Panda.lifeStages.0.labelMale>male panda</CK_Panda.lifeStages.0.labelMale>
-  <CK_Panda.lifeStages.0.labelMalePlural>male pandas</CK_Panda.lifeStages.0.labelMalePlural>
-  <CK_Panda.lifeStages.0.labelFemale>female panda</CK_Panda.lifeStages.0.labelFemale>
-  <CK_Panda.lifeStages.0.labelFemalePlural>female pandas</CK_Panda.lifeStages.0.labelFemalePlural>
-  <CK_Panda.lifeStages.1.label>panda</CK_Panda.lifeStages.1.label>
-  <CK_Panda.lifeStages.1.labelPlural>panda</CK_Panda.lifeStages.1.labelPlural>
-  <CK_Panda.lifeStages.1.labelMale>male panda</CK_Panda.lifeStages.1.labelMale>
-  <CK_Panda.lifeStages.1.labelMalePlural>male pandas</CK_Panda.lifeStages.1.labelMalePlural>
-  <CK_Panda.lifeStages.1.labelFemale>female panda</CK_Panda.lifeStages.1.labelFemale>
-  <CK_Panda.lifeStages.1.labelFemalePlural>female pandas</CK_Panda.lifeStages.1.labelFemalePlural>
-  <CK_Panda.lifeStages.2.label>panda</CK_Panda.lifeStages.2.label>
-  <CK_Panda.lifeStages.2.labelPlural>panda</CK_Panda.lifeStages.2.labelPlural>
-  <CK_Panda.lifeStages.2.labelMale>male panda</CK_Panda.lifeStages.2.labelMale>
-  <CK_Panda.lifeStages.2.labelMalePlural>male pandas</CK_Panda.lifeStages.2.labelMalePlural>
-  <CK_Panda.lifeStages.2.labelFemale>female panda</CK_Panda.lifeStages.2.labelFemale>
-  <CK_Panda.lifeStages.2.labelFemalePlural>female pandas</CK_Panda.lifeStages.2.labelFemalePlural>
-  <CK_Panda.labelMale>male panda</CK_Panda.labelMale>
-  <CK_Panda.labelMalePlural>male pandas</CK_Panda.labelMalePlural>
-  <CK_Panda.labelFemale>female panda</CK_Panda.labelFemale>
-  <CK_Panda.labelFemalePlural>female pandas</CK_Panda.labelFemalePlural>
-
+  <!--<CK_Panda.label>panda</CK_Panda.label>-->
+  <!--<CK_Panda.labelPlural>pandas</CK_Panda.labelPlural>-->
+  <!--<CK_Panda.lifeStages.0.label>panda</CK_Panda.lifeStages.0.label>-->
+  <!--<CK_Panda.lifeStages.0.labelPlural>panda</CK_Panda.lifeStages.0.labelPlural>-->
+  <!--<CK_Panda.lifeStages.0.labelMale>male panda</CK_Panda.lifeStages.0.labelMale>-->
+  <!--<CK_Panda.lifeStages.0.labelMalePlural>male pandas</CK_Panda.lifeStages.0.labelMalePlural>-->
+  <!--<CK_Panda.lifeStages.0.labelFemale>female panda</CK_Panda.lifeStages.0.labelFemale>-->
+  <!--<CK_Panda.lifeStages.0.labelFemalePlural>female pandas</CK_Panda.lifeStages.0.labelFemalePlural>-->
+  <!--<CK_Panda.lifeStages.1.label>panda</CK_Panda.lifeStages.1.label>-->
+  <!--<CK_Panda.lifeStages.1.labelPlural>panda</CK_Panda.lifeStages.1.labelPlural>-->
+  <!--<CK_Panda.lifeStages.1.labelMale>male panda</CK_Panda.lifeStages.1.labelMale>-->
+  <!--<CK_Panda.lifeStages.1.labelMalePlural>male pandas</CK_Panda.lifeStages.1.labelMalePlural>-->
+  <!--<CK_Panda.lifeStages.1.labelFemale>female panda</CK_Panda.lifeStages.1.labelFemale>-->
+  <!--<CK_Panda.lifeStages.1.labelFemalePlural>female pandas</CK_Panda.lifeStages.1.labelFemalePlural>-->
+  <!--<CK_Panda.lifeStages.2.label>panda</CK_Panda.lifeStages.2.label>-->
+  <!--<CK_Panda.lifeStages.2.labelPlural>panda</CK_Panda.lifeStages.2.labelPlural>-->
+  <!--<CK_Panda.lifeStages.2.labelMale>male panda</CK_Panda.lifeStages.2.labelMale>-->
+  <!--<CK_Panda.lifeStages.2.labelMalePlural>male pandas</CK_Panda.lifeStages.2.labelMalePlural>-->
+  <!--<CK_Panda.lifeStages.2.labelFemale>female panda</CK_Panda.lifeStages.2.labelFemale>-->
+  <!--<CK_Panda.lifeStages.2.labelFemalePlural>female pandas</CK_Panda.lifeStages.2.labelFemalePlural>-->
+  <!--<CK_Panda.labelMale>male panda</CK_Panda.labelMale>-->
+  <!--<CK_Panda.labelMalePlural>male pandas</CK_Panda.labelMalePlural>-->
+  <!--<CK_Panda.labelFemale>female panda</CK_Panda.labelFemale>-->
+  <!--<CK_Panda.labelFemalePlural>female pandas</CK_Panda.labelFemalePlural>-->
 
 </LanguageData>

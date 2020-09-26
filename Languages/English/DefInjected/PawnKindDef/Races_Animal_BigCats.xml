@@ -1,116 +1,104 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Tiger -->
-
-  <CK_Tiger.label>tiger</CK_Tiger.label>
-  <CK_Tiger.labelPlural>tigers</CK_Tiger.labelPlural>
-  <CK_Tiger.lifeStages.0.label>tiger</CK_Tiger.lifeStages.0.label>
-  <CK_Tiger.lifeStages.0.labelPlural>tiger</CK_Tiger.lifeStages.0.labelPlural>
-  <CK_Tiger.lifeStages.0.labelMale>male tiger</CK_Tiger.lifeStages.0.labelMale>
-  <CK_Tiger.lifeStages.0.labelMalePlural>male tigers</CK_Tiger.lifeStages.0.labelMalePlural>
-  <CK_Tiger.lifeStages.0.labelFemale>female tiger</CK_Tiger.lifeStages.0.labelFemale>
-  <CK_Tiger.lifeStages.0.labelFemalePlural>female tigers</CK_Tiger.lifeStages.0.labelFemalePlural>
-  <CK_Tiger.lifeStages.1.label>tiger</CK_Tiger.lifeStages.1.label>
-  <CK_Tiger.lifeStages.1.labelPlural>tiger</CK_Tiger.lifeStages.1.labelPlural>
-  <CK_Tiger.lifeStages.1.labelMale>male tiger</CK_Tiger.lifeStages.1.labelMale>
-  <CK_Tiger.lifeStages.1.labelMalePlural>male tigers</CK_Tiger.lifeStages.1.labelMalePlural>
-  <CK_Tiger.lifeStages.1.labelFemale>female tiger</CK_Tiger.lifeStages.1.labelFemale>
-  <CK_Tiger.lifeStages.1.labelFemalePlural>female tigers</CK_Tiger.lifeStages.1.labelFemalePlural>
-  <CK_Tiger.lifeStages.2.label>tiger</CK_Tiger.lifeStages.2.label>
-  <CK_Tiger.lifeStages.2.labelPlural>tiger</CK_Tiger.lifeStages.2.labelPlural>
-  <CK_Tiger.lifeStages.2.labelMale>male tiger</CK_Tiger.lifeStages.2.labelMale>
-  <CK_Tiger.lifeStages.2.labelMalePlural>male tigers</CK_Tiger.lifeStages.2.labelMalePlural>
-  <CK_Tiger.lifeStages.2.labelFemale>female tiger</CK_Tiger.lifeStages.2.labelFemale>
-  <CK_Tiger.lifeStages.2.labelFemalePlural>female tigers</CK_Tiger.lifeStages.2.labelFemalePlural>
-  <CK_Tiger.labelMale>male tiger</CK_Tiger.labelMale>
-  <CK_Tiger.labelMalePlural>male tigers</CK_Tiger.labelMalePlural>
-  <CK_Tiger.labelFemale>female tiger</CK_Tiger.labelFemale>
-  <CK_Tiger.labelFemalePlural>female tigers</CK_Tiger.labelFemalePlural>
-
-
+  <!--<CK_Tiger.label>tiger</CK_Tiger.label>-->
+  <!--<CK_Tiger.labelPlural>tigers</CK_Tiger.labelPlural>-->
+  <!--<CK_Tiger.lifeStages.0.label>tiger</CK_Tiger.lifeStages.0.label>-->
+  <!--<CK_Tiger.lifeStages.0.labelPlural>tiger</CK_Tiger.lifeStages.0.labelPlural>-->
+  <!--<CK_Tiger.lifeStages.0.labelMale>male tiger</CK_Tiger.lifeStages.0.labelMale>-->
+  <!--<CK_Tiger.lifeStages.0.labelMalePlural>male tigers</CK_Tiger.lifeStages.0.labelMalePlural>-->
+  <!--<CK_Tiger.lifeStages.0.labelFemale>female tiger</CK_Tiger.lifeStages.0.labelFemale>-->
+  <!--<CK_Tiger.lifeStages.0.labelFemalePlural>female tigers</CK_Tiger.lifeStages.0.labelFemalePlural>-->
+  <!--<CK_Tiger.lifeStages.1.label>tiger</CK_Tiger.lifeStages.1.label>-->
+  <!--<CK_Tiger.lifeStages.1.labelPlural>tiger</CK_Tiger.lifeStages.1.labelPlural>-->
+  <!--<CK_Tiger.lifeStages.1.labelMale>male tiger</CK_Tiger.lifeStages.1.labelMale>-->
+  <!--<CK_Tiger.lifeStages.1.labelMalePlural>male tigers</CK_Tiger.lifeStages.1.labelMalePlural>-->
+  <!--<CK_Tiger.lifeStages.1.labelFemale>female tiger</CK_Tiger.lifeStages.1.labelFemale>-->
+  <!--<CK_Tiger.lifeStages.1.labelFemalePlural>female tigers</CK_Tiger.lifeStages.1.labelFemalePlural>-->
+  <!--<CK_Tiger.lifeStages.2.label>tiger</CK_Tiger.lifeStages.2.label>-->
+  <!--<CK_Tiger.lifeStages.2.labelPlural>tiger</CK_Tiger.lifeStages.2.labelPlural>-->
+  <!--<CK_Tiger.lifeStages.2.labelMale>male tiger</CK_Tiger.lifeStages.2.labelMale>-->
+  <!--<CK_Tiger.lifeStages.2.labelMalePlural>male tigers</CK_Tiger.lifeStages.2.labelMalePlural>-->
+  <!--<CK_Tiger.lifeStages.2.labelFemale>female tiger</CK_Tiger.lifeStages.2.labelFemale>-->
+  <!--<CK_Tiger.lifeStages.2.labelFemalePlural>female tigers</CK_Tiger.lifeStages.2.labelFemalePlural>-->
+  <!--<CK_Tiger.labelMale>male tiger</CK_Tiger.labelMale>-->
+  <!--<CK_Tiger.labelMalePlural>male tigers</CK_Tiger.labelMalePlural>-->
+  <!--<CK_Tiger.labelFemale>female tiger</CK_Tiger.labelFemale>-->
+  <!--<CK_Tiger.labelFemalePlural>female tigers</CK_Tiger.labelFemalePlural>-->
   <!-- White Tiger -->
-
-  <CK_WhiteTiger.label>white tiger</CK_WhiteTiger.label>
-  <CK_WhiteTiger.labelPlural>white tigers</CK_WhiteTiger.labelPlural>
-  <CK_WhiteTiger.lifeStages.0.label>white tiger</CK_WhiteTiger.lifeStages.0.label>
-  <CK_WhiteTiger.lifeStages.0.labelPlural>white tiger</CK_WhiteTiger.lifeStages.0.labelPlural>
-  <CK_WhiteTiger.lifeStages.0.labelMale>male white tiger</CK_WhiteTiger.lifeStages.0.labelMale>
-  <CK_WhiteTiger.lifeStages.0.labelMalePlural>male white tigers</CK_WhiteTiger.lifeStages.0.labelMalePlural>
-  <CK_WhiteTiger.lifeStages.0.labelFemale>female white tiger</CK_WhiteTiger.lifeStages.0.labelFemale>
-  <CK_WhiteTiger.lifeStages.0.labelFemalePlural>female white tigers</CK_WhiteTiger.lifeStages.0.labelFemalePlural>
-  <CK_WhiteTiger.lifeStages.1.label>white tiger</CK_WhiteTiger.lifeStages.1.label>
-  <CK_WhiteTiger.lifeStages.1.labelPlural>white tiger</CK_WhiteTiger.lifeStages.1.labelPlural>
-  <CK_WhiteTiger.lifeStages.1.labelMale>male white tiger</CK_WhiteTiger.lifeStages.1.labelMale>
-  <CK_WhiteTiger.lifeStages.1.labelMalePlural>male white tigers</CK_WhiteTiger.lifeStages.1.labelMalePlural>
-  <CK_WhiteTiger.lifeStages.1.labelFemale>female white tiger</CK_WhiteTiger.lifeStages.1.labelFemale>
-  <CK_WhiteTiger.lifeStages.1.labelFemalePlural>female white tigers</CK_WhiteTiger.lifeStages.1.labelFemalePlural>
-  <CK_WhiteTiger.lifeStages.2.label>white tiger</CK_WhiteTiger.lifeStages.2.label>
-  <CK_WhiteTiger.lifeStages.2.labelPlural>white tiger</CK_WhiteTiger.lifeStages.2.labelPlural>
-  <CK_WhiteTiger.lifeStages.2.labelMale>male white tiger</CK_WhiteTiger.lifeStages.2.labelMale>
-  <CK_WhiteTiger.lifeStages.2.labelMalePlural>male white tigers</CK_WhiteTiger.lifeStages.2.labelMalePlural>
-  <CK_WhiteTiger.lifeStages.2.labelFemale>female white tiger</CK_WhiteTiger.lifeStages.2.labelFemale>
-  <CK_WhiteTiger.lifeStages.2.labelFemalePlural>female white tigers</CK_WhiteTiger.lifeStages.2.labelFemalePlural>
-  <CK_WhiteTiger.labelMale>male white tiger</CK_WhiteTiger.labelMale>
-  <CK_WhiteTiger.labelMalePlural>male white tigers</CK_WhiteTiger.labelMalePlural>
-  <CK_WhiteTiger.labelFemale>female white tiger</CK_WhiteTiger.labelFemale>
-  <CK_WhiteTiger.labelFemalePlural>female white tigers</CK_WhiteTiger.labelFemalePlural>
-
-
+  <!--<CK_WhiteTiger.label>white tiger</CK_WhiteTiger.label>-->
+  <!--<CK_WhiteTiger.labelPlural>white tigers</CK_WhiteTiger.labelPlural>-->
+  <!--<CK_WhiteTiger.lifeStages.0.label>white tiger</CK_WhiteTiger.lifeStages.0.label>-->
+  <!--<CK_WhiteTiger.lifeStages.0.labelPlural>white tiger</CK_WhiteTiger.lifeStages.0.labelPlural>-->
+  <!--<CK_WhiteTiger.lifeStages.0.labelMale>male white tiger</CK_WhiteTiger.lifeStages.0.labelMale>-->
+  <!--<CK_WhiteTiger.lifeStages.0.labelMalePlural>male white tigers</CK_WhiteTiger.lifeStages.0.labelMalePlural>-->
+  <!--<CK_WhiteTiger.lifeStages.0.labelFemale>female white tiger</CK_WhiteTiger.lifeStages.0.labelFemale>-->
+  <!--<CK_WhiteTiger.lifeStages.0.labelFemalePlural>female white tigers</CK_WhiteTiger.lifeStages.0.labelFemalePlural>-->
+  <!--<CK_WhiteTiger.lifeStages.1.label>white tiger</CK_WhiteTiger.lifeStages.1.label>-->
+  <!--<CK_WhiteTiger.lifeStages.1.labelPlural>white tiger</CK_WhiteTiger.lifeStages.1.labelPlural>-->
+  <!--<CK_WhiteTiger.lifeStages.1.labelMale>male white tiger</CK_WhiteTiger.lifeStages.1.labelMale>-->
+  <!--<CK_WhiteTiger.lifeStages.1.labelMalePlural>male white tigers</CK_WhiteTiger.lifeStages.1.labelMalePlural>-->
+  <!--<CK_WhiteTiger.lifeStages.1.labelFemale>female white tiger</CK_WhiteTiger.lifeStages.1.labelFemale>-->
+  <!--<CK_WhiteTiger.lifeStages.1.labelFemalePlural>female white tigers</CK_WhiteTiger.lifeStages.1.labelFemalePlural>-->
+  <!--<CK_WhiteTiger.lifeStages.2.label>white tiger</CK_WhiteTiger.lifeStages.2.label>-->
+  <!--<CK_WhiteTiger.lifeStages.2.labelPlural>white tiger</CK_WhiteTiger.lifeStages.2.labelPlural>-->
+  <!--<CK_WhiteTiger.lifeStages.2.labelMale>male white tiger</CK_WhiteTiger.lifeStages.2.labelMale>-->
+  <!--<CK_WhiteTiger.lifeStages.2.labelMalePlural>male white tigers</CK_WhiteTiger.lifeStages.2.labelMalePlural>-->
+  <!--<CK_WhiteTiger.lifeStages.2.labelFemale>female white tiger</CK_WhiteTiger.lifeStages.2.labelFemale>-->
+  <!--<CK_WhiteTiger.lifeStages.2.labelFemalePlural>female white tigers</CK_WhiteTiger.lifeStages.2.labelFemalePlural>-->
+  <!--<CK_WhiteTiger.labelMale>male white tiger</CK_WhiteTiger.labelMale>-->
+  <!--<CK_WhiteTiger.labelMalePlural>male white tigers</CK_WhiteTiger.labelMalePlural>-->
+  <!--<CK_WhiteTiger.labelFemale>female white tiger</CK_WhiteTiger.labelFemale>-->
+  <!--<CK_WhiteTiger.labelFemalePlural>female white tigers</CK_WhiteTiger.labelFemalePlural>-->
   <!-- Snow Leopard -->
-
-  <CK_SnowLeopard.label>snow leopard</CK_SnowLeopard.label>
-  <CK_SnowLeopard.labelPlural>snow leopards</CK_SnowLeopard.labelPlural>
-  <CK_SnowLeopard.lifeStages.0.label>snow leopard</CK_SnowLeopard.lifeStages.0.label>
-  <CK_SnowLeopard.lifeStages.0.labelPlural>snow leopard</CK_SnowLeopard.lifeStages.0.labelPlural>
-  <CK_SnowLeopard.lifeStages.0.labelMale>male snow leopard</CK_SnowLeopard.lifeStages.0.labelMale>
-  <CK_SnowLeopard.lifeStages.0.labelMalePlural>male snow leopards</CK_SnowLeopard.lifeStages.0.labelMalePlural>
-  <CK_SnowLeopard.lifeStages.0.labelFemale>female snow leopard</CK_SnowLeopard.lifeStages.0.labelFemale>
-  <CK_SnowLeopard.lifeStages.0.labelFemalePlural>female snow leopards</CK_SnowLeopard.lifeStages.0.labelFemalePlural>
-  <CK_SnowLeopard.lifeStages.1.label>snow leopard</CK_SnowLeopard.lifeStages.1.label>
-  <CK_SnowLeopard.lifeStages.1.labelPlural>snow leopard</CK_SnowLeopard.lifeStages.1.labelPlural>
-  <CK_SnowLeopard.lifeStages.1.labelMale>male snow leopard</CK_SnowLeopard.lifeStages.1.labelMale>
-  <CK_SnowLeopard.lifeStages.1.labelMalePlural>male snow leopards</CK_SnowLeopard.lifeStages.1.labelMalePlural>
-  <CK_SnowLeopard.lifeStages.1.labelFemale>female snow leopard</CK_SnowLeopard.lifeStages.1.labelFemale>
-  <CK_SnowLeopard.lifeStages.1.labelFemalePlural>female snow leopards</CK_SnowLeopard.lifeStages.1.labelFemalePlural>
-  <CK_SnowLeopard.lifeStages.2.label>snow leopard</CK_SnowLeopard.lifeStages.2.label>
-  <CK_SnowLeopard.lifeStages.2.labelPlural>snow leopard</CK_SnowLeopard.lifeStages.2.labelPlural>
-  <CK_SnowLeopard.lifeStages.2.labelMale>male snow leopard</CK_SnowLeopard.lifeStages.2.labelMale>
-  <CK_SnowLeopard.lifeStages.2.labelMalePlural>male snow leopards</CK_SnowLeopard.lifeStages.2.labelMalePlural>
-  <CK_SnowLeopard.lifeStages.2.labelFemale>female snow leopard</CK_SnowLeopard.lifeStages.2.labelFemale>
-  <CK_SnowLeopard.lifeStages.2.labelFemalePlural>female snow leopards</CK_SnowLeopard.lifeStages.2.labelFemalePlural>
-  <CK_SnowLeopard.labelMale>male snow leopard</CK_SnowLeopard.labelMale>
-  <CK_SnowLeopard.labelMalePlural>male snow leopards</CK_SnowLeopard.labelMalePlural>
-  <CK_SnowLeopard.labelFemale>female snow leopard</CK_SnowLeopard.labelFemale>
-  <CK_SnowLeopard.labelFemalePlural>female snow leopards</CK_SnowLeopard.labelFemalePlural>
-
-
+  <!--<CK_SnowLeopard.label>snow leopard</CK_SnowLeopard.label>-->
+  <!--<CK_SnowLeopard.labelPlural>snow leopards</CK_SnowLeopard.labelPlural>-->
+  <!--<CK_SnowLeopard.lifeStages.0.label>snow leopard</CK_SnowLeopard.lifeStages.0.label>-->
+  <!--<CK_SnowLeopard.lifeStages.0.labelPlural>snow leopard</CK_SnowLeopard.lifeStages.0.labelPlural>-->
+  <!--<CK_SnowLeopard.lifeStages.0.labelMale>male snow leopard</CK_SnowLeopard.lifeStages.0.labelMale>-->
+  <!--<CK_SnowLeopard.lifeStages.0.labelMalePlural>male snow leopards</CK_SnowLeopard.lifeStages.0.labelMalePlural>-->
+  <!--<CK_SnowLeopard.lifeStages.0.labelFemale>female snow leopard</CK_SnowLeopard.lifeStages.0.labelFemale>-->
+  <!--<CK_SnowLeopard.lifeStages.0.labelFemalePlural>female snow leopards</CK_SnowLeopard.lifeStages.0.labelFemalePlural>-->
+  <!--<CK_SnowLeopard.lifeStages.1.label>snow leopard</CK_SnowLeopard.lifeStages.1.label>-->
+  <!--<CK_SnowLeopard.lifeStages.1.labelPlural>snow leopard</CK_SnowLeopard.lifeStages.1.labelPlural>-->
+  <!--<CK_SnowLeopard.lifeStages.1.labelMale>male snow leopard</CK_SnowLeopard.lifeStages.1.labelMale>-->
+  <!--<CK_SnowLeopard.lifeStages.1.labelMalePlural>male snow leopards</CK_SnowLeopard.lifeStages.1.labelMalePlural>-->
+  <!--<CK_SnowLeopard.lifeStages.1.labelFemale>female snow leopard</CK_SnowLeopard.lifeStages.1.labelFemale>-->
+  <!--<CK_SnowLeopard.lifeStages.1.labelFemalePlural>female snow leopards</CK_SnowLeopard.lifeStages.1.labelFemalePlural>-->
+  <!--<CK_SnowLeopard.lifeStages.2.label>snow leopard</CK_SnowLeopard.lifeStages.2.label>-->
+  <!--<CK_SnowLeopard.lifeStages.2.labelPlural>snow leopard</CK_SnowLeopard.lifeStages.2.labelPlural>-->
+  <!--<CK_SnowLeopard.lifeStages.2.labelMale>male snow leopard</CK_SnowLeopard.lifeStages.2.labelMale>-->
+  <!--<CK_SnowLeopard.lifeStages.2.labelMalePlural>male snow leopards</CK_SnowLeopard.lifeStages.2.labelMalePlural>-->
+  <!--<CK_SnowLeopard.lifeStages.2.labelFemale>female snow leopard</CK_SnowLeopard.lifeStages.2.labelFemale>-->
+  <!--<CK_SnowLeopard.lifeStages.2.labelFemalePlural>female snow leopards</CK_SnowLeopard.lifeStages.2.labelFemalePlural>-->
+  <!--<CK_SnowLeopard.labelMale>male snow leopard</CK_SnowLeopard.labelMale>-->
+  <!--<CK_SnowLeopard.labelMalePlural>male snow leopards</CK_SnowLeopard.labelMalePlural>-->
+  <!--<CK_SnowLeopard.labelFemale>female snow leopard</CK_SnowLeopard.labelFemale>-->
+  <!--<CK_SnowLeopard.labelFemalePlural>female snow leopards</CK_SnowLeopard.labelFemalePlural>-->
   <!-- Jaguar -->
-
-  <CK_Jaguar.label>jaguar</CK_Jaguar.label>
-  <CK_Jaguar.labelPlural>jaguars</CK_Jaguar.labelPlural>
-  <CK_Jaguar.lifeStages.0.label>jaguar</CK_Jaguar.lifeStages.0.label>
-  <CK_Jaguar.lifeStages.0.labelPlural>jaguar</CK_Jaguar.lifeStages.0.labelPlural>
-  <CK_Jaguar.lifeStages.0.labelMale>male jaguar</CK_Jaguar.lifeStages.0.labelMale>
-  <CK_Jaguar.lifeStages.0.labelMalePlural>male jaguars</CK_Jaguar.lifeStages.0.labelMalePlural>
-  <CK_Jaguar.lifeStages.0.labelFemale>female jaguar</CK_Jaguar.lifeStages.0.labelFemale>
-  <CK_Jaguar.lifeStages.0.labelFemalePlural>female jaguars</CK_Jaguar.lifeStages.0.labelFemalePlural>
-  <CK_Jaguar.lifeStages.1.label>jaguar</CK_Jaguar.lifeStages.1.label>
-  <CK_Jaguar.lifeStages.1.labelPlural>jaguar</CK_Jaguar.lifeStages.1.labelPlural>
-  <CK_Jaguar.lifeStages.1.labelMale>male jaguar</CK_Jaguar.lifeStages.1.labelMale>
-  <CK_Jaguar.lifeStages.1.labelMalePlural>male jaguars</CK_Jaguar.lifeStages.1.labelMalePlural>
-  <CK_Jaguar.lifeStages.1.labelFemale>female jaguar</CK_Jaguar.lifeStages.1.labelFemale>
-  <CK_Jaguar.lifeStages.1.labelFemalePlural>female jaguars</CK_Jaguar.lifeStages.1.labelFemalePlural>
-  <CK_Jaguar.lifeStages.2.label>jaguar</CK_Jaguar.lifeStages.2.label>
-  <CK_Jaguar.lifeStages.2.labelPlural>jaguar</CK_Jaguar.lifeStages.2.labelPlural>
-  <CK_Jaguar.lifeStages.2.labelMale>male jaguar</CK_Jaguar.lifeStages.2.labelMale>
-  <CK_Jaguar.lifeStages.2.labelMalePlural>male jaguars</CK_Jaguar.lifeStages.2.labelMalePlural>
-  <CK_Jaguar.lifeStages.2.labelFemale>female jaguar</CK_Jaguar.lifeStages.2.labelFemale>
-  <CK_Jaguar.lifeStages.2.labelFemalePlural>female jaguars</CK_Jaguar.lifeStages.2.labelFemalePlural>
-  <CK_Jaguar.labelMale>male jaguar</CK_Jaguar.labelMale>
-  <CK_Jaguar.labelMalePlural>male jaguars</CK_Jaguar.labelMalePlural>
-  <CK_Jaguar.labelFemale>female jaguar</CK_Jaguar.labelFemale>
-  <CK_Jaguar.labelFemalePlural>female jaguars</CK_Jaguar.labelFemalePlural>
-
+  <!--<CK_Jaguar.label>jaguar</CK_Jaguar.label>-->
+  <!--<CK_Jaguar.labelPlural>jaguars</CK_Jaguar.labelPlural>-->
+  <!--<CK_Jaguar.lifeStages.0.label>jaguar</CK_Jaguar.lifeStages.0.label>-->
+  <!--<CK_Jaguar.lifeStages.0.labelPlural>jaguar</CK_Jaguar.lifeStages.0.labelPlural>-->
+  <!--<CK_Jaguar.lifeStages.0.labelMale>male jaguar</CK_Jaguar.lifeStages.0.labelMale>-->
+  <!--<CK_Jaguar.lifeStages.0.labelMalePlural>male jaguars</CK_Jaguar.lifeStages.0.labelMalePlural>-->
+  <!--<CK_Jaguar.lifeStages.0.labelFemale>female jaguar</CK_Jaguar.lifeStages.0.labelFemale>-->
+  <!--<CK_Jaguar.lifeStages.0.labelFemalePlural>female jaguars</CK_Jaguar.lifeStages.0.labelFemalePlural>-->
+  <!--<CK_Jaguar.lifeStages.1.label>jaguar</CK_Jaguar.lifeStages.1.label>-->
+  <!--<CK_Jaguar.lifeStages.1.labelPlural>jaguar</CK_Jaguar.lifeStages.1.labelPlural>-->
+  <!--<CK_Jaguar.lifeStages.1.labelMale>male jaguar</CK_Jaguar.lifeStages.1.labelMale>-->
+  <!--<CK_Jaguar.lifeStages.1.labelMalePlural>male jaguars</CK_Jaguar.lifeStages.1.labelMalePlural>-->
+  <!--<CK_Jaguar.lifeStages.1.labelFemale>female jaguar</CK_Jaguar.lifeStages.1.labelFemale>-->
+  <!--<CK_Jaguar.lifeStages.1.labelFemalePlural>female jaguars</CK_Jaguar.lifeStages.1.labelFemalePlural>-->
+  <!--<CK_Jaguar.lifeStages.2.label>jaguar</CK_Jaguar.lifeStages.2.label>-->
+  <!--<CK_Jaguar.lifeStages.2.labelPlural>jaguar</CK_Jaguar.lifeStages.2.labelPlural>-->
+  <!--<CK_Jaguar.lifeStages.2.labelMale>male jaguar</CK_Jaguar.lifeStages.2.labelMale>-->
+  <!--<CK_Jaguar.lifeStages.2.labelMalePlural>male jaguars</CK_Jaguar.lifeStages.2.labelMalePlural>-->
+  <!--<CK_Jaguar.lifeStages.2.labelFemale>female jaguar</CK_Jaguar.lifeStages.2.labelFemale>-->
+  <!--<CK_Jaguar.lifeStages.2.labelFemalePlural>female jaguars</CK_Jaguar.lifeStages.2.labelFemalePlural>-->
+  <!--<CK_Jaguar.labelMale>male jaguar</CK_Jaguar.labelMale>-->
+  <!--<CK_Jaguar.labelMalePlural>male jaguars</CK_Jaguar.labelMalePlural>-->
+  <!--<CK_Jaguar.labelFemale>female jaguar</CK_Jaguar.labelFemale>-->
+  <!--<CK_Jaguar.labelFemalePlural>female jaguars</CK_Jaguar.labelFemalePlural>-->
 
 </LanguageData>
