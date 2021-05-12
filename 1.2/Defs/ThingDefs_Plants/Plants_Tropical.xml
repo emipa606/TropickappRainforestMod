@@ -67,7 +67,7 @@
       <Nutrition>0.8</Nutrition>
     </statBases>
     <graphicData>
-      <texPath>Things/Plant/Palm</texPath>
+      <texPath>Things/Plant/CK_Palm</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.37, 0.2, 0.37)</volume>

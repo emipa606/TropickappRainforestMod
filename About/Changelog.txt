@@ -1,5 +1,8 @@
 # Changelog for TropickappRainforestMod
 
+1.0.5.0 - Changes gfx path of the bush palm since it conflicted with some other mod
+
+
 1.0.4.0 - Fixed the hat-texturenames, thanks Kopp
 
 
