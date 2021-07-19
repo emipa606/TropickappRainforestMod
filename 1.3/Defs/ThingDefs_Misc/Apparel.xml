@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_CK_SafariHat</defName>
+    <label>pith helmet</label>
+    <description>The pith helmet is a lightweight cloth-covered helmet made of pith material designed to shade the wearer's head and face from the sun. Often worn by European travelers and explorers, in the varying climates found in Africa, Southeast Asia, as well as the tropics of good ol' Earth</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/SafariHat/SafariHat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>150</MarketValue>
+      <Mass>1.0</Mass>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+      <Insulation_Heat>9</Insulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.15</PlantWorkSpeed>
+    </equippedStatOffsets>
+    <generateCommonality>0.8</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SafariHat/SafariHat</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+</Defs>
