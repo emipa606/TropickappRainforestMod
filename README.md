@@ -1,6 +1,6 @@
 # TropickappRainforestMod
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of KapTaiN_KaVerNs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1110093272
@@ -8,19 +8,14 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1110093272
 Removed the need for ModCheck and Harmony by using vanilla-patching.	
 Initial loading of a new map may take a while due to the large amount of plants that need to spawn.
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+Added patches for:
+https://steamcommunity.com/workshop/filedetails/?id=2312280343][RF] Archipelagos (Continued)
+https://steamcommunity.com/workshop/filedetails/?id=2038001322]Biomes! Islands
 
+![Image](https://i.imgur.com/pufA0kM.png)
 
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/TropickappRainforestMod]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 The purpose of this mod is to add a significant amount of new animals and plants to the Tropical Rainforest and Tropical Swamp Biome and increase their fauna and flora diversity.
@@ -68,7 +63,7 @@ ____________________________________
 
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -78,7 +73,6 @@ ____________________________________
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 
