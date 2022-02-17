@@ -312,6 +312,8 @@
       </li>
     </comps>
     <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <ingestSound>RawVegetable_Eat</ingestSound>
       <drugCategory>Social</drugCategory>
       <ingestCommandString>Ingest {0}</ingestCommandString>
       <ingestReportString>Ingesting {0}.</ingestReportString>

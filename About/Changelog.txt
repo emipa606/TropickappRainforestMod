@@ -1,5 +1,8 @@
 # Changelog for TropickappRainforestMod
 
+1.3.2 - Dream-root should now be ingestible
+
+
 1.3.1 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2312280343][RF] Archipelagos (Continued)[/url]
 
 
