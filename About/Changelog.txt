@@ -1,5 +1,8 @@
 # Changelog for TropickappRainforestMod
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.3.2 - Dream-root should now be ingestible
 
 
