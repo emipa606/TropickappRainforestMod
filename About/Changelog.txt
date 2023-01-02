@@ -1,5 +1,8 @@
 # Changelog for TropickappRainforestMod
 
+1.4.2 - Palm tree and Apiary should now be sowable
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

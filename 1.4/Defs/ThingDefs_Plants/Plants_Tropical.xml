@@ -412,8 +412,8 @@
       <harvestFailable>false</harvestFailable>
       <!-- <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction> -->
       <blockAdjacentSow>true</blockAdjacentSow>
-      <sowTags>
-      </sowTags>
+      <!-- <sowTags> -->
+      <!-- </sowTags> -->
       <visualSizeRange>1.5~3</visualSizeRange>
       <fertilityMin>0.2</fertilityMin>
       <fertilitySensitivity>0.5</fertilitySensitivity>

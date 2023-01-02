@@ -130,6 +130,7 @@
       <harvestMinGrowth>0.80</harvestMinGrowth>
       <harvestAfterGrowth>0.20</harvestAfterGrowth>
       <visualSizeRange>0.8~2.8</visualSizeRange>
+      <mustBeWildToSow>false</mustBeWildToSow>
       <sowResearchPrerequisites>
         <li>CK_TropicalWoodGrowing</li>
       </sowResearchPrerequisites>
@@ -252,6 +253,7 @@
       <growDays>25</growDays>
       <harvestWork>1000</harvestWork>
       <harvestedThingDef>CK_Honeycomb</harvestedThingDef>
+      <mustBeWildToSow>false</mustBeWildToSow>
       <harvestYield>60</harvestYield>
       <harvestAfterGrowth>0.10</harvestAfterGrowth>
       <harvestMinGrowth>0.80</harvestMinGrowth>
