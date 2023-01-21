@@ -1,5 +1,8 @@
 # Changelog for TropickappRainforestMod
 
+1.4.3 - Added VGP patch, bamboo-plants should give bamboo when harvested if VGP is active
+
+
 1.4.2 - Palm tree and Apiary should now be sowable
 
 
