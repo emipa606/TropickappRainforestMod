@@ -13,6 +13,7 @@
 	<ingestible>
 		<preferability>DesperateOnly</preferability>
 	</ingestible>
+	<selectable>true</selectable>
 	<plant>
 		<dieIfLeafless>true</dieIfLeafless>
 		<mustBeWildToSow>false</mustBeWildToSow>
@@ -300,6 +301,7 @@
 	<ingestible>
 		<foodType>Tree, Plant</foodType>
 	</ingestible>
+	<selectable>true</selectable>
 	<plant>
 		<dieIfLeafless>false</dieIfLeafless>
 		<mustBeWildToSow>false</mustBeWildToSow>

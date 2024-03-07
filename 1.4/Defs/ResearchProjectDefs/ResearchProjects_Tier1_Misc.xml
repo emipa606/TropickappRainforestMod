@@ -11,13 +11,14 @@
   <ResearchProjectDef>
     <defName>CK_Beekeeping</defName>
     <label>beekeeping</label>
-    <description>Allows colonists to use apiaries in growing zone</description>
+    <description>Allows colonists to use apiaries in growing zones.</description>
     <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
     <tags>
       <li>TribalStart</li>
     </tags>
-    <researchViewX>0.5</researchViewX>
-    <researchViewY>2.5</researchViewY>
+	<prerequisites></prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>9</researchViewY>
   </ResearchProjectDef>
 </Defs>

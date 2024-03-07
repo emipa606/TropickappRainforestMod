@@ -417,6 +417,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestAfterGrowth>0.20</harvestAfterGrowth>
       <harvestedThingDef>CK_RawJitterBerries</harvestedThingDef>
+	  <sowTags Inherit="False"></sowTags> <!-- Use the domestic version instead -->
       <!-- <wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction> -->
       <!-- <wildClusterSizeRange>
         <min>2</min>
@@ -476,6 +477,7 @@
 	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
     <pathCost>30</pathCost>
+	<selectable>false</selectable>
     <graphicData>
       <texPath>Things/Plant/Fern</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -495,7 +497,7 @@
   <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantRafflesia</defName>
     <label>rafflesia</label>
-    <description>Rafflesia (corpse flower) is a parasitic flowering plant that gives off the smell of rotting flesh. This smell attracts carrion-flies by which it is pollinated. These characteristics make Rafflesia a plant to avoid.</description>
+    <description>Rafflesia (stinking corpse lily) is a parasitic flowering plant that gives off the smell of rotting flesh. This smell attracts carrion-flies by which it is pollinated. These characteristics make Rafflesia a plant to avoid.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>-20</Beauty>
@@ -503,6 +505,7 @@
 	  <Mass>24</Mass>
 	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
+	<pathCost>100</pathCost>
     <graphicData>
       <texPath>Things/Plant/CK_Rafflesia</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -531,7 +534,7 @@
   <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantBromeliad</defName>
     <label>bromeliad</label>
-    <description>Commonly known as the flaming torch plant, the bromeliad is native to Old Earth's Brazil, Venezuela, Guiana, Antilles and Cuba. They are adaptable, growing well as a terrestrial or epiphytic plant. When on the ground, they quickly create large clumps, and when planted at the base of a tree, they slowly will climb the trunk. The flowers on an individual plant last less than one month, but nearly all of the plants will come into bloom at the same time in the late summer.</description>
+    <description>Commonly known as the flaming torch plant, the bromeliad is native to Old Earth's Amazon and the jungles of northern South America, as well as the Antilles Cuban islands. They are adaptable, growing well as a terrestrial or epiphytic plant. When on the ground, they quickly create large clumps, and when planted at the base of a tree, they slowly will climb the trunk. The flowers on an individual plant last less than one month, but nearly all of the plants will come into bloom at the same time in the late summer.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>14</Beauty>
@@ -542,6 +545,7 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
+	<selectable>true</selectable>
     <plant>
       <fertilityMin>0.2</fertilityMin>
       <maxMeshCount>9</maxMeshCount>
@@ -577,7 +581,8 @@
       <texPath>Things/Plant/Heliconia</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
-    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+	<selectable>true</selectable>
+    <hideAtSnowDepth>0.25</hideAtSnowDepth>
     <plant>
       <fertilityMin>0.05</fertilityMin>
       <fertilitySensitivity>0.3</fertilitySensitivity>
@@ -601,7 +606,7 @@
   <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantWildLemongrass</defName>
     <label>lemongrass</label>
-    <description>Wild lemongrass.</description>
+        <description>Cymbopogon, better known as lemongrass, is a genus of Asian, African, Australian, and tropical island plants in the grass family. Some species (particularly Cymbopogon citratus) are commonly cultivated as culinary and medicinal herbs because of their scent, resembling that of lemons. Lemongrass is widely used as a culinary herb in Oriental cuisines and also as a medicinal herb in India. It has a subtle citrus flavor and can be dried and powdered, or used fresh. It is commonly used in teas, soups, and curries. It is also suitable for use with poultry, fish, beef, and seafood. It is often used as a tea in African regions such as Togo, south eastern Ghana Volta Region and the Congo, and Latin American regions such as Mexico.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <Nutrition>0.20</Nutrition>
@@ -659,7 +664,7 @@
 
     Coconuts are known for their versatility of uses, ranging from food to cosmetics. The inner flesh of the mature seed forms a regular part of the diets of many people in the tropics and subtropics. Coconuts are distinct from other fruits because their endosperm contains a large quantity of clear liquid, called "coconut milk" in the literature, and when immature, may be harvested for their potable "coconut water", also called "coconut juice".
 
-    Mature, ripe coconuts can be used as edible seeds, or processed for oil and plant milk from the flesh, charcoal from the hard shell, and coir from the fibrous husk. Dried coconut flesh is called copra, and the oil and milk derived from it are commonly used in cooking as well as in soaps and cosmetics. The hard shells, fibrous husks and long pinnate leaves can be used as material to make a variety of products for furnishing and decorating. In many historical cultures, because of their importance as food, palms were symbols for such ideas as victory, peace, and fertility. Indeed, the coconuts it grows also have cultural and religious significance in certain societies, such as in Old Earth's India, where it is still used in Hindu rituals.</description>
+    Mature, ripe coconuts can be used as edible seeds, or processed for oil and plant milk from the flesh, charcoal from the hard shell, and coir from the fibrous husk. Dried coconut flesh is called copra, and the oil and milk derived from it are commonly used in cooking as well as in soaps and cosmetics. The hard shells, fibrous husks and long pinnate leaves can be used as material to make a variety of products for furnishing and decorating. In many historical cultures, because of their importance as food, palms were symbols for such ideas as victory, peace, and fertility. Indeed, the coconuts it grows also have cultural and religious significance in certain societies, such as the cultures of Old Earth's Indian subcontinent, where it is still used in Hindu rituals.</description>
     <graphicData>
       <texPath>Things/Plant/TreeCoconutPalm</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -693,17 +698,18 @@
   <ThingDef ParentName="TSP_CK_TropicalTree_Base">
     <defName>CK_PlantTreeMahogany</defName>
     <label>mahogany tree</label>
-    <description>A strong, beautiful hardwood tree. Slow-growing, but its wood is very strong.</description>
+    <description>A strong, beautiful hardwood tree. Slow-growing, but its huge amount of wood is very strong.</description>
     <graphicData>
       <texPath>Things/Plant/TreeMahogany</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
+	<selectable>true</selectable>
     <statBases>
       <Beauty>5</Beauty>
 	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
     <plant>
-      <growDays>42</growDays>
+      <growDays>48</growDays>
       <harvestWork>2400</harvestWork>
       <harvestYield>200</harvestYield>
       <visualSizeRange>2~4</visualSizeRange>
@@ -716,7 +722,8 @@
   <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantTreeStranglerFig</defName>
     <label>strangler fig</label>
-    <description>A parasitic strangler fig, choking out a tree.</description>
+    <description>A parasitic strangler fig, choking out a tree. Grows ridiculously fast. If the parasite is torn off, a very small amount of wood can be gleaned from it.</description>
+	<minifiedDef IsNull="True"></minifiedDef>
     <graphicData>
       <texPath>Things/Plant/TreeStranglerFig</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -726,51 +733,71 @@
 	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
 	<blockWind>false</blockWind>
+	<selectable>true</selectable>
     <plant>
       <growDays>4.4</growDays>
       <harvestWork>2000</harvestWork>
       <visualSizeRange>1.987~3.4</visualSizeRange>
 	  <purpose>Misc</purpose>
 	  <isStump>true</isStump>
-	  <forceIsTree>false</forceIsTree>
+	  <forceIsTree>true</forceIsTree>
+	  <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+	  <harvestYield>12</harvestYield>
+	  <harvestedThingDef>WoodLog</harvestedThingDef>
+	  <harvestMinGrowth>0</harvestMinGrowth>
+	  <mustBeWildToSow>true</mustBeWildToSow>
+	  <sowTags Inherit="False">
+		<li>Ground</li> <!-- Cannot into hydroponics -->
+	  </sowTags>
+	  <neverBlightable>true</neverBlightable>
 	  <burnedThingDef>CK_PlantTreeTreeStump</burnedThingDef>
 	  <choppedThingDef>CK_PlantTreeTreeStump</choppedThingDef>
 	  <smashedThingDef>CK_PlantTreeTreeStump</smashedThingDef>
-	  <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
     </plant>
+    <thingCategories>
+      <li>Stumps</li>
+    </thingCategories>
   </ThingDef>
   <ThingDef ParentName="TSP_CK_TropicalTree_Base">
     <defName>CK_PlantTreeTreeStump</defName>
     <label>sickly tree</label>
-    <description>A tree barely clinging to life. It grows very slowly and cannot be sown.</description>
+    <description>The broken remnants of a tree, barely clinging to life. Some shrubbery has grown around it. It grows very slowly and cannot be sown.</description>
+	<minifiedDef IsNull="True"></minifiedDef>
     <graphicData>
-      <texPath>Things/Plant/TreeHive/TreeHive_Leafless</texPath>
+      <texPath>Things/Plant/TreeSickly/TreeSickly</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
+		<MaxHitPoints>1000</MaxHitPoints>
       <Beauty>0</Beauty>
 	  <Flammability>3</Flammability>
 	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
 	  <FoodPoisonChance>0.5</FoodPoisonChance>
 	  <FoodPoisonChanceFixedHuman>0.51</FoodPoisonChanceFixedHuman>
+	  <DeteriorationRate>1</DeteriorationRate>
     </statBases>
 	<blockWind>false</blockWind>
+	<selectable>true</selectable>
 	<ingestible>
 		<foodType>Tree</foodType>
 		<preferability>DesperateOnly</preferability>
 	</ingestible>
     <plant>
       <growDays>50</growDays>
-      <harvestWork>470</harvestWork>
-      <harvestYield>75</harvestYield>
-      <visualSizeRange>0.01~0.7</visualSizeRange>
+      <harvestWork>47</harvestWork>
+      <visualSizeRange>2.9~2.9</visualSizeRange>
 	  <isStump>true</isStump>
 	  <forceIsTree>true</forceIsTree>
 	  <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
-	  <harvestAfterGrowth Inherit="False">0</harvestAfterGrowth>
+	  <growMinGlow>0</growMinGlow>
+	  <harvestYield>50</harvestYield>
 	  <harvestedThingDef>WoodLog</harvestedThingDef>
+	  <harvestMinGrowth>0</harvestMinGrowth>
+	  <harvestAfterGrowth IsNull="True"></harvestAfterGrowth>
 	  <sowTags Inherit="False"></sowTags> <!-- Cannot sow -->
+	  <neverBlightable>true</neverBlightable>
 	  <interferesWithRoof>false</interferesWithRoof>
+	  <canDeteriorate>true</canDeteriorate>
 	  <wildBiomes Inherit="False">
 				<!-- RimWorld.Core -->
 				<!-- VANILLA RENDITION -->
@@ -1026,6 +1053,9 @@
 				<Permafrost MayRequire="mlie.rfpermafrost">0.05</Permafrost>
 	  </wildBiomes>
     </plant>
+    <thingCategories>
+      <li>Stumps</li>
+    </thingCategories>
   </ThingDef>
   <ThingDef ParentName="TSP_CK_TropicalTree_Base">
     <defName>CK_PlantTreeWildBanana</defName>
@@ -1087,6 +1117,7 @@
     <defName>CK_PlantTreeBamboo</defName>
     <label>bamboo</label>
     <description>Some wild bamboo</description>
+	<minifiedDef IsNull="True"></minifiedDef>
     <graphicData>
       <texPath>Things/Plant/CK_TreeBamboo</texPath>
       <graphicClass>Graphic_Random</graphicClass>

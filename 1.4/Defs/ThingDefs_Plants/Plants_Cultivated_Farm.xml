@@ -50,7 +50,6 @@
     <selectable>true</selectable>
     <pathCost>15</pathCost>
     <plant>
-      <sowMinSkill>4</sowMinSkill>
       <fertilitySensitivity>1</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestWork>400</harvestWork>
@@ -66,14 +65,16 @@
       <growDays>8</growDays>
       <visualSizeRange>0.8~1.8</visualSizeRange>
       <wildOrder>2</wildOrder>
-	  <wildBiomes>
-	  </wildBiomes>
+      <sowResearchPrerequisites>
+        <li>PsychoidBrewing</li>
+      </sowResearchPrerequisites>
+	  <wildBiomes></wildBiomes>
     </plant>
   </ThingDef>
   <ThingDef ParentName="TSP_CK_TropicalCrop_Base">
     <defName>CK_PlantLemongrass</defName>
     <label>lemongrass</label>
-    <description>Lemongrass.</description>
+    <description>Cymbopogon, better known as lemongrass, is a genus of Asian, African, Australian, and tropical island plants in the grass family. Some species (particularly Cymbopogon citratus) are commonly cultivated as culinary and medicinal herbs because of their scent, resembling that of lemons. Lemongrass is widely used as a culinary herb in Oriental cuisines and also as a medicinal herb in India. It has a subtle citrus flavor and can be dried and powdered, or used fresh. It is commonly used in teas, soups, and curries. It is also suitable for use with poultry, fish, beef, and seafood. It is often used as a tea in African regions such as Togo, south eastern Ghana Volta Region and the Congo, and Latin American regions such as Mexico.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Nutrition>0.18</Nutrition>
@@ -198,8 +199,7 @@
       <wildClusterWeight>24</wildClusterWeight>
       <wildOrder>3</wildOrder>
       <interferesWithRoof>true</interferesWithRoof>
-	  <wildBiomes>
-	  </wildBiomes>
+	  <wildBiomes></wildBiomes>
     </plant>
   </ThingDef>
   <!--====================== Production crops ===========================-->
