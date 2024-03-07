@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Defs>
-  <!--========================= Special - Hive Tree ========================-->
-  <ThingDef ParentName="PlantBase">
+  <!--========================= Special - Hive Tree ========================-->  
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_SpecialTreeHive</defName>
     <label>bee hive</label>
-    <description>An old hollow tree, now colonised by bees.</description>
+    <description>An old, hollow tree that is now colonised by bees.</description>
     <altitudeLayer>Building</altitudeLayer>
     <selectable>true</selectable>
     <fillPercent>0.65</fillPercent>
@@ -19,28 +20,33 @@
     <blockWind>true</blockWind>
     <pathCost>200</pathCost>
     <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
-      <Beauty>0</Beauty>
-      <Nutrition>2</Nutrition>
+		<Mass>42</Mass>
+		<Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">0.88</Mashed_Ashlands_AshResistance>
+		<MaxHitPoints>1300</MaxHitPoints>
+		<Beauty>-1</Beauty>
+		<Nutrition>2</Nutrition>
     </statBases>
     <ingestible>
-      <foodType>Plant</foodType>
-      <preferability>RawBad</preferability>
+      <foodType>AnimalProduct, Fluid, Plant</foodType>
+      <preferability>NeverForNutrition</preferability>
     </ingestible>
     <plant>
       <leaflessGraphicPath>Things/Plant/TreeHive/TreeHive_Leafless</leaflessGraphicPath>
-      <growDays>32.5</growDays>
+      <growDays>31</growDays>
       <harvestWork>1200</harvestWork>
       <harvestedThingDef>CK_Honeycomb</harvestedThingDef>
-      <harvestYield>60</harvestYield>
+      <harvestYield>100</harvestYield>
       <!-- <harvestDestroys>false</harvestDestroys> -->
       <harvestMinGrowth>0.80</harvestMinGrowth>
-      <harvestFailable>true</harvestFailable>
+      <harvestFailable>false</harvestFailable>
       <harvestTag>Standard</harvestTag>
       <fertilityMin>0.01</fertilityMin>
-      <blockAdjacentSow>true</blockAdjacentSow>
-      <topWindExposure>0.25</topWindExposure>
-      <fertilitySensitivity>0</fertilitySensitivity>
+      <blockAdjacentSow>false</blockAdjacentSow>
+      <topWindExposure>0</topWindExposure>
+      <fertilitySensitivity>0.1</fertilitySensitivity>
+	  <harvestAfterGrowth Inherit="False">0.33</harvestAfterGrowth>
+	  <interferesWithRoof>false</interferesWithRoof>
+	  <sowTags Inherit="False"></sowTags> <!-- Only spawns, cannot be grown, Apiary is grown version -->
       <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>0</fertilityFactorGrowthRate> -->
       <!-- <wildClusterSizeRange>
@@ -54,11 +60,263 @@
       <!-- <reproduceRadius>100</reproduceRadius> -->
       <!-- A16 -->
       <!-- <seedShootRadius>100</seedShootRadius> -->
-      <visualSizeRange>1.9~2.4</visualSizeRange>
+      <visualSizeRange>2.37~2.4</visualSizeRange>
+	  <wildBiomes Inherit="False">
+				<!-- RimWorld.Core -->
+				<!-- VANILLA RENDITION -->
+
+				<BorealForest>0.002</BorealForest>
+
+				<Tundra>0.0001</Tundra>
+
+				<ColdBog>0.001</ColdBog>
+
+				<IceSheet>0</IceSheet>
+
+				<SeaIce>0</SeaIce>
+
+				<TemperateForest>0.0035</TemperateForest>
+
+				<TemperateSwamp>0.002</TemperateSwamp>
+
+				<AridShrubland>0.002</AridShrubland>
+
+				<Desert>0.0001</Desert>
+
+				<ExtremeDesert>0</ExtremeDesert>
+
+
+
+
+
+				<!-- ___________________ -->			
+				<!-- Mod Biomes -->
+				<!-- ___________________ -->
+
+				<!-- sarg.alphabiomes -->
+				<!-- ALPHA BIOMES -->
+
+				<AB_FeraliskInfestedJungle MayRequire="sarg.alphabiomes">0.008</AB_FeraliskInfestedJungle>
+
+				<AB_GallatrossGraveyard MayRequire="sarg.alphabiomes">0.001</AB_GallatrossGraveyard>
+
+				<AB_GelatinousSuperorganism MayRequire="sarg.alphabiomes">0.0031</AB_GelatinousSuperorganism>
+
+				<AB_MechanoidIntrusion MayRequire="sarg.alphabiomes">0.0001</AB_MechanoidIntrusion>
+
+				<AB_MycoticJungle MayRequire="sarg.alphabiomes">0.003</AB_MycoticJungle>
+
+				<AB_OcularForest MayRequire="sarg.alphabiomes">0.001</AB_OcularForest>
+
+				<AB_PropaneLakes MayRequire="sarg.alphabiomes">0</AB_PropaneLakes>
+
+				<AB_PyroclasticConflagration MayRequire="sarg.alphabiomes">0.0001</AB_PyroclasticConflagration>
+
+				<AB_RockyCrags MayRequire="sarg.alphabiomes">0.001</AB_RockyCrags>
+
+				<AB_TarPits MayRequire="sarg.alphabiomes">0.0191</AB_TarPits>
+
+				<AB_MiasmicMangrove MayRequire="sarg.alphabiomes">0.005</AB_MiasmicMangrove>
+
+				<AB_IdyllicMeadows MayRequire="sarg.alphabiomes">0.008</AB_IdyllicMeadows>
+
+
+
+				<!-- ___________________ -->
+
+				<!-- BiomesTeam.Oasis -->
+				<!-- CHROMATIC OASIS -->
+
+				<BMT_ChromaticOasis MayRequire="BiomesTeam.Oasis">0.004</BMT_ChromaticOasis>
+
+
+
+				<!-- ___________________ -->
+
+				<!-- Mlie.AdvancedBiomes -->
+				<!-- ADVANCED BIOMES -->
+
+				<PoisonForest MayRequire="Mlie.AdvancedBiomes">0.0001</PoisonForest>
+
+				<Savanna MayRequire="Mlie.AdvancedBiomes">0.0001</Savanna>
+
+				<Volcano MayRequire="Mlie.AdvancedBiomes">0.0001</Volcano>
+
+				<Wasteland MayRequire="Mlie.AdvancedBiomes">0.0001</Wasteland>
+
+				<Wetland MayRequire="Mlie.AdvancedBiomes">0.001</Wetland>
+
+
+				<!-- ___________________ -->
+
+				<!-- zylle.MoreVanillaBiomes -->
+				<!-- More Vanilla Biomes -->
+
+				<ZBiome_AlpineMeadow MayRequire="zylle.MoreVanillaBiomes">0.0045</ZBiome_AlpineMeadow>
+
+				<ZBiome_CloudForest MayRequire="zylle.MoreVanillaBiomes">0.004</ZBiome_CloudForest>
+
+				<ZBiome_CoastalDunes MayRequire="zylle.MoreVanillaBiomes">0.001</ZBiome_CoastalDunes>
+
+				<ZBiome_DesertOasis MayRequire="zylle.MoreVanillaBiomes">0.002</ZBiome_DesertOasis>
+
+				<ZBiome_Grasslands MayRequire="zylle.MoreVanillaBiomes">0.0001</ZBiome_Grasslands>
+
+				<ZBiome_Iceberg_NoBeach MayRequire="zylle.MoreVanillaBiomes">0</ZBiome_Iceberg_NoBeach>
+
+				<ZBiome_Marsh MayRequire="zylle.MoreVanillaBiomes">0.003</ZBiome_Marsh>
+
+				<ZBiome_Sandbar_NoBeach MayRequire="zylle.MoreVanillaBiomes">0.0001</ZBiome_Sandbar_NoBeach>
+				
+				<ZBiome_GlacialShield MayRequire="zylle.MoreVanillaBiomes">0</ZBiome_GlacialShield>
+				
+				<ZBiome_Badlands MayRequire="zylle.MoreVanillaBiomes">0.001</ZBiome_Badlands>
+
+
+				<!-- ___________________ -->
+
+				<!-- Mlie.NaturesPrettySweet -->
+				<!-- NATURE IS PRETTY SWEET -->
+
+				<TKKN_VolcanicFlow MayRequire="Mlie.NaturesPrettySweet">0.001</TKKN_VolcanicFlow>
+
+				<TKKN_RedwoodForest MayRequire="Mlie.NaturesPrettySweet">0.007</TKKN_RedwoodForest>
+
+				<TKKN_Grasslands MayRequire="Mlie.NaturesPrettySweet">0.0001</TKKN_Grasslands> <!-- PRAIRIE -->
+
+				<TKKN_Savanna MayRequire="Mlie.NaturesPrettySweet">0.0001</TKKN_Savanna>
+
+				<TKKN_Desert MayRequire="Mlie.NaturesPrettySweet">0</TKKN_Desert> <!-- SALT FIELDS -->
+
+				<TKKN_Oasis MayRequire="Mlie.NaturesPrettySweet">0.001</TKKN_Oasis>
+
+
+				<!-- ___________________ -->
+
+				<!-- Heis.Edo.Themed.Expansion -->
+				<!-- HISTORICALLY ACCURATE WEEABOO MOD -->
+
+				<HSBambooForest MayRequire="Heis.Edo.Themed.Expansion">0.009</HSBambooForest>
+
+
+				<!-- _________________ -->
+
+				<!-- BiomesTeam.BiomesIslands -->
+				<!-- BIOMES ISLANDS -->
+
+				<BiomesIslands_BorealIsland MayRequire="BiomesTeam.BiomesIslands">0.001</BiomesIslands_BorealIsland>
+
+				<BiomesIslands_DesertIsland MayRequire="BiomesTeam.BiomesIslands">0.0001</BiomesIslands_DesertIsland>
+
+				<BiomesIslands_DesertArchipelago MayRequire="BiomesTeam.BiomesIslands">0.0001</BiomesIslands_DesertArchipelago>
+
+				<BiomesIslands_TemperateIsland MayRequire="BiomesTeam.BiomesIslands">0.008</BiomesIslands_TemperateIsland>
+
+				<BiomesIslands_TemperateArchipelago MayRequire="BiomesTeam.BiomesIslands">0.008</BiomesIslands_TemperateArchipelago>
+
+				<BiomesIslands_TundraIsland MayRequire="BiomesTeam.BiomesIslands">0.0001</BiomesIslands_TundraIsland>
+				
+				
+				
+				<!-- _________________ -->
+
+				<!-- BiomesTeam.BiomesCaverns -->
+				<!-- BIOMES CAVERNS -->
+				
+				<BMT_CrystalCaverns MayRequire="BiomesTeam.BiomesCaverns">0.0003</BMT_CrystalCaverns>
+				
+				<BMT_EarthenDepths MayRequire="BiomesTeam.BiomesCaverns">0.0001</BMT_EarthenDepths>
+				
+				<BMT_FungalForest MayRequire="BiomesTeam.BiomesCaverns">0.001</BMT_FungalForest>
+				
+
+
+				<!-- ___________________ -->
+
+				<!-- reel.FrozenForest -->
+				<!-- WINTER TAIGA -->
+
+				<WinterTaiga MayRequire="reel.FrozenForest">0.0001</WinterTaiga>
+
+
+				<!-- __________________ -->
+
+				<!-- SirMashedPotato.MorrowRim -->
+				<!-- "MORROWIND" MOD -->
+
+				<MorrowRim_Ashlands MayRequire="SirMashedPotato.MorrowRim">0.001</MorrowRim_Ashlands>
+
+				<MorrowRim_BlightedAshlands MayRequire="SirMashedPotato.MorrowRim">0</MorrowRim_BlightedAshlands>
+
+				<MorrowRim_AshSwamp MayRequire="SirMashedPotato.MorrowRim.ashswamp">0.001</MorrowRim_AshSwamp>
+
+				<MorrowRim_VolcanicAshlands MayRequire="SirMashedPotato.MorrowRim.volcanicashlands">0</MorrowRim_VolcanicAshlands>
+				
+				<Mashed_Ashlands_BlightedBogAshlands MayRequire="sirmashedpotato.ashlands">0.0001</Mashed_Ashlands_BlightedBogAshlands>
+				
+				<Mashed_Ashlands_BlightedAshlands MayRequire="sirmashedpotato.ashlands">0</Mashed_Ashlands_BlightedAshlands>
+				
+				<Mashed_Ashlands_Ashlands MayRequire="sirmashedpotato.ashlands">0.001</Mashed_Ashlands_Ashlands>
+				
+				<Mashed_Ashlands_DustplainAshlands MayRequire="sirmashedpotato.ashlands">0.003</Mashed_Ashlands_DustplainAshlands>
+				
+				<Mashed_Ashlands_GrazelandAshlands MayRequire="sirmashedpotato.ashlands">0.0001</Mashed_Ashlands_GrazelandAshlands>
+				
+				<Mashed_Ashlands_SwampAshlands MayRequire="sirmashedpotato.ashlands">0.0021</Mashed_Ashlands_SwampAshlands>
+				
+				<Mashed_Ashlands_ForestAshlands MayRequire="sirmashedpotato.ashlands">0.004</Mashed_Ashlands_ForestAshlands>
+				
+				<Mashed_Ashlands_MarshAshlands MayRequire="sirmashedpotato.ashlands">0.005</Mashed_Ashlands_MarshAshlands>
+				
+				<Mashed_Ashlands_MeadowAshlands MayRequire="sirmashedpotato.ashlands">0.001</Mashed_Ashlands_MeadowAshlands>
+
+
+				<!-- ___________________ -->
+
+				<!-- pphhyy.gulden -->
+				<!-- FOREST OF GOLD -->
+
+				<TemperateGuldenForest MayRequire="pphhyy.gulden">0.0091</TemperateGuldenForest>
+
+				<LotRE_MallornForest MayRequire="lordoftherims.elves">0.009</LotRE_MallornForest>
+
+
+				<!-- ___________________ -->
+
+				<!-- deemainiac.securecontainrimworld -->
+				<!-- SCP FOUNDATION -->
+
+				<SCR_SCP610Biome MayRequire="deemainiac.securecontainrimworld">0.005</SCR_SCP610Biome>
+
+
+				<!-- _________________ -->
+
+				<!-- regrowth.botr.volcanicicesheet -->
+				<!-- VOLCANIC ICE SHEET -->
+
+				<RG-VIS_VulcanicIceSheet MayRequire="regrowth.botr.volcanicicesheet">0.0001</RG-VIS_VulcanicIceSheet>
+				
+				
+				<!-- _________________ -->
+				
+				<!-- ironscruff.primordialgeysers -->
+				<!-- PRIMORDIAL GEYSERS -->
+				
+
+				<IronScruff_PrimordialGeysers MayRequire="ironscruff.primordialgeysers">0.01</IronScruff_PrimordialGeysers>
+
+
+				<!-- _________________ -->
+				
+				<!-- mlie.rfpermafrost -->
+				<!-- PERMAFROST ZONE -->
+
+				<Permafrost MayRequire="mlie.rfpermafrost">0.0001</Permafrost>
+	  </wildBiomes>
     </plant>
   </ThingDef>
   <!--===========  Wild - clustering bushes (some harvestable) =============-->
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalTree_Base">
     <defName>CK_PlantBushPalm</defName>
     <label>bush palm</label>
     <description>A short palm.</description>
@@ -93,9 +351,10 @@
       <!-- <reproduceMtbDays>2.5</reproduceMtbDays> -->
       <topWindExposure>0.3</topWindExposure>
       <fertilitySensitivity>0.5</fertilitySensitivity>
+	  <interferesWithRoof>false</interferesWithRoof>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantWildTaro</defName>
     <label>taro plant</label>
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
@@ -128,13 +387,14 @@
       <fertilitySensitivity>0.3</fertilitySensitivity>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantWildJitterWeed</defName>
     <label>jitter weed</label>
     <description>A weedy plant which yields jitter berries.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <Nutrition>0.20</Nutrition>
+	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">0</Mashed_Ashlands_AshResistance>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Coffea</texPath>
@@ -168,13 +428,14 @@
       <!-- <reproduceMtbDays>4</reproduceMtbDays> -->
     </plant>
   </ThingDef>
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantWildBushDreamVine</defName>
     <label>dream vine</label>
-    <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; side effects include hallucinations, nausea, and vomiting</description>
+    <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; its side effects include hallucinations, nausea, and vomiting.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <Nutrition>0.20</Nutrition>
+	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/DreamVine</texPath>
@@ -205,13 +466,14 @@
     </plant>
   </ThingDef>
   <!--======================= Wild plants - carpets ========================-->
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantFern</defName>
     <label>fern</label>
     <description>A green plant with long stems, wide, thin leaves, and no flowers. Significantly slows down anyone moving over it.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
-      <Nutrition>0.20</Nutrition>
+      <Nutrition>1.2</Nutrition>
+	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
     <pathCost>30</pathCost>
     <graphicData>
@@ -230,14 +492,16 @@
       <topWindExposure>0.4</topWindExposure>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantRafflesia</defName>
     <label>rafflesia</label>
     <description>Rafflesia (corpse flower) is a parasitic flowering plant that gives off the smell of rotting flesh. This smell attracts carrion-flies by which it is pollinated. These characteristics make Rafflesia a plant to avoid.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>-20</Beauty>
-      <Nutrition>0.12</Nutrition>
+      <Nutrition>3</Nutrition>
+	  <Mass>24</Mass>
+	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CK_Rafflesia</texPath>
@@ -245,12 +509,16 @@
     </graphicData>
     <selectable>true</selectable>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
+	<ingestible>
+		<foodType>Plant, Seed, Corpse</foodType>
+		<preferability>DesperateOnly</preferability>
+	</ingestible>
     <plant>
       <blockAdjacentSow>true</blockAdjacentSow>
-      <fertilitySensitivity>1</fertilitySensitivity>
+      <fertilitySensitivity>2</fertilitySensitivity>
       <growDays>5</growDays>
       <fertilityMin>0.4</fertilityMin>
-      <visualSizeRange>0.7~1.5</visualSizeRange>
+      <visualSizeRange>1.8~2.5</visualSizeRange>
       <topWindExposure>0.3</topWindExposure>
       <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
       <!-- <wildClusterSizeRange>
@@ -260,10 +528,10 @@
       <wildClusterRadius>8</wildClusterRadius>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantBromeliad</defName>
     <label>bromeliad</label>
-    <description>Commonly known as the Flaming torch, it is a species of bromeliad that is native to old Earth Brazil, Venezuela, French Guiana, Antilles and Cuba. They are adaptable, growing well as a terrestrial or epiphytic plant. When on the ground, they quickly create large clumps, and when planted at the base of a tree, they slowly will climb the trunk. The flowers on an individual plant last less than one month, but nearly all of the plants will come into bloom at the same time in the late summer.</description>
+    <description>Commonly known as the flaming torch plant, the bromeliad is native to Old Earth's Brazil, Venezuela, Guiana, Antilles and Cuba. They are adaptable, growing well as a terrestrial or epiphytic plant. When on the ground, they quickly create large clumps, and when planted at the base of a tree, they slowly will climb the trunk. The flowers on an individual plant last less than one month, but nearly all of the plants will come into bloom at the same time in the late summer.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>14</Beauty>
@@ -296,10 +564,10 @@
       <wildClusterRadius>4</wildClusterRadius>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantHeliconia</defName>
     <label>heliconia</label>
-    <description>Heliconias are sometimes called "lobster claws" or "parrot flowers" because of their beak-like "bracts".The leaves of this plant are paddle-shaped, and they are related to the banana family. The heliconia's flowers are tiny and found inside these bracts, which are so large and colorful that they almost hide the flowers altogether. Heliconias are found throughout the Neotropics and are actually quite common in the rainforest.</description>
+    <description>Heliconias are sometimes called "lobster claws" or "parrot flowers" because of their beak-like "bracts".The leaves of this plant are paddle-shaped, and they are related to the banana family. The heliconia's flowers are tiny and found inside these bracts, which are so large and colorful that they almost hide the flowers altogether. Heliconias are found throughout the tropics and are actually quite common in the rainforest.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>7</Beauty>
@@ -330,7 +598,7 @@
       <wildClusterRadius>4</wildClusterRadius>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantWildLemongrass</defName>
     <label>lemongrass</label>
     <description>Wild lemongrass.</description>
@@ -357,17 +625,19 @@
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>1~1.8</visualSizeRange>
       <topWindExposure>0.4</topWindExposure>
-      <!-- <wildClusterSizeRange>
+	  <!--
+      <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
-      </wildClusterSizeRange> -->
+      </wildClusterSizeRange>
+	  -->
     </plant>
   </ThingDef>
   <!--=========================== Wild - Trees ===========================-->
-  <ThingDef ParentName="TreeBase">
+  <ThingDef ParentName="TSP_CK_TropicalTree_Base">
     <defName>CK_PlantTreePalm</defName>
     <label>palm tree</label>
-    <description>Palms are among the best known and most extensively cultivated plant families. They have been important to humans throughout much of history. Many common products and foods are derived from palms. In contemporary times, palms are also widely used in landscaping, making them one of the most economically important plants. In many historical cultures, because of their importance as food, palms were symbols for such ideas as victory, peace, and fertility.</description>
+    <description>Palms are among the best known and most extensively cultivated plant families. They have been important to humans throughout much of history. Many common products and foods are derived from palms. In contemporary times, palms are also widely used in landscaping, making them one of the most economically important plants.</description>
     <graphicData>
       <texPath>Things/Plant/CK_TreePalm</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -380,25 +650,23 @@
       <harvestWork>1500</harvestWork>
       <harvestYield>32</harvestYield>
       <visualSizeRange>2.5~3.5</visualSizeRange>
-      <sowResearchPrerequisites>
-        <li>CK_TropicalWoodGrowing</li>
-      </sowResearchPrerequisites>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="TreeBase">
+  <ThingDef ParentName="TSP_CK_TropicalTree_Base">
     <defName>CK_PlantTreeWildCoconutPalm</defName>
     <label>coconut palm tree</label>
     <description>The coconut tree is a member of the palm tree family and the only living species of the genus Cocos. The term "coconut" can refer to the whole coconut palm, the seed, or the fruit. The term is derived from the 16th-century Portuguese and Spanish word coco meaning "head" or "skull" after the three indentations on the coconut shell that resemble facial features.
 
     Coconuts are known for their versatility of uses, ranging from food to cosmetics. The inner flesh of the mature seed forms a regular part of the diets of many people in the tropics and subtropics. Coconuts are distinct from other fruits because their endosperm contains a large quantity of clear liquid, called "coconut milk" in the literature, and when immature, may be harvested for their potable "coconut water", also called "coconut juice".
 
-    Mature, ripe coconuts can be used as edible seeds, or processed for oil and plant milk from the flesh, charcoal from the hard shell, and coir from the fibrous husk. Dried coconut flesh is called copra, and the oil and milk derived from it are commonly used in cooking as well as in soaps and cosmetics. The hard shells, fibrous husks and long pinnate leaves can be used as material to make a variety of products for furnishing and decorating. The coconut also has cultural and religious significance in certain societies, particularly in India, where it is used in Hindu rituals.</description>
+    Mature, ripe coconuts can be used as edible seeds, or processed for oil and plant milk from the flesh, charcoal from the hard shell, and coir from the fibrous husk. Dried coconut flesh is called copra, and the oil and milk derived from it are commonly used in cooking as well as in soaps and cosmetics. The hard shells, fibrous husks and long pinnate leaves can be used as material to make a variety of products for furnishing and decorating. In many historical cultures, because of their importance as food, palms were symbols for such ideas as victory, peace, and fertility. Indeed, the coconuts it grows also have cultural and religious significance in certain societies, such as in Old Earth's India, where it is still used in Hindu rituals.</description>
     <graphicData>
       <texPath>Things/Plant/TreeCoconutPalm</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
       <Beauty>1</Beauty>
+	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">0.4</Mashed_Ashlands_AshResistance>
     </statBases>
     <plant>
       <growDays>18</growDays>
@@ -417,77 +685,352 @@
       <visualSizeRange>1.5~3</visualSizeRange>
       <fertilityMin>0.2</fertilityMin>
       <fertilitySensitivity>0.5</fertilitySensitivity>
+	  <interferesWithRoof>false</interferesWithRoof>
       <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate> -->
     </plant>
   </ThingDef>
-  <ThingDef ParentName="TreeBase">
+  <ThingDef ParentName="TSP_CK_TropicalTree_Base">
     <defName>CK_PlantTreeMahogany</defName>
     <label>mahogany tree</label>
-    <description>A strong hardwood tree. Slow-growing, but its wood is very strong.</description>
+    <description>A strong, beautiful hardwood tree. Slow-growing, but its wood is very strong.</description>
     <graphicData>
       <texPath>Things/Plant/TreeMahogany</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <Beauty>2</Beauty>
+      <Beauty>5</Beauty>
+	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
     <plant>
-      <growDays>34</growDays>
+      <growDays>42</growDays>
       <harvestWork>2400</harvestWork>
-      <harvestYield>125</harvestYield>
+      <harvestYield>200</harvestYield>
       <visualSizeRange>2~4</visualSizeRange>
       <blockAdjacentSow>true</blockAdjacentSow>
       <sowResearchPrerequisites>
-        <li>CK_TropicalWoodGrowing</li>
+        <li>TreeSowing</li>
       </sowResearchPrerequisites>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="TreeBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantTreeStranglerFig</defName>
-    <label>strangler fig tree</label>
-    <description>A Strangler fig tree</description>
+    <label>strangler fig</label>
+    <description>A parasitic strangler fig, choking out a tree.</description>
     <graphicData>
       <texPath>Things/Plant/TreeStranglerFig</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <Beauty>2</Beauty>
+      <Beauty>-2</Beauty>
+	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
+	<blockWind>false</blockWind>
     <plant>
-      <growDays>20</growDays>
+      <growDays>4.4</growDays>
       <harvestWork>2000</harvestWork>
-      <harvestYield>75</harvestYield>
-      <visualSizeRange>1.2~3.4</visualSizeRange>
-      <sowResearchPrerequisites>
-        <li>CK_TropicalWoodGrowing</li>
-      </sowResearchPrerequisites>
+      <visualSizeRange>1.987~3.4</visualSizeRange>
+	  <purpose>Misc</purpose>
+	  <isStump>true</isStump>
+	  <forceIsTree>false</forceIsTree>
+	  <burnedThingDef>CK_PlantTreeTreeStump</burnedThingDef>
+	  <choppedThingDef>CK_PlantTreeTreeStump</choppedThingDef>
+	  <smashedThingDef>CK_PlantTreeTreeStump</smashedThingDef>
+	  <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="TreeBase">
+  <ThingDef ParentName="TSP_CK_TropicalTree_Base">
     <defName>CK_PlantTreeTreeStump</defName>
-    <label>tree (dead)</label>
-    <description>A dead old tree.</description>
+    <label>sickly tree</label>
+    <description>A tree barely clinging to life. It grows very slowly and cannot be sown.</description>
     <graphicData>
       <texPath>Things/Plant/TreeHive/TreeHive_Leafless</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <Beauty>-2</Beauty>
+      <Beauty>0</Beauty>
+	  <Flammability>3</Flammability>
+	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
+	  <FoodPoisonChance>0.5</FoodPoisonChance>
+	  <FoodPoisonChanceFixedHuman>0.51</FoodPoisonChanceFixedHuman>
     </statBases>
+	<blockWind>false</blockWind>
+	<ingestible>
+		<foodType>Tree</foodType>
+		<preferability>DesperateOnly</preferability>
+	</ingestible>
     <plant>
-      <sowTags>
-      </sowTags>
-      <growDays>20</growDays>
-      <harvestWork>1000</harvestWork>
-      <harvestYield>20</harvestYield>
-      <visualSizeRange>2~2.5</visualSizeRange>
+      <growDays>50</growDays>
+      <harvestWork>470</harvestWork>
+      <harvestYield>75</harvestYield>
+      <visualSizeRange>0.01~0.7</visualSizeRange>
+	  <isStump>true</isStump>
+	  <forceIsTree>true</forceIsTree>
+	  <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+	  <harvestAfterGrowth Inherit="False">0</harvestAfterGrowth>
+	  <harvestedThingDef>WoodLog</harvestedThingDef>
+	  <sowTags Inherit="False"></sowTags> <!-- Cannot sow -->
+	  <interferesWithRoof>false</interferesWithRoof>
+	  <wildBiomes Inherit="False">
+				<!-- RimWorld.Core -->
+				<!-- VANILLA RENDITION -->
+
+				<BorealForest>0.0001</BorealForest>
+
+				<Tundra>0.004</Tundra>
+
+				<ColdBog>0</ColdBog>
+
+				<IceSheet>0.01</IceSheet>
+
+				<SeaIce>0</SeaIce>
+
+				<TemperateForest>0</TemperateForest>
+
+				<TemperateSwamp>0</TemperateSwamp>
+
+				<AridShrubland>0.01</AridShrubland>
+
+				<Desert>0.0001</Desert>
+
+				<ExtremeDesert>0</ExtremeDesert>
+
+
+
+
+
+				<!-- ___________________ -->			
+				<!-- Mod Biomes -->
+				<!-- ___________________ -->
+
+				<!-- sarg.alphabiomes -->
+				<!-- ALPHA BIOMES -->
+
+				<AB_FeraliskInfestedJungle MayRequire="sarg.alphabiomes">0.005</AB_FeraliskInfestedJungle>
+
+				<AB_GallatrossGraveyard MayRequire="sarg.alphabiomes">0.01</AB_GallatrossGraveyard>
+
+				<AB_GelatinousSuperorganism MayRequire="sarg.alphabiomes">0.0001</AB_GelatinousSuperorganism>
+
+				<AB_MechanoidIntrusion MayRequire="sarg.alphabiomes">0.007</AB_MechanoidIntrusion>
+
+				<AB_MycoticJungle MayRequire="sarg.alphabiomes">0</AB_MycoticJungle>
+
+				<AB_OcularForest MayRequire="sarg.alphabiomes">0.003</AB_OcularForest>
+
+				<AB_PropaneLakes MayRequire="sarg.alphabiomes">0</AB_PropaneLakes>
+
+				<AB_PyroclasticConflagration MayRequire="sarg.alphabiomes">0.04</AB_PyroclasticConflagration>
+
+				<AB_RockyCrags MayRequire="sarg.alphabiomes">0.01</AB_RockyCrags>
+
+				<AB_TarPits MayRequire="sarg.alphabiomes">0.001</AB_TarPits>
+
+				<AB_MiasmicMangrove MayRequire="sarg.alphabiomes">0.08</AB_MiasmicMangrove>
+
+				<AB_IdyllicMeadows MayRequire="sarg.alphabiomes">0</AB_IdyllicMeadows>
+
+
+
+				<!-- ___________________ -->
+
+				<!-- BiomesTeam.Oasis -->
+				<!-- CHROMATIC OASIS -->
+
+				<BMT_ChromaticOasis MayRequire="BiomesTeam.Oasis">0</BMT_ChromaticOasis>
+
+
+
+				<!-- ___________________ -->
+
+				<!-- Mlie.AdvancedBiomes -->
+				<!-- ADVANCED BIOMES -->
+
+				<PoisonForest MayRequire="Mlie.AdvancedBiomes">0.4</PoisonForest>
+
+				<Savanna MayRequire="Mlie.AdvancedBiomes">0</Savanna>
+
+				<Volcano MayRequire="Mlie.AdvancedBiomes">0.001</Volcano>
+
+				<Wasteland MayRequire="Mlie.AdvancedBiomes">1</Wasteland>
+
+				<Wetland MayRequire="Mlie.AdvancedBiomes">0.001</Wetland>
+
+
+				<!-- ___________________ -->
+
+				<!-- zylle.MoreVanillaBiomes -->
+				<!-- More Vanilla Biomes -->
+
+				<ZBiome_AlpineMeadow MayRequire="zylle.MoreVanillaBiomes">0</ZBiome_AlpineMeadow>
+
+				<ZBiome_CloudForest MayRequire="zylle.MoreVanillaBiomes">0</ZBiome_CloudForest>
+
+				<ZBiome_CoastalDunes MayRequire="zylle.MoreVanillaBiomes">0.005</ZBiome_CoastalDunes>
+
+				<ZBiome_DesertOasis MayRequire="zylle.MoreVanillaBiomes">0</ZBiome_DesertOasis>
+
+				<ZBiome_Grasslands MayRequire="zylle.MoreVanillaBiomes">0</ZBiome_Grasslands>
+
+				<ZBiome_Iceberg_NoBeach MayRequire="zylle.MoreVanillaBiomes">0</ZBiome_Iceberg_NoBeach>
+
+				<ZBiome_Marsh MayRequire="zylle.MoreVanillaBiomes">0.001</ZBiome_Marsh>
+
+				<ZBiome_Sandbar_NoBeach MayRequire="zylle.MoreVanillaBiomes">0.0001</ZBiome_Sandbar_NoBeach>
+				
+				<ZBiome_GlacialShield MayRequire="zylle.MoreVanillaBiomes">0.01</ZBiome_GlacialShield>
+				
+				<ZBiome_Badlands MayRequire="zylle.MoreVanillaBiomes">0.051</ZBiome_Badlands>
+
+
+				<!-- ___________________ -->
+
+				<!-- Mlie.NaturesPrettySweet -->
+				<!-- NATURE IS PRETTY SWEET -->
+
+				<TKKN_VolcanicFlow MayRequire="Mlie.NaturesPrettySweet">0.01</TKKN_VolcanicFlow>
+
+				<TKKN_RedwoodForest MayRequire="Mlie.NaturesPrettySweet">0</TKKN_RedwoodForest>
+
+				<TKKN_Grasslands MayRequire="Mlie.NaturesPrettySweet">0</TKKN_Grasslands> <!-- PRAIRIE -->
+
+				<TKKN_Savanna MayRequire="Mlie.NaturesPrettySweet">0</TKKN_Savanna>
+
+				<TKKN_Desert MayRequire="Mlie.NaturesPrettySweet">0.0001</TKKN_Desert> <!-- SALT FIELDS -->
+
+				<TKKN_Oasis MayRequire="Mlie.NaturesPrettySweet">0</TKKN_Oasis>			
+
+
+				<!-- ___________________ -->
+
+				<!-- Heis.Edo.Themed.Expansion -->
+				<!-- HISTORICALLY ACCURATE WEEABOO MOD -->
+
+				<HSBambooForest MayRequire="Heis.Edo.Themed.Expansion">0.001</HSBambooForest>
+
+
+				<!-- _________________ -->
+
+				<!-- BiomesTeam.BiomesIslands -->
+				<!-- BIOMES ISLANDS -->
+
+				<BiomesIslands_Atoll MayRequire="BiomesTeam.BiomesIslands">0</BiomesIslands_Atoll>
+
+				<BiomesIslands_BorealIsland MayRequire="BiomesTeam.BiomesIslands">0</BiomesIslands_BorealIsland>
+
+				<BiomesIslands_DesertIsland MayRequire="BiomesTeam.BiomesIslands">0</BiomesIslands_DesertIsland>
+
+				<BiomesIslands_DesertArchipelago MayRequire="BiomesTeam.BiomesIslands">0</BiomesIslands_DesertArchipelago>
+
+				<BiomesIslands_TemperateIsland MayRequire="BiomesTeam.BiomesIslands">0</BiomesIslands_TemperateIsland>
+
+				<BiomesIslands_TemperateArchipelago MayRequire="BiomesTeam.BiomesIslands">0</BiomesIslands_TemperateArchipelago>
+
+				<BiomesIslands_TundraIsland MayRequire="BiomesTeam.BiomesIslands">0.05</BiomesIslands_TundraIsland>
+				
+				
+				
+				<!-- _________________ -->
+
+				<!-- BiomesTeam.BiomesCaverns -->
+				<!-- BIOMES CAVERNS -->
+				
+				<BMT_CrystalCaverns MayRequire="BiomesTeam.BiomesCaverns">0.0001</BMT_CrystalCaverns>
+				
+				<BMT_EarthenDepths MayRequire="BiomesTeam.BiomesCaverns">0</BMT_EarthenDepths>
+				
+				<BMT_FungalForest MayRequire="BiomesTeam.BiomesCaverns">0.001</BMT_FungalForest>
+				
+
+
+				<!-- ___________________ -->
+
+				<!-- reel.FrozenForest -->
+				<!-- WINTER TAIGA -->
+
+				<WinterTaiga MayRequire="reel.FrozenForest">0.003</WinterTaiga>
+
+
+				<!-- __________________ -->
+
+				<!-- SirMashedPotato.MorrowRim -->
+				<!-- "MORROWIND" MOD -->
+
+				<MorrowRim_Ashlands MayRequire="SirMashedPotato.MorrowRim">0.01</MorrowRim_Ashlands>
+
+				<MorrowRim_BlightedAshlands MayRequire="SirMashedPotato.MorrowRim">0.01</MorrowRim_BlightedAshlands>
+
+				<MorrowRim_AshSwamp MayRequire="SirMashedPotato.MorrowRim.ashswamp">0.01</MorrowRim_AshSwamp>
+
+				<MorrowRim_VolcanicAshlands MayRequire="SirMashedPotato.MorrowRim.volcanicashlands">0.1</MorrowRim_VolcanicAshlands>
+				
+				<Mashed_Ashlands_BlightedBogAshlands MayRequire="sirmashedpotato.ashlands">0.31</Mashed_Ashlands_BlightedBogAshlands>
+				
+				<Mashed_Ashlands_BlightedAshlands MayRequire="sirmashedpotato.ashlands">0.1</Mashed_Ashlands_BlightedAshlands>
+				
+				<Mashed_Ashlands_Ashlands MayRequire="sirmashedpotato.ashlands">0.001</Mashed_Ashlands_Ashlands>
+				
+				<Mashed_Ashlands_DustplainAshlands MayRequire="sirmashedpotato.ashlands">0.01</Mashed_Ashlands_DustplainAshlands>
+				
+				<Mashed_Ashlands_GrazelandAshlands MayRequire="sirmashedpotato.ashlands">0.08</Mashed_Ashlands_GrazelandAshlands>
+				
+				<Mashed_Ashlands_SwampAshlands MayRequire="sirmashedpotato.ashlands">0.03</Mashed_Ashlands_SwampAshlands>
+				
+				<Mashed_Ashlands_ForestAshlands MayRequire="sirmashedpotato.ashlands">0.1</Mashed_Ashlands_ForestAshlands>
+				
+				<Mashed_Ashlands_MarshAshlands MayRequire="sirmashedpotato.ashlands">0.05</Mashed_Ashlands_MarshAshlands>
+				
+				<Mashed_Ashlands_MeadowAshlands MayRequire="sirmashedpotato.ashlands">0.001</Mashed_Ashlands_MeadowAshlands>
+
+
+				<!-- ___________________ -->
+
+				<!-- pphhyy.gulden -->
+				<!-- FOREST OF GOLD -->
+
+				<TemperateGuldenForest MayRequire="pphhyy.gulden">0</TemperateGuldenForest>
+
+				<LotRE_MallornForest MayRequire="lordoftherims.elves">0</LotRE_MallornForest>
+
+
+				<!-- ___________________ -->
+
+				<!-- deemainiac.securecontainrimworld -->
+				<!-- SCP FOUNDATION -->
+
+				<SCR_SCP610Biome MayRequire="deemainiac.securecontainrimworld">1</SCR_SCP610Biome>
+
+
+				<!-- _________________ -->
+
+				<!-- regrowth.botr.volcanicicesheet -->
+				<!-- VOLCANIC ICE SHEET -->
+
+				<RG-VIS_VulcanicIceSheet MayRequire="regrowth.botr.volcanicicesheet">0.01</RG-VIS_VulcanicIceSheet>
+				
+				
+				<!-- _________________ -->
+				
+				<!-- ironscruff.primordialgeysers -->
+				<!-- PRIMORDIAL GEYSERS -->
+				
+
+				<IronScruff_PrimordialGeysers MayRequire="ironscruff.primordialgeysers">0.04</IronScruff_PrimordialGeysers>
+
+
+				<!-- _________________ -->
+				
+				<!-- mlie.rfpermafrost -->
+				<!-- PERMAFROST ZONE -->
+
+				<Permafrost MayRequire="mlie.rfpermafrost">0.05</Permafrost>
+	  </wildBiomes>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalTree_Base">
     <defName>CK_PlantTreeWildBanana</defName>
-    <label>banana</label>
-    <description>The banana plant is the largest herbaceous flowering plant. All the above-ground parts of a banana plant grow from a structure usually called a "corm". Plants are normally tall and fairly sturdy, and are often mistaken for trees, but what appears to be a trunk is actually a "false stem" or pseudostem. Bananas grow in a wide variety of soils, as long as the soil is at least 60 cm deep, has good drainage and is not compacted. Cultivated banana plants vary in height depending on the variety and growing conditions. Most are around 5 m (16 ft) tall, with a range from around 3 m (10 ft) to 7 m (23 ft) or more. Leaves are spirally arranged and they are easily torn by the wind, resulting in the familiar frond look.
+    <label>banana plant</label>
+    <description>The banana plant is the largest herbaceous flowering plant. It is not a tree, but rather, a giant herb. All the above-ground parts of a banana plant grow from a structure usually called a "corm". Plants are normally tall and fairly sturdy, and are often mistaken for trees, but what appears to be a trunk is actually a "false stem" or pseudostem. Bananas grow in a wide variety of soils, as long as the soil is at least 60 cm deep, has good drainage and is not compacted. Cultivated banana plants vary in height depending on the variety and growing conditions. Most are around 5 m (16 ft) tall, with a range from around 3 m (10 ft) to 7 m (23 ft) or more. Leaves are spirally arranged and they are easily torn by the wind, resulting in the familiar frond look.
 
       When a banana plant is mature, the corm stops producing new leaves and begins to form a flower spike or inflorescence. The banana fruits develop from the banana heart, in a large hanging cluster, made up of tiers (called "hands"). Individual banana fruits (commonly known as a banana or "finger") average 125 grams (0.276 lb), of which approximately 75% is water and 25% dry matter. In cultivated varieties, the seeds are diminished nearly to non-existence; their remnants are tiny black specks in the interior of the fruit.
 
@@ -496,6 +1039,7 @@
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <Nutrition>1.50</Nutrition>
+	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">0.5</Mashed_Ashlands_AshResistance>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/TreeBanana</texPath>
@@ -513,13 +1057,13 @@
       <preferability>RawBad</preferability>
     </ingestible>
     <plant>
-      <growDays>17</growDays>
+      <growDays>15.7</growDays>
       <sowWork>1500</sowWork>
       <harvestWork>800</harvestWork>
       <harvestTag>Standard</harvestTag>
       <!-- <harvestDestroys>false</harvestDestroys> -->
       <harvestedThingDef>CK_RawBanana</harvestedThingDef>
-      <harvestYield>12</harvestYield>
+      <harvestYield>20</harvestYield>
       <harvestMinGrowth>0.40</harvestMinGrowth>
       <harvestFailable>false</harvestFailable>
       <!-- <wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction> -->
@@ -539,7 +1083,7 @@
       <wildClusterRadius>8</wildClusterRadius>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="TreeBase">
+  <ThingDef ParentName="TSP_CK_TropicalTree_Base">
     <defName>CK_PlantTreeBamboo</defName>
     <label>bamboo</label>
     <description>Some wild bamboo</description>
@@ -551,17 +1095,23 @@
       </shadowData>
     </graphicData>
     <statBases>
-      <Beauty>3</Beauty>
+      <Beauty>2</Beauty>
       <Nutrition>1</Nutrition>
+	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
+	<ingestible>
+		<foodType>VegetarianRoughAnimal, Tree, Plant</foodType>
+		<preferability>RawTasty</preferability>
+	</ingestible>
     <plant>
-      <growDays>10</growDays>
-      <harvestWork>600</harvestWork>
-      <harvestYield>15</harvestYield>
-      <visualSizeRange>0.8~3</visualSizeRange>
-      <sowResearchPrerequisites>
-        <li>CK_TropicalWoodGrowing</li>
-      </sowResearchPrerequisites>
+		<growDays>4.5</growDays>
+		<harvestWork>600</harvestWork>
+		<harvestYield>9</harvestYield>
+		<visualSizeRange>0.8~3</visualSizeRange>
+		<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+		<sowResearchPrerequisites>
+			<li>TreeSowing</li>
+		</sowResearchPrerequisites>
     </plant>
   </ThingDef>
 </Defs>
