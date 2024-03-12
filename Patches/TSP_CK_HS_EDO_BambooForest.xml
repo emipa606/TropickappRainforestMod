@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationConditional" MayRequire="mlie.tropickapprainforestmod">
+    <Operation Class="PatchOperationConditional">
 	<!-- DO THE GENTILES KNOW? -->
 		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
 		<!-- If they do, SHUT IT DOWN. -->
-		<match Class="PatchOperationRemove" MayRequire="mlie.tropickapprainforestmod">
-			<xpath MayRequire="mlie.tropickapprainforestmod">/Defs/ThingDef[defName="CK_PlantTreeBamboo"]/plant/wildBiomes/HSBambooForest</xpath>
-			<success MayRequire="mlie.tropickapprainforestmod">Always</success>
+		<match Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="CK_PlantTreeBamboo"]/plant/wildBiomes/HSBambooForest</xpath>
+			<success>Always</success>
 		</match>
 		<!-- If the first XPATH does not exist, then the original code stands. All according to plan. -->
 	</Operation>
 	
-    <Operation Class="PatchOperationConditional" MayRequire="mlie.tropickapprainforestmod">
+    <Operation Class="PatchOperationConditional">
 	<!-- DO THE GENTILES KNOW? -->
 		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
 		<!-- If they do, SHUT IT DOWN. -->
-		<match Class="PatchOperationRemove" MayRequire="mlie.tropickapprainforestmod">
-			<xpath MayRequire="mlie.tropickapprainforestmod">/Defs/BiomeDef/wildPlants/CK_PlantTreeBamboo</xpath>
-			<success MayRequire="mlie.tropickapprainforestmod">Always</success>
+		<match Class="PatchOperationRemove">
+			<xpath>/Defs/BiomeDef/wildPlants/CK_PlantTreeBamboo</xpath>
+			<success>Always</success>
 		</match>
 		<!-- If the first XPATH does not exist, then the original code stands. All according to plan. -->
 	</Operation>
 	
-    <Operation Class="PatchOperationConditional" MayRequire="mlie.tropickapprainforestmod">
+    <Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
 		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
 		<!-- If it does, add this. -->
-		<match Class="PatchOperationAdd" MayRequire="mlie.tropickapprainforestmod">
+		<match Class="PatchOperationAdd">
 			<xpath>/Defs/BiomeDef[defName="HSBambooForest"]/wildPlants</xpath>
-			<success MayRequire="mlie.tropickapprainforestmod">Always</success>
+			<success>Always</success>
 			<value>
 				<CK_PlantTreeBamboo>0.9</CK_PlantTreeBamboo>
 			</value>
@@ -37,13 +37,13 @@
 		<!-- If the first XPATH does not exist, then the original code stands. -->
 	</Operation>
 	
-    <Operation Class="PatchOperationConditional" MayRequire="mlie.tropickapprainforestmod">
+    <Operation Class="PatchOperationConditional">
 	<!-- DO THE GENTILES KNOW? -->
 		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
 		<!-- If they do, SHUT IT DOWN. -->
-		<match Class="PatchOperationRemove" MayRequire="mlie.tropickapprainforestmod">
-			<xpath MayRequire="mlie.tropickapprainforestmod">/Defs/ThingDef[defName="CK_Panda"]/race/wildBiomes/HSBambooForest</xpath>
-			<success MayRequire="mlie.tropickapprainforestmod">Always</success>
+		<match Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="CK_Panda"]/race/wildBiomes/HSBambooForest</xpath>
+			<success>Always</success>
 		</match>
 		<!-- If the first XPATH does not exist, then the original code stands. All according to plan. -->
 	</Operation>
