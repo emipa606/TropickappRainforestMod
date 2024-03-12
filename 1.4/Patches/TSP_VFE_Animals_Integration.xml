@@ -283,13 +283,13 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="VAERoy_Orangutan"]/race/leatherDef</xpath>
+		<xpath>Defs/ThingDef[defName="AEXP_Gorilla"]/race/leatherDef</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="AEXP_Gorilla"]/race/leatherDef</xpath>
 			<success>Always</success>
 			<value>
-				<leatherDef>AEXP_Gorilla</leatherDef>
+				<leatherDef>Leather_Heavy</leatherDef>
 			</value>
 		</match>
 		<!-- If it DOES NOT, add this instead. -->
@@ -297,7 +297,7 @@
 			<xpath>Defs/ThingDef[defName="AEXP_Gorilla"]/race</xpath>
 			<success>Always</success>
 			<value>
-				<leatherDef>AEXP_Gorilla</leatherDef>
+				<leatherDef>Leather_Heavy</leatherDef>
 			</value>
 		</nomatch>
 		<!-- If the first XPATH does not exist, the original code stands. -->
@@ -311,7 +311,7 @@
 			<xpath>Defs/ThingDef[defName="AEXP_Gorilla"]/race/useMeatFrom</xpath>
 			<success>Always</success>
 			<value>
-				<useMeatFrom>AEXP_Gorilla</useMeatFrom>
+				<useMeatFrom>Monkey</useMeatFrom>
 			</value>
 		</match>
 		<!-- If it DOES NOT, add this instead. -->
@@ -319,7 +319,7 @@
 			<xpath>Defs/ThingDef[defName="AEXP_Gorilla"]/race</xpath>
 			<success>Always</success>
 			<value>
-				<useMeatFrom>AEXP_Gorilla</useMeatFrom>
+				<useMeatFrom>Monkey</useMeatFrom>
 			</value>
 		</nomatch>
 		<!-- If the first XPATH does not exist, the original code stands. -->
