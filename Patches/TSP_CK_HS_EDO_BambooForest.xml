@@ -13,6 +13,17 @@
 	</Operation>
 	
     <Operation Class="PatchOperationConditional" MayRequire="mlie.tropickapprainforestmod">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove" MayRequire="mlie.tropickapprainforestmod">
+			<xpath MayRequire="mlie.tropickapprainforestmod">/Defs/BiomeDef[defName="HSBambooForest"]/wildPlants/CK_PlantTreeBamboo</xpath>
+			<success MayRequire="mlie.tropickapprainforestmod">Always</success>
+		</match>
+		<!-- If the first XPATH does not exist, then the original code stands. All according to plan. -->
+	</Operation>
+	
+    <Operation Class="PatchOperationConditional" MayRequire="mlie.tropickapprainforestmod">
 	<!-- Does this exist? -->
 		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
 		<!-- If it does, add this. -->
@@ -38,6 +49,17 @@
 	</Operation>
 	
     <Operation Class="PatchOperationConditional" MayRequire="mlie.tropickapprainforestmod">
+	<!-- DO THE GENTILES KNOW? -->
+		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
+		<!-- If they do, SHUT IT DOWN. -->
+		<match Class="PatchOperationRemove" MayRequire="mlie.tropickapprainforestmod">
+			<xpath MayRequire="mlie.tropickapprainforestmod">/Defs/BiomeDef[defName="HSBambooForest"]/wildPlants/CK_Panda</xpath>
+			<success MayRequire="mlie.tropickapprainforestmod">Always</success>
+		</match>
+		<!-- If the first XPATH does not exist, then the original code stands. All according to plan. -->
+	</Operation>
+	
+    <Operation Class="PatchOperationConditional" MayRequire="mlie.tropickapprainforestmod">
 	<!-- Does this exist? -->
 		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
 		<!-- If it does, add this. -->
@@ -45,7 +67,7 @@
 			<xpath>/Defs/BiomeDef[defName="HSBambooForest"]/wildAnimals</xpath>
 			<success MayRequire="mlie.tropickapprainforestmod">Always</success>
 			<value>
-				<CK_Panda>0.689</CK_Panda>
+				<CK_Panda>1</CK_Panda>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, then the original code stands. -->
