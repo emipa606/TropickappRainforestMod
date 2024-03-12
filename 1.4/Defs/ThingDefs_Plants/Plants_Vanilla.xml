@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--=========================== Food crops ==============================-->
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantWildRice</defName>
     <label>wild rice plant</label>
     <description>A short, fast-growing crop that yields small edible grains. Its great nutritional ouput and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</description>
@@ -26,6 +26,7 @@
         <min>2</min>
         <max>5</max>
       </wildClusterSizeRange> -->
+	  <harvestFailable>true</harvestFailable>
       <wildClusterRadius>4</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>3.5</growDays>
@@ -33,10 +34,11 @@
       <visualSizeRange>0.3~0.8</visualSizeRange>
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
+	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
     </plant>
   </ThingDef>
   <!--=========================== Production crops ==============================-->
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantWildCotton</defName>
     <label>wild cotton plant</label>
     <description>Yields cotton, a fine plant fiber used to make cloth.</description>
@@ -66,13 +68,16 @@
       <topWindExposure>0.1</topWindExposure>
       <growDays>2.705</growDays>
       <fertilitySensitivity>0.4</fertilitySensitivity>
+	  <harvestFailable>true</harvestFailable>
       <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>0.4</fertilityFactorGrowthRate> -->
       <visualSizeRange>0.3~1.05</visualSizeRange>
+	  <purpose>Misc</purpose>
+	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
     </plant>
   </ThingDef>
   <!--=========================== Drug crops ==============================-->
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantWildPsychoid</defName>
     <label>wild psychoid plant</label>
     <description>A leafy plant. Its leaves can be refined into various forms of the psychoid drug.</description>
@@ -102,12 +107,14 @@
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>
       <fertilitySensitivity>1.0</fertilitySensitivity>
+	  <harvestFailable>true</harvestFailable>
       <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
       <visualSizeRange>0.3~1.0</visualSizeRange>
+	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
     </plant>
   </ThingDef>
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantWildSmokeleaf</defName>
     <label>wild smokeleaf plant</label>
     <description>A leafy plant cultivated for its psychological effects. Smokeleaf leaves can be prepared into joints at the crafting spot.</description>
@@ -129,7 +136,6 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>SmokeleafLeaves</harvestedThingDef>
       <harvestYield>11</harvestYield>
-      <sowMinSkill>4</sowMinSkill>
       <!-- <wildClusterSizeRange>
         <min>1</min>
         <max>3</max>
@@ -138,9 +144,11 @@
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>
       <fertilitySensitivity>1.0</fertilitySensitivity>
+	  <harvestFailable>true</harvestFailable>
       <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
       <visualSizeRange>0.3~1.0</visualSizeRange>
+	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
     </plant>
   </ThingDef>
 </Defs>

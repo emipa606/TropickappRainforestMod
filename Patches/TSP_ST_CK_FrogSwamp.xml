@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationConditional" MayRequire="mlie.tropickapprainforestmod">
+		<xpath>/Defs/BiomeDef[defName="froggySwamp"]</xpath>
+		<match Class="PatchOperationAdd" MayRequire="mlie.tropickapprainforestmod">
+			<!-- Adding new plants to TropicalRainforest Biome  -->
+			<xpath MayRequire="mlie.tropickapprainforestmod">/Defs/BiomeDef[defName="froggySwamp"]/wildPlants</xpath>
+			<success MayRequire="mlie.tropickapprainforestmod">Always</success>
+			<value MayRequire="mlie.tropickapprainforestmod">
+				<CK_PlantFern>2</CK_PlantFern>
+				<CK_PlantTreePalm>0.21</CK_PlantTreePalm>
+				<CK_PlantBushPalm>0.0001</CK_PlantBushPalm>
+				<CK_PlantTreeBamboo>0.005</CK_PlantTreeBamboo>
+				<CK_PlantBromeliad>0.024</CK_PlantBromeliad>
+				<CK_PlantTreeWildCoconutPalm>0.0025</CK_PlantTreeWildCoconutPalm>
+				<CK_PlantTreeMahogany>0.0001</CK_PlantTreeMahogany>
+				<CK_PlantTreeStranglerFig>0.0013</CK_PlantTreeStranglerFig>
+				<CK_PlantWildRice>0.0003</CK_PlantWildRice>
+				<CK_PlantWildTaro>0.003</CK_PlantWildTaro>
+				<CK_PlantTreeWildBanana>0.001</CK_PlantTreeWildBanana>
+				<CK_PlantWildLemongrass>0.002</CK_PlantWildLemongrass>
+				<CK_PlantHeliconia>0.15</CK_PlantHeliconia>
+				<CK_PlantWildJitterWeed>0.005</CK_PlantWildJitterWeed>
+				<CK_PlantWildSmokeleaf>0.03</CK_PlantWildSmokeleaf>
+				<CK_PlantWildPsychoid>0.003</CK_PlantWildPsychoid>
+				<CK_PlantWildBushDreamVine>0.002</CK_PlantWildBushDreamVine>
+				<CK_PlantWildCotton>0.002</CK_PlantWildCotton>
+				<CK_PlantRafflesia>0.002</CK_PlantRafflesia>
+				<CK_SpecialTreeHive>0.008</CK_SpecialTreeHive>
+			</value>
+		</match>
+	</Operation>
+</Patch>

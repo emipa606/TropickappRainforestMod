@@ -10,7 +10,6 @@
           <xpath>/Defs/ThingDef[defName = "CK_PlantTreeBamboo"]/plant</xpath>
           <value>
             <harvestedThingDef>Bamboo</harvestedThingDef>
-            <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
           </value>
         </li>
         <li Class="PatchOperationReplace">
