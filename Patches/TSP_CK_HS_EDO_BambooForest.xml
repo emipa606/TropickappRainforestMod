@@ -17,7 +17,7 @@
 		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
 		<!-- If they do, SHUT IT DOWN. -->
 		<match Class="PatchOperationRemove" MayRequire="mlie.tropickapprainforestmod">
-			<xpath MayRequire="mlie.tropickapprainforestmod">/Defs/BiomeDef[defName="HSBambooForest"]/wildPlants/CK_PlantTreeBamboo</xpath>
+			<xpath MayRequire="mlie.tropickapprainforestmod">/Defs/BiomeDef/wildPlants/CK_PlantTreeBamboo</xpath>
 			<success MayRequire="mlie.tropickapprainforestmod">Always</success>
 		</match>
 		<!-- If the first XPATH does not exist, then the original code stands. All according to plan. -->
@@ -53,7 +53,7 @@
 		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
 		<!-- If they do, SHUT IT DOWN. -->
 		<match Class="PatchOperationRemove" MayRequire="mlie.tropickapprainforestmod">
-			<xpath MayRequire="mlie.tropickapprainforestmod">/Defs/BiomeDef[defName="HSBambooForest"]/wildPlants/CK_Panda</xpath>
+			<xpath MayRequire="mlie.tropickapprainforestmod">/Defs/BiomeDef/wildAnimals/CK_Panda</xpath>
 			<success MayRequire="mlie.tropickapprainforestmod">Always</success>
 		</match>
 		<!-- If the first XPATH does not exist, then the original code stands. All according to plan. -->
