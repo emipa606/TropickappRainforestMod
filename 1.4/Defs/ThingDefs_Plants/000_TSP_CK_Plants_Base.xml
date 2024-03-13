@@ -350,6 +350,7 @@
 			<li>Hydroponic</li>
 		</sowTags>
 		<sowResearchPrerequisites></sowResearchPrerequisites>
+		<wildBiomes Inherit="False"></wildBiomes>
 	</plant>
   </ThingDef>
 </Defs>

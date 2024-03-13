@@ -3,7 +3,7 @@
 <Patch>
     <Operation Class="PatchOperationConditional">
 	<!-- DO THE GENTILES KNOW? -->
-		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
+		<xpath>/Defs/ThingDef[defName="CK_PlantTreeBamboo"]/plant/wildBiomes/HSBambooForest</xpath>
 		<!-- If they do, SHUT IT DOWN. -->
 		<match Class="PatchOperationRemove">
 			<xpath>/Defs/ThingDef[defName="CK_PlantTreeBamboo"]/plant/wildBiomes/HSBambooForest</xpath>
@@ -14,7 +14,7 @@
 	
     <Operation Class="PatchOperationConditional">
 	<!-- DO THE GENTILES KNOW? -->
-		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
+		<xpath>/Defs/BiomeDef/wildPlants/CK_PlantTreeBamboo</xpath>
 		<!-- If they do, SHUT IT DOWN. -->
 		<match Class="PatchOperationRemove">
 			<xpath>/Defs/BiomeDef/wildPlants/CK_PlantTreeBamboo</xpath>
@@ -25,10 +25,18 @@
 	
     <Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
-		<!-- If it does, add this. -->
-		<match Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="HSBambooForest"]/wildPlants/CK_PlantTreeBamboo</xpath>
+		<!-- If it DOES NOT, add this. -->
+		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/BiomeDef[defName="HSBambooForest"]/wildPlants</xpath>
+			<success>Always</success>
+			<value>
+				<CK_PlantTreeBamboo>0.9</CK_PlantTreeBamboo>
+			</value>
+		</nomatch>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/BiomeDef[defName="HSBambooForest"]/wildPlants/CK_PlantTreeBamboo</xpath>
 			<success>Always</success>
 			<value>
 				<CK_PlantTreeBamboo>0.9</CK_PlantTreeBamboo>

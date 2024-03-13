@@ -1127,7 +1127,7 @@
     </graphicData>
     <statBases>
       <Beauty>2</Beauty>
-      <Nutrition>1</Nutrition>
+      <Nutrition>2</Nutrition>
 	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
 	<ingestible>
@@ -1143,6 +1143,9 @@
 		<sowResearchPrerequisites>
 			<li>TreeSowing</li>
 		</sowResearchPrerequisites>
+		<wildBiomes>
+			<HSBambooForest Inherit="False">0.9</HSBambooForest>
+		</wildBiomes>
     </plant>
   </ThingDef>
 </Defs>
