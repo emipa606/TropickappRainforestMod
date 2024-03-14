@@ -43,6 +43,9 @@
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
     </ingestible>
+	<thingCategories>
+		<li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
+	</thingCategories>
   </ThingDef>
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawLemongrass</defName>
@@ -88,6 +91,9 @@
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
     </ingestible>
+	<thingCategories>
+		<li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
+	</thingCategories>
   </ThingDef>
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawJitterBerries</defName>
@@ -137,6 +143,10 @@
 		</li> 
       </outcomeDoers>
     </ingestible>
+	<thingCategories>
+		<li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
+		<li>Drugs</li>
+	</thingCategories>
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>30</daysToRotStart>

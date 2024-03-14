@@ -28,7 +28,7 @@
 	
 	<ThingDef ParentName="BaseFilth">
 		<defName>CK_LeatherKomodoDragon</defName>
-		<label>Komodo dragon leather(ERROR)</label>
+		<label>Komodo dragon leather (ERROR)</label>
 		<description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
 		<selectable>true</selectable>
 		<statBases>
