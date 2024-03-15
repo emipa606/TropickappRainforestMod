@@ -183,7 +183,7 @@
       <harvestYield>50</harvestYield>
       <harvestMinGrowth>0.80</harvestMinGrowth>
       <harvestFailable>false</harvestFailable>
-      <blockAdjacentSow>true</blockAdjacentSow>
+	  <blockAdjacentSow>false</blockAdjacentSow>
       <sowTags>
         <li>Ground</li>
       </sowTags>

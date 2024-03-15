@@ -31,7 +31,7 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="VAERoy_RoyalTiger"]</xpath>
+		<xpath>/Defs/ThingDef[defName="VAERoy_RoyalTiger"]/race/useLeatherFrom</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="VAERoy_RoyalTiger"]/race/useLeatherFrom</xpath>
@@ -57,29 +57,43 @@
 		<!-- If the first XPATH does not exist, the original code stands. -->
 	</Operation>
 	
-	<Operation Class="PatchOperationConditional" MayRequire="vanillaexpanded.vaeroy">
+	<!-- Aelanna's Model No-Match Detector and Insertion Code -->
+	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
+	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="AEXP_Tiger"]/race/useMeatFrom</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="AEXP_Tiger"]/race</xpath>
+			<success>Always</success>
+			<value>
+				<useMeatFrom>CK_Tiger</useMeatFrom>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath MayRequire="vanillaexpanded.vaeroy">/Defs/ThingDef[defName="Leather_DongBeiHu"]</xpath>
+		<xpath>/Defs/ThingDef[defName="AEXP_Tiger"]/race/leatherDef</xpath>
 		<!-- If it does, do this replacement. -->
-		<match Class="PatchOperationReplace" MayRequire="vanillaexpanded.vaeroy">
-			<xpath MayRequire="vanillaexpanded.vaeroy">Defs/ThingDef[defName="VAERoy_RoyalTiger"]/race/useLeatherFrom</xpath>
-			<success MayRequire="vanillaexpanded.vaeroy">Always</success>
-			<value MayRequire="vanillaexpanded.vaeroy">
-				<leatherDef>Leather_DongBeiHu</leatherDef>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="AEXP_Tiger"]/race/leatherDef</xpath>
+			<success>Always</success>
+			<value>
+				<useLeatherFrom>CK_Tiger</useLeatherFrom>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
 	</Operation>
 	
-	<Operation Class="PatchOperationConditional" MayRequire="vanillaexpanded.vaeroy">
+	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath MayRequire="vanillaexpanded.vaeroy">/Defs/ThingDef[defName="LaoHu_HuaNan"]</xpath>
+		<xpath>/Defs/ThingDef[defName="AEXP_Tiger"]</xpath>
 		<!-- If it does, do this replacement. -->
-		<match Class="PatchOperationReplace" MayRequire="vanillaexpanded.vaeroy">
-			<xpath MayRequire="vanillaexpanded.vaeroy">Defs/ThingDef[defName="VAERoy_RoyalTiger"]/race/useMeatFrom</xpath>
-			<success MayRequire="vanillaexpanded.vaeroy">Always</success>
-			<value MayRequire="vanillaexpanded.vaeroy">
-				<useMeatFrom>LaoHu_HuaNan</useMeatFrom>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="AEXP_Tiger"]/race/useMeatFrom</xpath>
+			<success>Always</success>
+			<value>
+				<useMeatFrom>CK_Tiger</useMeatFrom>
 			</value>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
@@ -203,7 +217,7 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="AEXP_Giraffe"]/race/useMeatFrom</xpath>
+		<xpath>/Defs/ThingDef[defName="AEXP_Giraffe"]</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="CK_Okapi"]/race/useMeatFrom</xpath>
@@ -322,6 +336,62 @@
 				<useMeatFrom>Monkey</useMeatFrom>
 			</value>
 		</nomatch>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional" MayRequire="vanillaexpanded.vaeroy">
+	<!-- Does this exist? -->
+		<xpath MayRequire="vanillaexpanded.vaeroy">/Defs/ThingDef[defName="Leather_DongBeiHu"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace" MayRequire="vanillaexpanded.vaeroy">
+			<xpath MayRequire="vanillaexpanded.vaeroy">Defs/ThingDef[defName="AEXP_Tiger"]/race/useLeatherFrom</xpath>
+			<success MayRequire="vanillaexpanded.vaeroy">Always</success>
+			<value MayRequire="vanillaexpanded.vaeroy">
+				<leatherDef>Leather_DongBeiHu</leatherDef>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional" MayRequire="vanillaexpanded.vaeroy">
+	<!-- Does this exist? -->
+		<xpath MayRequire="vanillaexpanded.vaeroy">/Defs/ThingDef[defName="Leather_DongBeiHu"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace" MayRequire="vanillaexpanded.vaeroy">
+			<xpath MayRequire="vanillaexpanded.vaeroy">Defs/ThingDef[defName="VAERoy_RoyalTiger"]/race/useLeatherFrom</xpath>
+			<success MayRequire="vanillaexpanded.vaeroy">Always</success>
+			<value MayRequire="vanillaexpanded.vaeroy">
+				<leatherDef>Leather_DongBeiHu</leatherDef>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional" MayRequire="vanillaexpanded.vaeroy">
+	<!-- Does this exist? -->
+		<xpath MayRequire="vanillaexpanded.vaeroy">/Defs/ThingDef[defName="LaoHu_HuaNan"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace" MayRequire="vanillaexpanded.vaeroy">
+			<xpath MayRequire="vanillaexpanded.vaeroy">Defs/ThingDef[defName="VAERoy_RoyalTiger"]/race/useMeatFrom</xpath>
+			<success MayRequire="vanillaexpanded.vaeroy">Always</success>
+			<value MayRequire="vanillaexpanded.vaeroy">
+				<useMeatFrom>LaoHu_HuaNan</useMeatFrom>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="LaoHu_HuaNan"]</xpath>
+		<!-- If it does, do this add. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="LaoHu_HuaNan"]/race</xpath>
+			<success>Always</success>
+			<value>
+				<meatLabel>tiger meat</meatLabel>
+			</value>
+		</match>
 		<!-- If the first XPATH does not exist, the original code stands. -->
 	</Operation>
 </Patch>
