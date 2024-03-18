@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- <ResearchProjectDef>
+    <defName></defName>
+    <label></label>
+    <description></description>
+    <baseCost></baseCost>
+    <techLevel></techLevel>
+  </ResearchProjectDef> -->
+  <!--=============================== Tier 1: pre-electricity ===================================-->
+  <ResearchProjectDef>
+    <defName>CK_Beekeeping</defName>
+    <label>beekeeping</label>
+    <description>Allows colonists to use apiaries in growing zones.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
+	<prerequisites></prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>9</researchViewY>
+  </ResearchProjectDef>
+</Defs>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=========================== Food crops ==============================-->
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
+    <defName>CK_PlantWildRice</defName>
+    <label>wild rice plant</label>
+    <description>A short, fast-growing crop that yields small edible grains. Its great nutritional ouput and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.18</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/RicePlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawRice</harvestedThingDef>
+      <harvestYield>6</harvestYield>
+      <!-- <wildClusterSizeRange>
+        <min>2</min>
+        <max>5</max>
+      </wildClusterSizeRange> -->
+	  <harvestFailable>true</harvestFailable>
+      <wildClusterRadius>4</wildClusterRadius>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>3.5</growDays>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
+    </plant>
+  </ThingDef>
+  <!--=========================== Production crops ==============================-->
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
+    <defName>CK_PlantWildCotton</defName>
+    <label>wild cotton plant</label>
+    <description>Yields cotton, a fine plant fiber used to make cloth.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>1</Beauty>
+      <Nutrition>0.20</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CottonPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
+      <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Cloth</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <!-- <wildClusterSizeRange>
+        <min>1</min>
+        <max>3</max>
+      </wildClusterSizeRange> -->
+      <wildClusterRadius>5</wildClusterRadius>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>2.705</growDays>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+	  <harvestFailable>true</harvestFailable>
+      <!-- A16 -->
+      <!-- <fertilityFactorGrowthRate>0.4</fertilityFactorGrowthRate> -->
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+	  <purpose>Misc</purpose>
+	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
+    </plant>
+  </ThingDef>
+  <!--=========================== Drug crops ==============================-->
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
+    <defName>CK_PlantWildPsychoid</defName>
+    <label>wild psychoid plant</label>
+    <description>A leafy plant. Its leaves can be refined into various forms of the psychoid drug.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>1</Beauty>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/PsychoidPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
+      <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>PsychoidLeaves</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <!-- <wildClusterSizeRange>
+        <min>1</min>
+        <max>3</max>
+      </wildClusterSizeRange> -->
+      <wildClusterRadius>5</wildClusterRadius>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6.84</growDays>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+	  <harvestFailable>true</harvestFailable>
+      <!-- A16 -->
+      <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
+    <defName>CK_PlantWildSmokeleaf</defName>
+    <label>wild smokeleaf plant</label>
+    <description>A leafy plant cultivated for its psychological effects. Smokeleaf leaves can be prepared into joints at the crafting spot.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>1</Beauty>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/SmokeleafPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
+      <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SmokeleafLeaves</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <!-- <wildClusterSizeRange>
+        <min>1</min>
+        <max>3</max>
+      </wildClusterSizeRange> -->
+      <wildClusterRadius>5</wildClusterRadius>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6.84</growDays>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+	  <harvestFailable>true</harvestFailable>
+      <!-- A16 -->
+      <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
+    </plant>
+  </ThingDef>
+</Defs>
