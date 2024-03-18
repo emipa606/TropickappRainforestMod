@@ -135,7 +135,7 @@
       <harvestAfterGrowth>0.20</harvestAfterGrowth>
       <visualSizeRange>0.8~2.8</visualSizeRange>
       <mustBeWildToSow>false</mustBeWildToSow>
-      <sowResearchPrerequisites>
+      <sowResearchPrerequisites Inherit="False">
         <li>TreeSowing</li>
       </sowResearchPrerequisites>
       <sowMinSkill>5</sowMinSkill>
@@ -186,6 +186,7 @@
 	  <blockAdjacentSow>false</blockAdjacentSow>
       <sowTags>
         <li>Ground</li>
+		<li>Hydroponic</li>
       </sowTags>
       <visualSizeRange>0.8~2.6</visualSizeRange>
       <fertilityMin>0.7</fertilityMin>
@@ -256,9 +257,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <pathCost>200</pathCost>
+	<passability>Standable</passability>
     <statBases>
       <MaxHitPoints>1300</MaxHitPoints>
       <Beauty>0</Beauty>
+	  <Cleanliness>-1</Cleanliness>
     </statBases>
     <plant>
       <sowMinSkill>7</sowMinSkill>
@@ -269,8 +272,9 @@
 	  <blockAdjacentSow>false</blockAdjacentSow>
 	  <dieIfLeafless>false</dieIfLeafless>
 	  <forceIsTree>false</forceIsTree>
+	  <blockAdjacentSow>false</blockAdjacentSow>
       <harvestYield>45</harvestYield>
-      <harvestAfterGrowth>0.75</harvestAfterGrowth>
+      <harvestAfterGrowth>0.7</harvestAfterGrowth>
       <harvestMinGrowth>0.99</harvestMinGrowth>
       <harvestFailable>false</harvestFailable>
       <harvestTag>Wood</harvestTag>
@@ -280,7 +284,7 @@
 	  <interferesWithRoof>false</interferesWithRoof>
 	  <topWindExposure>0</topWindExposure>
 	  <growMinGlow>0</growMinGlow>
-	  <growOptimalGlow>0.01</growOptimalGlow>
+	  <growOptimalGlow>0.0001</growOptimalGlow> <!-- Grows anywhere, in any light -->
 	  <immatureGraphicPath>Things/Plant/Apiary/Apiary</immatureGraphicPath>
 	  <leaflessGraphicPath>Things/Plant/Apiary/Apiary</leaflessGraphicPath>
 	  <cavePlant>false</cavePlant>
@@ -295,6 +299,7 @@
       </sowResearchPrerequisites>
 	  <purpose>Food</purpose>
 	  <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+	  <wildBiomes Inherit="False"></wildBiomes>
     </plant>
   </ThingDef>
 </Defs>

@@ -13,6 +13,7 @@
 	<ingestible>
 		<preferability>DesperateOnly</preferability>
 	</ingestible>
+	<passability>Standable</passability>
 	<selectable>true</selectable>
 	<plant>
 		<dieIfLeafless>true</dieIfLeafless>
@@ -39,7 +40,7 @@
 
 				<TemperateForest>0</TemperateForest>
 
-				<TemperateSwamp>0</TemperateSwamp>
+				<TemperateSwamp>0.0001</TemperateSwamp>
 
 				<!-- <TropicalRainforest>0</TropicalRainforest> --> <!-- Covered elsewhere -->
 
@@ -144,7 +145,7 @@
 				<!-- Mlie.NaturesPrettySweet -->
 				<!-- NATURE IS PRETTY SWEET -->
 
-				<TKKN_VolcanicFlow MayRequire="Mlie.NaturesPrettySweet">0</TKKN_VolcanicFlow>
+				<TKKN_VolcanicFlow MayRequire="Mlie.NaturesPrettySweet">0.001</TKKN_VolcanicFlow>
 
 				<TKKN_RedwoodForest MayRequire="Mlie.NaturesPrettySweet">0</TKKN_RedwoodForest>
 
@@ -162,7 +163,7 @@
 				<!-- Heis.Edo.Themed.Expansion -->
 				<!-- HISTORICALLY ACCURATE WEEABOO MOD -->
 
-				<HSBambooForest MayRequire="Heis.Edo.Themed.Expansion">0.25</HSBambooForest>
+				<!-- <HSBambooForest MayRequire="Heis.Edo.Themed.Expansion">0.25</HSBambooForest> --> <!-- Covered elsewhere -->
 
 
 				<!-- _________________ -->
@@ -184,7 +185,7 @@
 
 				<!-- <BiomesIslands_TropicalIsland MayRequire="BiomesTeam.BiomesIslands">0</BiomesIslands_TropicalIsland> --> <!-- Covered elsewhere -->
 
-				<BiomesIslands_TropicalArchipelago MayRequire="BiomesTeam.BiomesIslands">0</BiomesIslands_TropicalArchipelago> <!-- Covered elsewhere -->
+				<!-- <BiomesIslands_TropicalArchipelago MayRequire="BiomesTeam.BiomesIslands">0</BiomesIslands_TropicalArchipelago> --> <!-- Covered elsewhere -->
 
 				<BiomesIslands_TundraIsland MayRequire="BiomesTeam.BiomesIslands">0</BiomesIslands_TundraIsland>
 				
@@ -238,7 +239,7 @@
 				
 				<Mashed_Ashlands_ForestAshlands MayRequire="sirmashedpotato.ashlands">0</Mashed_Ashlands_ForestAshlands>
 				
-				<Mashed_Ashlands_MarshAshlands MayRequire="sirmashedpotato.ashlands">0</Mashed_Ashlands_MarshAshlands>
+				<Mashed_Ashlands_MarshAshlands MayRequire="sirmashedpotato.ashlands">0.001</Mashed_Ashlands_MarshAshlands>
 				
 				<Mashed_Ashlands_MeadowAshlands MayRequire="sirmashedpotato.ashlands">0</Mashed_Ashlands_MeadowAshlands>
 
@@ -294,14 +295,16 @@
 	<blockWind>true</blockWind>
 	<statBases>
 		<MarketValue>1</MarketValue>
-		<Mass>300</Mass>
+		<Mass>430</Mass>
 		<Nutrition>4</Nutrition>
 		<Beauty>5</Beauty>
 	</statBases>
 	<ingestible>
 		<foodType>Tree, Plant</foodType>
+		<preferability>RawTasty</preferability>
 	</ingestible>
 	<selectable>true</selectable>
+	<passability>Standable</passability>
 	<plant>
 		<dieIfLeafless>false</dieIfLeafless>
 		<mustBeWildToSow>false</mustBeWildToSow>
@@ -313,7 +316,7 @@
 		<harvestedThingDef>WoodLog</harvestedThingDef>
 		<harvestTag>Wood</harvestTag>
 		<choppedThingDef>ChoppedStump</choppedThingDef>
-		<smashedThingDef>SmashedStump</smashedThingDef>
+		<smashedThingDef>CK_PlantTreeTreeStump</smashedThingDef>
 		<burnedThingDef>CK_PlantTreeTreeStump</burnedThingDef>
 		<sowTags>
 			<li>Ground</li>
@@ -343,14 +346,13 @@
 		<mustBeWildToSow>false</mustBeWildToSow>
 		<harvestFailable>false</harvestFailable>
 		<lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
-		<wildBiomes Inherit="False"></wildBiomes> <!-- Cannot grow in the wild, as it is cultivated -->
 		<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
 		<sowTags>
 			<li>Ground</li>
 			<li>Hydroponic</li>
 		</sowTags>
 		<sowResearchPrerequisites></sowResearchPrerequisites>
-		<wildBiomes Inherit="False"></wildBiomes>
+		<wildBiomes Inherit="False"></wildBiomes> <!-- Cannot grow in the wild, as it is cultivated -->
 	</plant>
   </ThingDef>
 </Defs>

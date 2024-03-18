@@ -118,7 +118,7 @@
 
 				<AB_MiasmicMangrove MayRequire="sarg.alphabiomes">0.005</AB_MiasmicMangrove>
 
-				<AB_IdyllicMeadows MayRequire="sarg.alphabiomes">0.008</AB_IdyllicMeadows>
+				<AB_IdyllicMeadows MayRequire="sarg.alphabiomes">0.009</AB_IdyllicMeadows>
 
 
 
@@ -196,7 +196,7 @@
 				<!-- Heis.Edo.Themed.Expansion -->
 				<!-- HISTORICALLY ACCURATE WEEABOO MOD -->
 
-				<HSBambooForest MayRequire="Heis.Edo.Themed.Expansion">0.009</HSBambooForest>
+				<!-- <HSBambooForest MayRequire="Heis.Edo.Themed.Expansion">0.009</HSBambooForest> -->
 
 
 				<!-- _________________ -->
@@ -227,7 +227,7 @@
 				
 				<BMT_EarthenDepths MayRequire="BiomesTeam.BiomesCaverns">0.0001</BMT_EarthenDepths>
 				
-				<BMT_FungalForest MayRequire="BiomesTeam.BiomesCaverns">0.001</BMT_FungalForest>
+				<BMT_FungalForest MayRequire="BiomesTeam.BiomesCaverns">0.003</BMT_FungalForest>
 				
 
 
@@ -470,7 +470,7 @@
   <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantFern</defName>
     <label>fern</label>
-    <description>A green plant with long stems, wide, thin leaves, and no flowers. Significantly slows down anyone moving over it.</description>
+    <description>One of the most ancient types of plants, ferns are green plants with long stems, wide, thin leaves, and no flowers. Baring no seeds, they instead send out spores to reproduce.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <Nutrition>1.2</Nutrition>
@@ -488,30 +488,278 @@
       <fertilitySensitivity>0.2</fertilitySensitivity>
       <growDays>4</growDays>
       <!-- <reproduceMtbDays>6</reproduceMtbDays> -->
+	  <sowTags Inherit="False"></sowTags> <!-- Sow the crop version instead -->
       <harvestWork>250</harvestWork>
       <maxMeshCount>9</maxMeshCount>
       <visualSizeRange>0.7~1.6</visualSizeRange>
       <topWindExposure>0.4</topWindExposure>
+	  <wildBiomes Inherit="False">
+				<!-- RimWorld.Core -->
+				<!-- VANILLA RENDITION -->
+
+				<BorealForest>0.1</BorealForest>
+
+				<Tundra>0.01</Tundra>
+
+				<ColdBog>1</ColdBog>
+
+				<IceSheet>0.001</IceSheet>
+
+				<SeaIce>0</SeaIce>
+
+				<TemperateForest>0.9</TemperateForest>
+
+				<TemperateSwamp>1</TemperateSwamp>
+
+				<AridShrubland>0.001</AridShrubland>
+
+				<Desert>0</Desert>
+
+				<ExtremeDesert>0</ExtremeDesert>
+
+
+
+
+
+				<!-- ___________________ -->			
+				<!-- Mod Biomes -->
+				<!-- ___________________ -->
+
+				<!-- sarg.alphabiomes -->
+				<!-- ALPHA BIOMES -->
+
+				<AB_FeraliskInfestedJungle MayRequire="sarg.alphabiomes">5</AB_FeraliskInfestedJungle>
+
+				<AB_GallatrossGraveyard MayRequire="sarg.alphabiomes">0.001</AB_GallatrossGraveyard>
+
+				<AB_GelatinousSuperorganism MayRequire="sarg.alphabiomes">0.001</AB_GelatinousSuperorganism>
+
+				<AB_MechanoidIntrusion MayRequire="sarg.alphabiomes">0.5</AB_MechanoidIntrusion>
+
+				<AB_MycoticJungle MayRequire="sarg.alphabiomes">0.5</AB_MycoticJungle>
+
+				<AB_OcularForest MayRequire="sarg.alphabiomes">0.001</AB_OcularForest>
+
+				<AB_PropaneLakes MayRequire="sarg.alphabiomes">0</AB_PropaneLakes>
+
+				<AB_PyroclasticConflagration MayRequire="sarg.alphabiomes">1</AB_PyroclasticConflagration>
+
+				<AB_RockyCrags MayRequire="sarg.alphabiomes">0.001</AB_RockyCrags>
+
+				<AB_TarPits MayRequire="sarg.alphabiomes">0.5</AB_TarPits>
+
+				<AB_MiasmicMangrove MayRequire="sarg.alphabiomes">5</AB_MiasmicMangrove>
+
+				<AB_IdyllicMeadows MayRequire="sarg.alphabiomes">0.001</AB_IdyllicMeadows>
+
+
+
+				<!-- ___________________ -->
+
+				<!-- BiomesTeam.Oasis -->
+				<!-- CHROMATIC OASIS -->
+
+				<BMT_ChromaticOasis MayRequire="BiomesTeam.Oasis">0.01</BMT_ChromaticOasis>
+
+
+
+				<!-- ___________________ -->
+
+				<!-- Mlie.AdvancedBiomes -->
+				<!-- ADVANCED BIOMES -->
+
+				<PoisonForest MayRequire="Mlie.AdvancedBiomes">1</PoisonForest>
+
+				<Savanna MayRequire="Mlie.AdvancedBiomes">0</Savanna>
+
+				<Volcano MayRequire="Mlie.AdvancedBiomes">0.1</Volcano>
+
+				<Wasteland MayRequire="Mlie.AdvancedBiomes">0.1</Wasteland>
+
+				<Wetland MayRequire="Mlie.AdvancedBiomes">0.5</Wetland>
+
+
+				<!-- ___________________ -->
+
+				<!-- zylle.MoreVanillaBiomes -->
+				<!-- More Vanilla Biomes -->
+
+				<ZBiome_AlpineMeadow MayRequire="zylle.MoreVanillaBiomes">0.05</ZBiome_AlpineMeadow>
+
+				<ZBiome_CloudForest MayRequire="zylle.MoreVanillaBiomes">1</ZBiome_CloudForest>
+
+				<ZBiome_CoastalDunes MayRequire="zylle.MoreVanillaBiomes">0.01</ZBiome_CoastalDunes>
+
+				<ZBiome_DesertOasis MayRequire="zylle.MoreVanillaBiomes">0.4</ZBiome_DesertOasis>
+
+				<ZBiome_Grasslands MayRequire="zylle.MoreVanillaBiomes">0.001</ZBiome_Grasslands>
+
+				<ZBiome_Iceberg_NoBeach MayRequire="zylle.MoreVanillaBiomes">0</ZBiome_Iceberg_NoBeach>
+
+				<ZBiome_Marsh MayRequire="zylle.MoreVanillaBiomes">1</ZBiome_Marsh>
+
+				<ZBiome_Sandbar_NoBeach MayRequire="zylle.MoreVanillaBiomes">0.001</ZBiome_Sandbar_NoBeach>
+				
+				<ZBiome_GlacialShield MayRequire="zylle.MoreVanillaBiomes">0.001</ZBiome_GlacialShield>
+				
+				<ZBiome_Badlands MayRequire="zylle.MoreVanillaBiomes">0</ZBiome_Badlands>
+
+
+				<!-- ___________________ -->
+
+				<!-- Mlie.NaturesPrettySweet -->
+				<!-- NATURE IS PRETTY SWEET -->
+
+				<TKKN_VolcanicFlow MayRequire="Mlie.NaturesPrettySweet">0.01</TKKN_VolcanicFlow>
+
+				<TKKN_RedwoodForest MayRequire="Mlie.NaturesPrettySweet">1</TKKN_RedwoodForest>
+
+				<TKKN_Grasslands MayRequire="Mlie.NaturesPrettySweet">0</TKKN_Grasslands> <!-- PRAIRIE -->
+
+				<TKKN_Savanna MayRequire="Mlie.NaturesPrettySweet">0</TKKN_Savanna>
+
+				<TKKN_Desert MayRequire="Mlie.NaturesPrettySweet">0</TKKN_Desert> <!-- SALT FIELDS -->
+
+				<TKKN_Oasis MayRequire="Mlie.NaturesPrettySweet">0.21</TKKN_Oasis>			
+
+
+
+				<!-- _________________ -->
+
+				<!-- BiomesTeam.BiomesIslands -->
+				<!-- BIOMES ISLANDS -->
+
+				<BiomesIslands_BorealIsland MayRequire="BiomesTeam.BiomesIslands">1</BiomesIslands_BorealIsland>
+
+				<BiomesIslands_DesertIsland MayRequire="BiomesTeam.BiomesIslands">0.0001</BiomesIslands_DesertIsland>
+
+				<BiomesIslands_DesertArchipelago MayRequire="BiomesTeam.BiomesIslands">0.0001</BiomesIslands_DesertArchipelago>
+
+				<BiomesIslands_TemperateIsland MayRequire="BiomesTeam.BiomesIslands">1</BiomesIslands_TemperateIsland>
+
+				<BiomesIslands_TemperateArchipelago MayRequire="BiomesTeam.BiomesIslands">1</BiomesIslands_TemperateArchipelago>
+
+				<BiomesIslands_TundraIsland MayRequire="BiomesTeam.BiomesIslands">0.01</BiomesIslands_TundraIsland>
+				
+				
+				
+				<!-- _________________ -->
+
+				<!-- BiomesTeam.BiomesCaverns -->
+				<!-- BIOMES CAVERNS -->
+				
+				<BMT_CrystalCaverns MayRequire="BiomesTeam.BiomesCaverns">0.0001</BMT_CrystalCaverns>
+				
+				<BMT_EarthenDepths MayRequire="BiomesTeam.BiomesCaverns">0</BMT_EarthenDepths>
+				
+				<BMT_FungalForest MayRequire="BiomesTeam.BiomesCaverns">0.4</BMT_FungalForest>
+				
+
+
+				<!-- ___________________ -->
+
+				<!-- reel.FrozenForest -->
+				<!-- WINTER TAIGA -->
+
+				<WinterTaiga MayRequire="reel.FrozenForest">0.5</WinterTaiga>
+
+
+				<!-- __________________ -->
+
+				<!-- SirMashedPotato.MorrowRim -->
+				<!-- "MORROWIND" MOD -->
+
+				<MorrowRim_Ashlands MayRequire="SirMashedPotato.MorrowRim">0.33</MorrowRim_Ashlands>
+
+				<MorrowRim_BlightedAshlands MayRequire="SirMashedPotato.MorrowRim">0.001</MorrowRim_BlightedAshlands>
+
+				<MorrowRim_AshSwamp MayRequire="SirMashedPotato.MorrowRim.ashswamp">0.5</MorrowRim_AshSwamp>
+
+				<MorrowRim_VolcanicAshlands MayRequire="SirMashedPotato.MorrowRim.volcanicashlands">0.1</MorrowRim_VolcanicAshlands>
+				
+				<Mashed_Ashlands_BlightedBogAshlands MayRequire="sirmashedpotato.ashlands">0.5</Mashed_Ashlands_BlightedBogAshlands>
+				
+				<Mashed_Ashlands_BlightedAshlands MayRequire="sirmashedpotato.ashlands">0</Mashed_Ashlands_BlightedAshlands>
+				
+				<Mashed_Ashlands_Ashlands MayRequire="sirmashedpotato.ashlands">0.33</Mashed_Ashlands_Ashlands>
+				
+				<Mashed_Ashlands_DustplainAshlands MayRequire="sirmashedpotato.ashlands">0</Mashed_Ashlands_DustplainAshlands>
+				
+				<Mashed_Ashlands_GrazelandAshlands MayRequire="sirmashedpotato.ashlands">0</Mashed_Ashlands_GrazelandAshlands>
+				
+				<Mashed_Ashlands_SwampAshlands MayRequire="sirmashedpotato.ashlands">0.81</Mashed_Ashlands_SwampAshlands>
+				
+				<Mashed_Ashlands_ForestAshlands MayRequire="sirmashedpotato.ashlands">0.5</Mashed_Ashlands_ForestAshlands>
+				
+				<Mashed_Ashlands_MarshAshlands MayRequire="sirmashedpotato.ashlands">0.8</Mashed_Ashlands_MarshAshlands>
+				
+				<Mashed_Ashlands_MeadowAshlands MayRequire="sirmashedpotato.ashlands">0.001</Mashed_Ashlands_MeadowAshlands>
+
+
+				<!-- ___________________ -->
+
+				<!-- pphhyy.gulden -->
+				<!-- FOREST OF GOLD -->
+
+				<TemperateGuldenForest MayRequire="pphhyy.gulden">0.1</TemperateGuldenForest>
+
+				<LotRE_MallornForest MayRequire="lordoftherims.elves">0.1</LotRE_MallornForest>
+
+
+				<!-- ___________________ -->
+
+				<!-- deemainiac.securecontainrimworld -->
+				<!-- SCP FOUNDATION -->
+
+				<SCR_SCP610Biome MayRequire="deemainiac.securecontainrimworld">0.5</SCR_SCP610Biome>
+
+
+				<!-- _________________ -->
+
+				<!-- regrowth.botr.volcanicicesheet -->
+				<!-- VOLCANIC ICE SHEET -->
+
+				<RG-VIS_VulcanicIceSheet MayRequire="regrowth.botr.volcanicicesheet">0.001</RG-VIS_VulcanicIceSheet>
+				
+				
+				<!-- _________________ -->
+				
+				<!-- ironscruff.primordialgeysers -->
+				<!-- PRIMORDIAL GEYSERS -->
+				
+
+				<IronScruff_PrimordialGeysers MayRequire="ironscruff.primordialgeysers">0.33</IronScruff_PrimordialGeysers>
+
+
+				<!-- _________________ -->
+				
+				<!-- mlie.rfpermafrost -->
+				<!-- PERMAFROST ZONE -->
+
+				<Permafrost MayRequire="mlie.rfpermafrost">0.11</Permafrost>
+	  </wildBiomes>
     </plant>
   </ThingDef>
   <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
     <defName>CK_PlantRafflesia</defName>
     <label>rafflesia</label>
-    <description>Rafflesia (stinking corpse lily) is a parasitic flowering plant that gives off the smell of rotting flesh. This smell attracts carrion-flies by which it is pollinated. These characteristics make Rafflesia a plant to avoid.</description>
+    <description>Rafflesia (stinking corpse lily) is a parasitic flowering plant that gives off the smell of rotting flesh. It is the largest flower to have ever existed on Old Earth. By imitating a corpse, its smell attracts scavenger carrion-flies, by which it is pollinated. These characteristics make Rafflesia a plant to avoid. Its massive size makes passing it a brutal, putrid trudge through its gargantuan petals.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <Beauty>-20</Beauty>
-      <Nutrition>3</Nutrition>
+      <Beauty>-20</Beauty> <!-- OH GOSH THE SMELL -->
+	  <Cleanliness>-2</Cleanliness>
+      <Nutrition>6</Nutrition>
 	  <Mass>24</Mass>
 	  <Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">1</Mashed_Ashlands_AshResistance>
     </statBases>
 	<pathCost>100</pathCost>
+	<passability>Standable</passability>
     <graphicData>
       <texPath>Things/Plant/CK_Rafflesia</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <selectable>true</selectable>
-    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <hideAtSnowDepth>0.75</hideAtSnowDepth>
 	<ingestible>
 		<foodType>Plant, Seed, Corpse</foodType>
 		<preferability>DesperateOnly</preferability>
@@ -523,6 +771,11 @@
       <fertilityMin>0.4</fertilityMin>
       <visualSizeRange>1.8~2.5</visualSizeRange>
       <topWindExposure>0.3</topWindExposure>
+	  <sowTags Inherit="False">
+		<li>Ground</li>
+		<li>Mashed_Ashlands_Ash</li>
+		<li>Mashed_Ashlands_AshPlanter</li>
+	  </sowTags>
       <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
       <!-- <wildClusterSizeRange>
         <min>1</min>
@@ -554,9 +807,7 @@
       <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
       <harvestTag>Standard</harvestTag>
       <sowWork>400</sowWork>
-      <sowTags>
-        <li>Ground</li>
-      </sowTags>
+		<sowTags Inherit="False"></sowTags> <!-- Sow the crop version instead -->
       <growMinGlow>0.3</growMinGlow>
       <topWindExposure>0.4</topWindExposure>
       <growDays>3.5</growDays>
@@ -588,9 +839,7 @@
       <fertilitySensitivity>0.3</fertilitySensitivity>
       <growDays>2.5</growDays>
       <sowWork>400</sowWork>
-      <sowTags>
-        <li>Ground</li>
-      </sowTags>
+      <sowTags Inherit="False"></sowTags> <!-- Sew the crop version instead -->
       <growMinGlow>0.3</growMinGlow>
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>0.6~1.2</visualSizeRange>
@@ -630,6 +879,7 @@
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>1~1.8</visualSizeRange>
       <topWindExposure>0.4</topWindExposure>
+	  <sowTags Inherit="False"></sowTags> <!-- Sew the crop version instead -->
 	  <!--
       <wildClusterSizeRange>
         <min>2</min>
@@ -648,7 +898,7 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <Beauty>1</Beauty>
+      <Beauty>3</Beauty>
     </statBases>
     <plant>
       <growDays>18</growDays>
@@ -687,6 +937,7 @@
       <blockAdjacentSow>true</blockAdjacentSow>
       <!-- <sowTags> -->
       <!-- </sowTags> -->
+	  <sowTags Inherit="False"></sowTags> <!-- Sow the crop version instead -->
       <visualSizeRange>1.5~3</visualSizeRange>
       <fertilityMin>0.2</fertilityMin>
       <fertilitySensitivity>0.5</fertilitySensitivity>
@@ -847,13 +1098,13 @@
 
 				<AB_PropaneLakes MayRequire="sarg.alphabiomes">0</AB_PropaneLakes>
 
-				<AB_PyroclasticConflagration MayRequire="sarg.alphabiomes">0.04</AB_PyroclasticConflagration>
+				<AB_PyroclasticConflagration MayRequire="sarg.alphabiomes">0.14</AB_PyroclasticConflagration>
 
 				<AB_RockyCrags MayRequire="sarg.alphabiomes">0.01</AB_RockyCrags>
 
 				<AB_TarPits MayRequire="sarg.alphabiomes">0.001</AB_TarPits>
 
-				<AB_MiasmicMangrove MayRequire="sarg.alphabiomes">0.08</AB_MiasmicMangrove>
+				<AB_MiasmicMangrove MayRequire="sarg.alphabiomes">0.01</AB_MiasmicMangrove>
 
 				<AB_IdyllicMeadows MayRequire="sarg.alphabiomes">0</AB_IdyllicMeadows>
 
@@ -873,7 +1124,7 @@
 				<!-- Mlie.AdvancedBiomes -->
 				<!-- ADVANCED BIOMES -->
 
-				<PoisonForest MayRequire="Mlie.AdvancedBiomes">0.4</PoisonForest>
+				<PoisonForest MayRequire="Mlie.AdvancedBiomes">0.24</PoisonForest>
 
 				<Savanna MayRequire="Mlie.AdvancedBiomes">0</Savanna>
 
@@ -907,7 +1158,7 @@
 				
 				<ZBiome_GlacialShield MayRequire="zylle.MoreVanillaBiomes">0.01</ZBiome_GlacialShield>
 				
-				<ZBiome_Badlands MayRequire="zylle.MoreVanillaBiomes">0.051</ZBiome_Badlands>
+				<ZBiome_Badlands MayRequire="zylle.MoreVanillaBiomes">0.151</ZBiome_Badlands>
 
 
 				<!-- ___________________ -->
@@ -933,7 +1184,7 @@
 				<!-- Heis.Edo.Themed.Expansion -->
 				<!-- HISTORICALLY ACCURATE WEEABOO MOD -->
 
-				<HSBambooForest MayRequire="Heis.Edo.Themed.Expansion">0.001</HSBambooForest>
+				<!-- <HSBambooForest MayRequire="Heis.Edo.Themed.Expansion">0.001</HSBambooForest> -->
 
 
 				<!-- _________________ -->
@@ -1098,8 +1349,7 @@
       <harvestFailable>false</harvestFailable>
       <!-- <wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction> -->
       <blockAdjacentSow>true</blockAdjacentSow>
-      <sowTags>
-      </sowTags>
+		<sowTags Inherit="False"></sowTags> <!-- Sow the crop version instead -->
       <visualSizeRange>1~3</visualSizeRange>
       <fertilityMin>0.3</fertilityMin>
       <topWindExposure>0.25</topWindExposure>
@@ -1140,11 +1390,16 @@
 		<harvestYield>9</harvestYield>
 		<visualSizeRange>0.8~3</visualSizeRange>
 		<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+		<blockAdjacentSow>false</blockAdjacentSow>
 		<sowResearchPrerequisites>
 			<li>TreeSowing</li>
 		</sowResearchPrerequisites>
+		<sowTags Inherit="False">
+			<li>Ground</li>
+			<li>Hydroponic</li>
+		</sowTags>
 		<wildBiomes>
-			<HSBambooForest Inherit="False">0.9</HSBambooForest>
+			<!-- <HSBambooForest Inherit="False">0.9</HSBambooForest> -->
 		</wildBiomes>
     </plant>
   </ThingDef>

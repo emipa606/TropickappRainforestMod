@@ -61,4 +61,32 @@
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
 	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="LaoHu_HuaNan"]</xpath>
+		<!-- If it does, do this add. -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="LaoHu_HuaNan"]/race</xpath>
+			<success>Always</success>
+			<value>
+				<meatLabel>tiger meat</meatLabel>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="Leather_DongBeiHu"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Leather_DongBeiHu"]/label</xpath>
+			<success>Always</success>
+			<value>
+				<label>tiger hide</label>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
 </Patch>

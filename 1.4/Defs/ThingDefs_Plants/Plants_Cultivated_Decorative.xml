@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="TSP_CK_TropicalCrop_Base">
     <defName>CK_PlantPottedFern</defName>
-    <label>ornamental tropical fern</label>
+    <label>ornamental fern</label>
     <description>Ornamental fern</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
@@ -21,7 +21,10 @@
       <harvestTag>Standard</harvestTag>
       <sowWork>600</sowWork>
       <sowTags Inherit="False">
+		<li>Ground</li>
         <li>Decorative</li>
+		<li>Mashed_Ashlands_Ash</li>
+		<li>Mashed_Ashlands_AshPlanter</li>
       </sowTags>
       <growMinGlow>0.3</growMinGlow>
       <topWindExposure>0.1</topWindExposure>
@@ -53,8 +56,10 @@
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
       <sowWork>800</sowWork>
-      <sowTags>
+      <sowTags Inherit="False">
         <li>Decorative</li>
+		<li>Mashed_Ashlands_Ash</li>
+		<li>Mashed_Ashlands_AshPlanter</li>
       </sowTags>
       <growMinGlow>0.3</growMinGlow>
       <topWindExposure>0.1</topWindExposure>
@@ -85,8 +90,10 @@
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
       <sowWork>800</sowWork>
-      <sowTags>
+      <sowTags Inherit="False">
         <li>Decorative</li>
+		<li>Mashed_Ashlands_Ash</li>
+		<li>Mashed_Ashlands_AshPlanter</li>
       </sowTags>
       <growMinGlow>0.3</growMinGlow>
       <topWindExposure>0.1</topWindExposure>
