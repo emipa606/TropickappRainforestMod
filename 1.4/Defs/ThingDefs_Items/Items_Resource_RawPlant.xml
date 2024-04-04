@@ -124,7 +124,7 @@
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
-          <offset>0.1</offset>
+          <offset>0.051</offset>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>CK_AteRawJitterBerries</hediffDef>
@@ -297,9 +297,10 @@
       <Mass>0.025</Mass>
       <Nutrition>0.05</Nutrition>
     </statBases>
+	<stackLimit>400</stackLimit>
     <ingestible>
-      <foodType>AnimalProduct</foodType>
-      <preferability>MealFine</preferability>
+      <foodType>CarnivoreAnimal, OmnivoreRoughAnimal, OmnivoreAnimal, VegetarianRoughAnimal, AnimalProduct, Meal, Processed, Fluid, Kibble</foodType>
+      <preferability>RawTasty</preferability>
       <joy>0.05</joy>
       <joyKind>Gluttonous</joyKind>
       <ingestEffect>EatVegetarian</ingestEffect>
@@ -351,6 +352,7 @@
     </ingestible>
     <thingCategories>
       <li>PlantMatter</li>
+	  <li>Drugs</li>
     </thingCategories>
     <comps>
       <li Class="CompProperties_Rottable">

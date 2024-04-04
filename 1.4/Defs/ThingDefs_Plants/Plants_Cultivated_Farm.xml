@@ -274,7 +274,7 @@
 	  <forceIsTree>false</forceIsTree>
 	  <blockAdjacentSow>false</blockAdjacentSow>
       <harvestYield>45</harvestYield>
-      <harvestAfterGrowth>0.7</harvestAfterGrowth>
+      <harvestAfterGrowth>0.37</harvestAfterGrowth>
       <harvestMinGrowth>0.99</harvestMinGrowth>
       <harvestFailable>false</harvestFailable>
       <harvestTag>Wood</harvestTag>
