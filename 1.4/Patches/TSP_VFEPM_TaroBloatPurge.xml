@@ -2,23 +2,179 @@
 
 <Patch>
 	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="VCE_RawTaro"]</xpath>
+		<!-- If it does, LET'S FASTING GOOOOOOOO!! -->
+		<match Class="PatchOperationSequence"> 
+			<operations>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/TraderKindDef/stockGenerators/li[thingDef="VCE_RawTaro"]</xpath>
+				</li>
+				<li Class="PatchOperationInsert">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/ingredients/li/filter/thingDefs/li[text()="VCE_RawTaro"]</xpath>
+					<value>
+						<li>CK_RawTaro</li>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/fixedIngredientFilter/thingDefs/li[text()="VCE_RawTaro"]</xpath>
+					<value>
+						<li>CK_RawTaro</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/ingredients/li/filter/thingDefs/li[text()="VCE_RawTaro"]</xpath>
+					<value>
+						<li>CK_RawTaro</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/fixedIngredientFilter/thingDefs/li[text()="VCE_RawTaro"]</xpath>
+					<value>
+						<li>CK_RawTaro</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/defaultIngredientFilter/thingDefs/li[text()="VCE_RawTaro"]</xpath>
+					<value>
+						<li>CK_RawTaro</li>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/TraderKindDef/stockGenerators/li[thingDef="VCE_RawTaro"]</xpath>
+				</li>
+				<!--
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="VCE_RawTaro"]</xpath>
+				</li>
+				-->
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/ingredients/li/filter/thingDefs/li[text()="VCE_RawTaro"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/fixedIngredientFilter/thingDefs/li[text()="VCE_RawTaro"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/defaultIngredientFilter/thingDefs/li[text()="VCE_RawTaro"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/TraderKindDef/stockGenerators/li[thingDef="VCE_RawTaro"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/fixedIngredientFilter/thingDefs/li[text()="VCE_RawTaro"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/*/li[text()="VCE_RawTaro"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/*/li[text()="VCE_RawTaro"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef//li[text()="VCE_RawTaro"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef//li[text()="VCE_RawTaro"]</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/costList/VCE_RawTaro</xpath>
+					<value>
+						<CK_RawTaro>25</CK_RawTaro>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<success>Always</success>
+					<xpath>/Defs/TerrainDef/costList/VCE_RawTaro</xpath>
+					<value>
+						<CK_RawTaro>15</CK_RawTaro>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef/products/VCE_RawTaro</xpath>
+					<value>
+						<CK_RawTaro>15</CK_RawTaro>
+					</value>
+				</li>
+				
+				<!--
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="VCE_RawTaro"]</xpath>
+				</li>
+				-->
+				
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>/Defs/TraderKindDef/stockGenerators/li[thingDef="VCE_RawTaro"]</xpath>
+				</li>
+			</operations>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<!-- Does this exist? -->
+		<xpath>/Defs/ThingDef[defName="VCE_RawTaro"]</xpath>
+		<!-- If it does, do this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="VCE_RawTaro"]</xpath>
+			<value>
+				<ThingDef ParentName="BaseFilth">
+					<defName>VCE_RawTaro</defName>
+					<label>VCE Taro (ERROR)</label>
+					<description>If you see this in the game, notify TurtleShroom. You are not supposed to see this.</description>
+					<graphicData>
+						<texPath>Things/Items/Raw/VCE_Taro</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<color>(255,255,255)</color>
+					</graphicData>
+					<!--
+					<soundInteract>Metal_Drop</soundInteract>
+					<soundDrop>Metal_Drop</soundDrop>
+					-->
+					<filth>
+						<cleaningSound>Metal_Drop</cleaningSound>
+					</filth>
+					<statBases>
+						<Flammability>0</Flammability>
+						<Beauty>0</Beauty>
+						<Cleanliness>0</Cleanliness>
+					</statBases>
+					<selectable Inherit="False">true</selectable>
+					<tradeability>None</tradeability>
+					<useHitPoints>false</useHitPoints>
+				</ThingDef>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
 	<!-- DO THE GENTILES KNOW? -->
 		<xpath>/Defs/ThingDef[defName="VCE_Taro"]</xpath>
 		<!-- If they do, SHUT IT DOWN. -->
 		<match Class="PatchOperationRemove">
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName="VCE_Taro"]</xpath>
-		</match>
-		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-	<!-- DO THE GENTILES KNOW? -->
-		<xpath>/Defs/ThingDef[defName="VCE_RawTaro"]</xpath>
-		<!-- If they do, SHUT IT DOWN. -->
-		<match Class="PatchOperationRemove">
-			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="VCE_RawTaro"]</xpath>
 		</match>
 		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
 	</Operation>
