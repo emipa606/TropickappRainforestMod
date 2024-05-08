@@ -46,6 +46,8 @@
       <fertilitySensitivity>0.1</fertilitySensitivity>
 	  <harvestAfterGrowth Inherit="False">0.33</harvestAfterGrowth>
 	  <interferesWithRoof>false</interferesWithRoof>
+		<wildClusterRadius>20</wildClusterRadius>
+		<visualSizeRange>2.37~2.4</visualSizeRange>
 	  <sowTags Inherit="False"></sowTags> <!-- Only spawns, cannot be grown, Apiary is grown version -->
       <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>0</fertilityFactorGrowthRate> -->
@@ -53,14 +55,13 @@
         <min>1</min>
         <max>1</max>
       </wildClusterSizeRange> -->
-      <wildClusterRadius>20</wildClusterRadius>
       <!-- <reproduceMtbDays>32.5</reproduceMtbDays> -->
       <!-- A16 -->
       <!-- <seedEmitMTBDays>32.5</seedEmitMTBDays> -->
       <!-- <reproduceRadius>100</reproduceRadius> -->
       <!-- A16 -->
       <!-- <seedShootRadius>100</seedShootRadius> -->
-      <visualSizeRange>2.37~2.4</visualSizeRange>
+
 	  <wildBiomes Inherit="False">
 				<!-- RimWorld.Core -->
 				<!-- VANILLA RENDITION -->

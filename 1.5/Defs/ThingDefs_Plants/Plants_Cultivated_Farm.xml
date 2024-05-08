@@ -269,7 +269,6 @@
       <harvestWork>1000</harvestWork>
       <harvestedThingDef>CK_Honeycomb</harvestedThingDef>
       <mustBeWildToSow>false</mustBeWildToSow>
-	  <blockAdjacentSow>false</blockAdjacentSow>
 	  <dieIfLeafless>false</dieIfLeafless>
 	  <forceIsTree>false</forceIsTree>
 	  <blockAdjacentSow>false</blockAdjacentSow>
