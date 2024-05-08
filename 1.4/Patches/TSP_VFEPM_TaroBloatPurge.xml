@@ -140,11 +140,11 @@
 			<value>
 				<ThingDef ParentName="BaseFilth">
 					<defName>VCE_RawTaro</defName>
-					<label>VCE Taro (ERROR)</label>
-					<description>If you see this in the game, notify TurtleShroom. You are not supposed to see this.</description>
+					<label>VFEMP Taro (ERROR)</label>
+					<description>The Tropical Rainforest Mod overrides the entry for Taro Roots from the Vanilla Factions Expanded More Plants Mod, hiding it. If you see this in the game, notify TurtleShroom. You are not supposed to see this.</description>
 					<graphicData>
 						<texPath>Things/Items/Raw/VCE_Taro</texPath>
-						<graphicClass>Graphic_StackCount</graphicClass>
+						<graphicClass>Graphic_Single</graphicClass>
 						<color>(255,255,255)</color>
 					</graphicData>
 					<!--
