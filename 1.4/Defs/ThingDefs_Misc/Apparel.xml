@@ -3,7 +3,7 @@
   <ThingDef ParentName="HatBase">
     <defName>Apparel_CK_SafariHat</defName>
     <label>pith helmet</label>
-    <description>The pith helmet is a lightweight cloth-covered helmet made of pith material designed to shade the wearer's head and face from the sun. Often worn by European travelers and explorers, in the varying climates found in Old Earth's Africa, Southeast Asia, as well as the tropics of the Rim.</description>
+    <description>The pith helmet is a lightweight cloth-covered helmet made of pith material designed to shade the wearer's head and face from the sun. Often worn by European travelers and explorers, in the varying climates found in Africa, Southeast Asia, as well as the tropics of good ol' Earth</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/SafariHat/SafariHat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -11,24 +11,21 @@
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
       <MarketValue>150</MarketValue>
-      <Mass>0.91</Mass>
-      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <Mass>1.0</Mass>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
-      <Insulation_Heat>2</Insulation_Heat>
+      <Insulation_Heat>9</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-    <costStuffCount>35</costStuffCount>
+    <costStuffCount>25</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
     <equippedStatOffsets>
       <PlantWorkSpeed>0.15</PlantWorkSpeed>
-	  <HuntingStealth>0.4</HuntingStealth>
-	  <ForagedNutritionPerDay>0.1</ForagedNutritionPerDay>
     </equippedStatOffsets>
     <generateCommonality>0.8</generateCommonality>
-	<techLevel>Industrial</techLevel>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -39,21 +36,9 @@
       </layers>
       <tags>
         <li>Outlander</li>
-		<li>IndustrialMilitaryBasic</li>
-		<li>BeetWear</li>
-		<li>JeubWear</li>
-		<li>GoblinWear</li>
-		<li>FrogmanWear</li>
-		<li>SurvivalistWear</li>
-		<li>HarrierWear</li>
-		<li>CaravaneerWear</li>
-		<li>SK_Khan_Apparel_Tag</li>
-		<li>BritishInfantryApparel</li>
-		<li>RWPGentlemanWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-		<li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
   </ThingDef>

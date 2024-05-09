@@ -26,7 +26,7 @@
         <min>2</min>
         <max>5</max>
       </wildClusterSizeRange> -->
-	  <harvestFailable>true</harvestFailable>
+      <harvestFailable>true</harvestFailable>
       <wildClusterRadius>4</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>3.5</growDays>
@@ -34,7 +34,9 @@
       <visualSizeRange>0.3~0.8</visualSizeRange>
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
-	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
+      <sowTags Inherit="False">
+      </sowTags>
+      <!-- Cannot be grown by Pawns, use cultivated version -->
     </plant>
   </ThingDef>
   <!--=========================== Production crops ==============================-->
@@ -68,12 +70,14 @@
       <topWindExposure>0.1</topWindExposure>
       <growDays>2.705</growDays>
       <fertilitySensitivity>0.4</fertilitySensitivity>
-	  <harvestFailable>true</harvestFailable>
+      <harvestFailable>true</harvestFailable>
       <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>0.4</fertilityFactorGrowthRate> -->
       <visualSizeRange>0.3~1.05</visualSizeRange>
-	  <purpose>Misc</purpose>
-	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
+      <purpose>Misc</purpose>
+      <sowTags Inherit="False">
+      </sowTags>
+      <!-- Cannot be grown by Pawns, use cultivated version -->
     </plant>
   </ThingDef>
   <!--=========================== Drug crops ==============================-->
@@ -107,11 +111,13 @@
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>
       <fertilitySensitivity>1.0</fertilitySensitivity>
-	  <harvestFailable>true</harvestFailable>
+      <harvestFailable>true</harvestFailable>
       <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
       <visualSizeRange>0.3~1.0</visualSizeRange>
-	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
+      <sowTags Inherit="False">
+      </sowTags>
+      <!-- Cannot be grown by Pawns, use cultivated version -->
     </plant>
   </ThingDef>
   <ThingDef ParentName="TSP_CK_TropicalPlant_Base">
@@ -144,11 +150,13 @@
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>
       <fertilitySensitivity>1.0</fertilitySensitivity>
-	  <harvestFailable>true</harvestFailable>
+      <harvestFailable>true</harvestFailable>
       <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
       <visualSizeRange>0.3~1.0</visualSizeRange>
-	  <sowTags Inherit="False"></sowTags> <!-- Cannot be grown by Pawns, use cultivated version -->
+      <sowTags Inherit="False">
+      </sowTags>
+      <!-- Cannot be grown by Pawns, use cultivated version -->
     </plant>
   </ThingDef>
 </Defs>

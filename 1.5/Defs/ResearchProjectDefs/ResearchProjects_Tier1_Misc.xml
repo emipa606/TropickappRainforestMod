@@ -17,7 +17,8 @@
     <tags>
       <li>TribalStart</li>
     </tags>
-	<prerequisites></prerequisites>
+    <prerequisites>
+    </prerequisites>
     <researchViewX>0</researchViewX>
     <researchViewY>9</researchViewY>
   </ResearchProjectDef>

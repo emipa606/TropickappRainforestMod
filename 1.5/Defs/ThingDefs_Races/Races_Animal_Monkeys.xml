@@ -56,7 +56,7 @@
       <baseHealthScale>0.45</baseHealthScale>
       <foodType>OmnivoreRoughAnimal, Kibble</foodType>
       <useMeatFrom>Monkey</useMeatFrom>
-	  <useLeatherFrom>Monkey</useLeatherFrom>
+      <useLeatherFrom>Monkey</useLeatherFrom>
       <!-- <leatherLabel>monkey hide</leatherLabel>
 	  	<leatherColor>(124,53,29)</leatherColor>
 	  	<leatherInsulation>0.75</leatherInsulation>
@@ -88,11 +88,12 @@
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-	  <wildBiomes></wildBiomes>
+      <wildBiomes>
+      </wildBiomes>
     </race>
     <tradeTags>
       <li>AnimalUncommon</li>
-	  <li>PiratePet</li>
+      <li>PiratePet</li>
     </tradeTags>
   </ThingDef>
   <PawnKindDef Name="CK_SmallMonkeyKindBase" ParentName="AnimalKindBase" Abstract="True">
@@ -159,7 +160,7 @@
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
       <useMeatFrom>Monkey</useMeatFrom>
-	  <useLeatherFrom>Monkey</useLeatherFrom>
+      <useLeatherFrom>Monkey</useLeatherFrom>
       <!-- <leatherLabel>monkeyhide</leatherLabel>
       <leatherColor>(124,53,29)</leatherColor>
       <leatherInsulation>0.75</leatherInsulation>
@@ -193,7 +194,8 @@
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-	  <wildBiomes></wildBiomes>
+      <wildBiomes>
+      </wildBiomes>
     </race>
     <tradeTags>
       <li>AnimalUncommon</li>

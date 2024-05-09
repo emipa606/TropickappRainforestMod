@@ -1,75 +1,71 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="TuJi"]</xpath>
-		<!-- If it does, do this replacement. -->
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="CK_Junglefowl"]/race/leatherDef</xpath>
-			<success>Always</success>
-			<value>
-				<leatherDef>Leather_Bird</leatherDef>
-			</value>
-		</match>
-		<!-- If the first XPATH does not exist, the original code stands. -->
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="TuJi"]</xpath>
-		<!-- If it does, do this replacement. -->
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="CK_Junglefowl"]/race/useMeatFrom</xpath>
-			<success>Always</success>
-			<value>
-				<useMeatFrom>Chicken</useMeatFrom>
-			</value>
-		</match>
-		<!-- If the first XPATH does not exist, the original code stands. -->
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="TuJi"]/race/leatherDef</xpath>
-		<!-- If it does, do this replacement. -->
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="TuJi"]/race/leatherDef</xpath>
-			<success>Always</success>
-			<value>
-				<leatherDef>Leather_Bird</leatherDef>
-			</value>
-		</match>
-		<!-- If it DOES NOT, add this instead. -->
-		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="TuJi"]/race</xpath>
-			<success>Always</success>
-			<value>
-				<leatherDef>Leather_Bird</leatherDef>
-			</value>
-		</nomatch>
-		<!-- If the first XPATH does not exist, the original code stands. -->
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="TuJi"]/race/useMeatFrom</xpath>
-		<!-- If it does, do this replacement. -->
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="TuJi"]/race/useMeatFrom</xpath>
-			<success>Always</success>
-			<value>
-				<useMeatFrom>Chicken</useMeatFrom>
-			</value>
-		</match>
-		<!-- If it DOES NOT, add this instead. -->
-		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="TuJi"]/race</xpath>
-			<success>Always</success>
-			<value>
-				<useMeatFrom>Chicken</useMeatFrom>
-			</value>
-		</nomatch>
-		<!-- If the first XPATH does not exist, the original code stands. -->
-	</Operation>
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="TuJi"]</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CK_Junglefowl"]/race/leatherDef</xpath>
+      <success>Always</success>
+      <value>
+        <leatherDef>Leather_Bird</leatherDef>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="TuJi"]</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CK_Junglefowl"]/race/useMeatFrom</xpath>
+      <success>Always</success>
+      <value>
+        <useMeatFrom>Chicken</useMeatFrom>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="TuJi"]/race/leatherDef</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="TuJi"]/race/leatherDef</xpath>
+      <success>Always</success>
+      <value>
+        <leatherDef>Leather_Bird</leatherDef>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="TuJi"]/race</xpath>
+      <success>Always</success>
+      <value>
+        <leatherDef>Leather_Bird</leatherDef>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="TuJi"]/race/useMeatFrom</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="TuJi"]/race/useMeatFrom</xpath>
+      <success>Always</success>
+      <value>
+        <useMeatFrom>Chicken</useMeatFrom>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="TuJi"]/race</xpath>
+      <success>Always</success>
+      <value>
+        <useMeatFrom>Chicken</useMeatFrom>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
 </Patch>

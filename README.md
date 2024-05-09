@@ -1,7 +1,6 @@
 # TropickappRainforestMod
 
 ![Image](https://i.imgur.com/buuPQel.png)
-
 Update of KapTaiN_KaVerNs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1110093272
 
@@ -9,14 +8,12 @@ Removed the need for ModCheck and Harmony by using vanilla-patching.
 Initial loading of a new map may take a while due to the large amount of plants that need to spawn.
 
 Added patches for:
-https://steamcommunity.com/workshop/filedetails/?id=2312280343][RF] Archipelagos (Continued)
-https://steamcommunity.com/workshop/filedetails/?id=2038001322]Biomes! Islands
+[https://steamcommunity.com/workshop/filedetails/?id=2312280343][RF]( Archipelagos (Continued))
+[https://steamcommunity.com/workshop/filedetails/?id=2038001322](Biomes! Islands)
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 The purpose of this mod is to add a significant amount of new animals and plants to the Tropical Rainforest and Tropical Swamp Biome and increase their fauna and flora diversity.
 
@@ -66,13 +63,14 @@ ____________________________________
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
-
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib and command Ctrl+F12
+-  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2028973691]Last updated 2023-01-21
+
+[https://steamcommunity.com/sharedfiles/filedetails/changelog/2028973691]![Image]((https://img.shields.io/github/v/release/emipa606/TropickappRainforestMod?label=latest%20version&style=plastic&color=9f1111&labelColor=black))

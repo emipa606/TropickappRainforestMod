@@ -24,11 +24,11 @@
     </stuffCategories>
     <equippedStatOffsets>
       <PlantWorkSpeed>0.15</PlantWorkSpeed>
-	  <HuntingStealth>0.4</HuntingStealth>
-	  <ForagedNutritionPerDay>0.1</ForagedNutritionPerDay>
+      <HuntingStealth>0.4</HuntingStealth>
+      <ForagedNutritionPerDay>0.1</ForagedNutritionPerDay>
     </equippedStatOffsets>
     <generateCommonality>0.8</generateCommonality>
-	<techLevel>Industrial</techLevel>
+    <techLevel>Industrial</techLevel>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -39,21 +39,21 @@
       </layers>
       <tags>
         <li>Outlander</li>
-		<li>IndustrialMilitaryBasic</li>
-		<li>BeetWear</li>
-		<li>JeubWear</li>
-		<li>GoblinWear</li>
-		<li>FrogmanWear</li>
-		<li>SurvivalistWear</li>
-		<li>HarrierWear</li>
-		<li>CaravaneerWear</li>
-		<li>SK_Khan_Apparel_Tag</li>
-		<li>BritishInfantryApparel</li>
-		<li>RWPGentlemanWear</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>BeetWear</li>
+        <li>JeubWear</li>
+        <li>GoblinWear</li>
+        <li>FrogmanWear</li>
+        <li>SurvivalistWear</li>
+        <li>HarrierWear</li>
+        <li>CaravaneerWear</li>
+        <li>SK_Khan_Apparel_Tag</li>
+        <li>BritishInfantryApparel</li>
+        <li>RWPGentlemanWear</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-		<li>Soldier</li>
+        <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
   </ThingDef>

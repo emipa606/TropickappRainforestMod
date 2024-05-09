@@ -38,14 +38,15 @@
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-      <tasteThought></tasteThought>
+      <tasteThought>
+      </tasteThought>
       <foodType>VegetableOrFruit</foodType>
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
     </ingestible>
-	<thingCategories>
-		<li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
-	</thingCategories>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
+    </thingCategories>
   </ThingDef>
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawLemongrass</defName>
@@ -86,14 +87,15 @@
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-      <tasteThought></tasteThought>
+      <tasteThought>
+      </tasteThought>
       <foodType>VegetableOrFruit</foodType>
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
     </ingestible>
-	<thingCategories>
-		<li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
-	</thingCategories>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
+    </thingCategories>
   </ThingDef>
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawJitterBerries</defName>
@@ -117,7 +119,7 @@
       <nurseable>true</nurseable>
       <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
       <baseIngestTicks>120</baseIngestTicks>
-	  <!--
+      <!--
       <joyKind>Chemical</joyKind>
       <joy>0.01</joy>
 	  -->
@@ -135,18 +137,18 @@
           <hediffDef>CK_JitterTolerance</hediffDef>
           <severity>0.04</severity>
         </li>
-		<li Class="IngestionOutcomeDoer_GiveHediff" MayRequire="vanillaexpanded.vbrewe">
-			<hediffDef>VBE_CaffeineTolerance</hediffDef>
-			<severity>0.01</severity>
-			<divideByBodySize>false</divideByBodySize>
-			<multiplyByGeneToleranceFactors>false</multiplyByGeneToleranceFactors>
-		</li> 
+        <li Class="IngestionOutcomeDoer_GiveHediff" MayRequire="vanillaexpanded.vbrewe">
+          <hediffDef>VBE_CaffeineTolerance</hediffDef>
+          <severity>0.01</severity>
+          <divideByBodySize>false</divideByBodySize>
+          <multiplyByGeneToleranceFactors>false</multiplyByGeneToleranceFactors>
+        </li>
       </outcomeDoers>
     </ingestible>
-	<thingCategories>
-		<li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
-		<li>Drugs</li>
-	</thingCategories>
+    <thingCategories>
+      <li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
+      <li>Drugs</li>
+    </thingCategories>
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>30</daysToRotStart>
@@ -160,14 +162,14 @@
         <needLevelOffset>2</needLevelOffset>
         <listOrder>20</listOrder>
       </li>
-		<li Class="CompProperties_Drug" MayRequire="vanillaexpanded.vbrewe">
-			<chemical>VBE_Caffeine</chemical>
-			<addictiveness>0.15</addictiveness>
-			<minToleranceToAddict>0.25</minToleranceToAddict>
-			<existingAddictionSeverityOffset>0.5</existingAddictionSeverityOffset>
-			<needLevelOffset>2</needLevelOffset>
-			<listOrder>21</listOrder>
-		</li>
+      <li Class="CompProperties_Drug" MayRequire="vanillaexpanded.vbrewe">
+        <chemical>VBE_Caffeine</chemical>
+        <addictiveness>0.15</addictiveness>
+        <minToleranceToAddict>0.25</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.5</existingAddictionSeverityOffset>
+        <needLevelOffset>2</needLevelOffset>
+        <listOrder>21</listOrder>
+      </li>
     </comps>
   </ThingDef>
   <HediffDef>
@@ -252,9 +254,9 @@
       </li>
       <li>
         <label>withdrawal</label>
-		<statOffsets>
-			<RestFallRateFactor>2</RestFallRateFactor>
-		</statOffsets>
+        <statOffsets>
+          <RestFallRateFactor>2</RestFallRateFactor>
+        </statOffsets>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -297,7 +299,7 @@
       <Mass>0.025</Mass>
       <Nutrition>0.05</Nutrition>
     </statBases>
-	<stackLimit>400</stackLimit>
+    <stackLimit>400</stackLimit>
     <ingestible>
       <foodType>CarnivoreAnimal, OmnivoreRoughAnimal, OmnivoreAnimal, VegetarianRoughAnimal, AnimalProduct, Meal, Processed, Fluid, Kibble</foodType>
       <preferability>RawTasty</preferability>
@@ -324,7 +326,7 @@
     <socialPropernessMatters>true</socialPropernessMatters>
     <ingestible>
       <foodType>VegetableOrFruit, Liquor, VegetarianRoughAnimal, Seed, OmnivoreHuman, OmnivoreRoughAnimal</foodType>
-	  <preferability>RawBad</preferability>
+      <preferability>RawBad</preferability>
       <ingestSound>RawVegetable_Eat</ingestSound>
       <drugCategory>Social</drugCategory>
       <ingestCommandString>Ingest {0}</ingestCommandString>
@@ -352,7 +354,7 @@
     </ingestible>
     <thingCategories>
       <li>PlantMatter</li>
-	  <li>Drugs</li>
+      <li>Drugs</li>
     </thingCategories>
     <comps>
       <li Class="CompProperties_Rottable">
@@ -375,7 +377,7 @@
     <labelNoun>dream root inebriation</labelNoun>
     <description>The active ingredients of dream roots in the bloodstream.</description>
     <!-- <hediffClass>Hediff_Alcohol</hediffClass> -->
-	<hediffClass>HediffWithComps</hediffClass>
+    <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <isBad>false</isBad>
@@ -389,100 +391,100 @@
         <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
-      <stages>
-        <li>
-          <label>warm</label>
-          <painFactor>0.9</painFactor>
-		  <tale>Drunk</tale>
-		  <statOffsets>
-			<RestFallRateFactor>0.16</RestFallRateFactor>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.17</offset>
-              </li>
-              <li>
-                <capacity>Manipulation</capacity>
-                <offset>-0.02</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.25</minSeverity>
-          <label>tipsy</label>
-          <painFactor>0.8</painFactor>
-		  <statOffsets>
-			<RestFallRateFactor>0.31</RestFallRateFactor>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.13</offset>
-              </li>
-              <li>
-                <capacity>Moving</capacity>
-                <offset>-0.05</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.4</minSeverity>
-          <label>drunk</label>
-          <painFactor>0.5</painFactor>
-		  <statOffsets>
-			<RestFallRateFactor>0.41</RestFallRateFactor>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.07</offset>
-              </li>
-              <li>
-                <capacity>Moving</capacity>
-                <offset>-0.15</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.7</minSeverity>
-          <label>hammered</label>
-          <painFactor>0.3</painFactor>
-          <painOffset>0.05</painOffset>
-		  <statOffsets>
-			<RestFallRateFactor>0.5</RestFallRateFactor>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.05</offset>
-              </li>
-              <li>
-                <capacity>Moving</capacity>
-                <offset>-0.2</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.9</minSeverity>
-          <label>plastered</label>
-          <painFactor>0.1</painFactor>
-		  <socialFightChanceFactor>0.30</socialFightChanceFactor>
-		  <statOffsets>
-			<RestFallRateFactor>0.75</RestFallRateFactor>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.03</offset>
-              </li>
-              <li>
-                <capacity>Moving</capacity>
-                <offset>-0.3</offset>
-              </li>
-            </capMods>
-        </li>
-      </stages>
+    <stages>
+      <li>
+        <label>warm</label>
+        <painFactor>0.9</painFactor>
+        <tale>Drunk</tale>
+        <statOffsets>
+          <RestFallRateFactor>0.16</RestFallRateFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.17</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.02</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <label>tipsy</label>
+        <painFactor>0.8</painFactor>
+        <statOffsets>
+          <RestFallRateFactor>0.31</RestFallRateFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.13</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>drunk</label>
+        <painFactor>0.5</painFactor>
+        <statOffsets>
+          <RestFallRateFactor>0.41</RestFallRateFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.07</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.7</minSeverity>
+        <label>hammered</label>
+        <painFactor>0.3</painFactor>
+        <painOffset>0.05</painOffset>
+        <statOffsets>
+          <RestFallRateFactor>0.5</RestFallRateFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.9</minSeverity>
+        <label>plastered</label>
+        <painFactor>0.1</painFactor>
+        <socialFightChanceFactor>0.30</socialFightChanceFactor>
+        <statOffsets>
+          <RestFallRateFactor>0.75</RestFallRateFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.03</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.3</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
   </HediffDef>
   <ThoughtDef>
     <defName>TSP_CK_DreamVine_Inebriated</defName>
@@ -491,7 +493,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <stages>
-		<!--
+      <!--
       <li>
         <label>buzzed-hidden</label>
         <description>Should not appear.</description>

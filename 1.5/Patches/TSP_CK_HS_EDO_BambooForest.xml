@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/BiomeDef[defName="HSBambooForest"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!--
+			  <li Class="PatchOperationTest">
+				<xpath>/Defs/BiomeDef[defName = "HSBambooForest"]</xpath>
+			  </li>
+			  -->
+        <li Class="PatchOperationReplace">
+          <!-- Changes to Animal Density for Tropical Rainforest -->
+          <xpath>/Defs/BiomeDef[defName = "HSBambooForest"]/animalDensity</xpath>
+          <value>
+            <animalDensity>2.5</animalDensity>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- Changes to Plant Density for TropicalRainforest Biome -->
+          <xpath>/Defs/BiomeDef[defName = "HSBambooForest"]/plantDensity</xpath>
+          <value>
+            <plantDensity>2</plantDensity>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <!-- Adding new plants to TropicalRainforest Biome  -->
+          <xpath>/Defs/BiomeDef[defName = "HSBambooForest"]/wildPlants</xpath>
+          <value>
+            <CK_PlantFern>1</CK_PlantFern>
+            <CK_PlantTreePalm>0.1</CK_PlantTreePalm>
+            <CK_PlantBushPalm>0.1</CK_PlantBushPalm>
+            <CK_PlantTreeBamboo>2</CK_PlantTreeBamboo>
+            <CK_PlantBromeliad>0.14</CK_PlantBromeliad>
+            <CK_PlantWildRice>0.73</CK_PlantWildRice>
+            <CK_PlantWildTaro>0.03</CK_PlantWildTaro>
+            <CK_PlantTreeWildBanana>0.025</CK_PlantTreeWildBanana>
+            <CK_PlantTreeTreeStump>0.0002</CK_PlantTreeTreeStump>
+            <CK_PlantWildLemongrass>0.02</CK_PlantWildLemongrass>
+            <CK_PlantHeliconia>0.1</CK_PlantHeliconia>
+            <CK_PlantWildJitterWeed>0.05</CK_PlantWildJitterWeed>
+            <CK_PlantWildBushDreamVine>0.02</CK_PlantWildBushDreamVine>
+            <CK_SpecialTreeHive>0.008</CK_SpecialTreeHive>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <!-- Adding new Animals to TropicalRainforest Biome -->
+          <xpath>/Defs/BiomeDef[defName = "HSBambooForest"]/wildAnimals</xpath>
+          <value>
+            <CK_Tapir>0.4</CK_Tapir>
+            <CK_Junglefowl>0.01</CK_Junglefowl>
+            <CK_Peafowl>1</CK_Peafowl>
+            <CK_Tiger>0.004</CK_Tiger>
+            <CK_Panda>1</CK_Panda>
+            <CK_WhiteTiger>0.0008</CK_WhiteTiger>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

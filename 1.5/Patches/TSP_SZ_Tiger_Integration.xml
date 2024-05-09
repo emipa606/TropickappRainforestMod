@@ -1,92 +1,86 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Leather_DongBeiHu"]</xpath>
-		<!-- If it does, do this replacement. -->
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="CK_Tiger"]/race/leatherDef</xpath>
-			<success>Always</success>
-			<value>
-				<leatherDef>Leather_DongBeiHu</leatherDef>
-			</value>
-		</match>
-		<!-- If the first XPATH does not exist, the original code stands. -->
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="LaoHu_HuaNan"]</xpath>
-		<!-- If it does, do this replacement. -->
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName = "CK_Tiger" or defName = "CK_WhiteTiger"]/race/useMeatFrom</xpath>
-			<success>Always</success>
-			<value>
-				<useMeatFrom>LaoHu_HuaNan</useMeatFrom>
-			</value>
-		</match>
-		<!-- If the first XPATH does not exist, the original code stands. -->
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="LaoHu_Bai"]/race/leatherDef</xpath>
-		<!-- If it does, do this replacement. -->
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="LaoHu_Bai"]/race/leatherDef</xpath>
-			<success>Always</success>
-			<value>
-				<leatherDef>CK_LeatherWhiteTiger</leatherDef>
-			</value>
-		</match>
-		<!-- If it DOES NOT, add this instead. -->
-		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="LaoHu_Bai"]/race</xpath>
-			<success>Always</success>
-			<value>
-				<leatherDef>CK_LeatherWhiteTiger</leatherDef>
-			</value>
-		</nomatch>
-		<!-- If the first XPATH does not exist, the original code stands. -->
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-	<!-- DO THE GENTILES KNOW? -->
-		<xpath>/Defs/ThingDef[defName="Leather_DongBeiHu"]</xpath>
-		<!-- If they do, SHUT IT DOWN. -->
-		<match Class="PatchOperationRemove">
-			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="CK_LeatherTiger"]</xpath>
-		</match>
-		<!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="LaoHu_HuaNan"]</xpath>
-		<!-- If it does, do this add. -->
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="LaoHu_HuaNan"]/race</xpath>
-			<success>Always</success>
-			<value>
-				<meatLabel>tiger meat</meatLabel>
-			</value>
-		</match>
-		<!-- If the first XPATH does not exist, the original code stands. -->
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Leather_DongBeiHu"]</xpath>
-		<!-- If it does, do this replacement. -->
-		<match Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName="Leather_DongBeiHu"]/label</xpath>
-			<success>Always</success>
-			<value>
-				<label>tiger hide</label>
-			</value>
-		</match>
-		<!-- If the first XPATH does not exist, the original code stands. -->
-	</Operation>
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="Leather_DongBeiHu"]</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CK_Tiger"]/race/leatherDef</xpath>
+      <success>Always</success>
+      <value>
+        <leatherDef>Leather_DongBeiHu</leatherDef>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="LaoHu_HuaNan"]</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName = "CK_Tiger" or defName = "CK_WhiteTiger"]/race/useMeatFrom</xpath>
+      <success>Always</success>
+      <value>
+        <useMeatFrom>LaoHu_HuaNan</useMeatFrom>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="LaoHu_Bai"]/race/leatherDef</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="LaoHu_Bai"]/race/leatherDef</xpath>
+      <success>Always</success>
+      <value>
+        <leatherDef>CK_LeatherWhiteTiger</leatherDef>
+      </value>
+    </match>
+    <!-- If it DOES NOT, add this instead. -->
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="LaoHu_Bai"]/race</xpath>
+      <success>Always</success>
+      <value>
+        <leatherDef>CK_LeatherWhiteTiger</leatherDef>
+      </value>
+    </nomatch>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <!-- DO THE GENTILES KNOW? -->
+    <xpath>/Defs/ThingDef[defName="Leather_DongBeiHu"]</xpath>
+    <!-- If they do, SHUT IT DOWN. -->
+    <match Class="PatchOperationRemove">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="CK_LeatherTiger"]</xpath>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="LaoHu_HuaNan"]</xpath>
+    <!-- If it does, do this add. -->
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="LaoHu_HuaNan"]/race</xpath>
+      <success>Always</success>
+      <value>
+        <meatLabel>tiger meat</meatLabel>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <!-- Does this exist? -->
+    <xpath>/Defs/ThingDef[defName="Leather_DongBeiHu"]</xpath>
+    <!-- If it does, do this replacement. -->
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Leather_DongBeiHu"]/label</xpath>
+      <success>Always</success>
+      <value>
+        <label>tiger hide</label>
+      </value>
+    </match>
+    <!-- If the first XPATH does not exist, the original code stands. -->
+  </Operation>
 </Patch>

@@ -8,7 +8,7 @@
       <texPath>Things/Item/Resource/PlantFoodRaw/TaroRoot</texPath>
     </graphicData>
     <statBases>
-      <MarketValue>0.9</MarketValue>
+      <MarketValue>1.7</MarketValue>
     </statBases>
     <ingestible>
       <foodType>VegetableOrFruit</foodType>
@@ -38,19 +38,17 @@
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-      <tasteThought></tasteThought>
+      <tasteThought>
+      </tasteThought>
       <foodType>VegetableOrFruit</foodType>
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
     </ingestible>
-	<thingCategories>
-		<li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
-	</thingCategories>
   </ThingDef>
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawLemongrass</defName>
     <label>lemongrass</label>
-    <description>Cymbopogon, better known as lemongrass, is a genus of Asian, African, Australian, and tropical island plants in the grass family. Some species (particularly Cymbopogon citratus) are commonly cultivated as culinary and medicinal herbs because of their scent, resembling that of lemons. Lemongrass is widely used as a culinary herb in Oriental cuisines and also as a medicinal herb in India. It has a subtle citrus flavor and can be dried and powdered, or used fresh. It is commonly used in teas, soups, and curries. It is also suitable for use with poultry, fish, beef, and seafood. It is often used as a tea in African regions such as Togo, southeastern Ghana Volta Region and the Congo and Latin American regions such as Mexico.</description>
+    <description>Cymbopogon, better known as lemongrass, is a genus of Asian, African, Australian, and tropical island plants in the grass family.Some species (particularly Cymbopogon citratus) are commonly cultivated as culinary and medicinal herbs because of their scent, resembling that of lemons. Lemongrass is widely used as a culinary herb in Asian cuisines and also as a medicinal herb in India. It has a subtle citrus flavor and can be dried and powdered, or used fresh. It is commonly used in teas, soups, and curries. It is also suitable for use with poultry, fish, beef, and seafood. It is often used as a tea in African countries such as Togo, south eastern Ghana Volta Region and the Democratic Republic of the Congo and Latin American countries such as Mexico.</description>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/Lemongrass</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -86,19 +84,17 @@
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-      <tasteThought></tasteThought>
+      <tasteThought>
+      </tasteThought>
       <foodType>VegetableOrFruit</foodType>
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
     </ingestible>
-	<thingCategories>
-		<li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
-	</thingCategories>
   </ThingDef>
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawJitterBerries</defName>
     <label>jitter berries</label>
-    <description>Give a little boost to movement speed and Rest Need if eaten raw, but it tastes bad.</description>
+    <description>Give a little boost to movement speed and "Rest need" if eaten raw, but taste bad.</description>
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>
     <graphicData>
@@ -110,64 +106,44 @@
     </statBases>
     <socialPropernessMatters>true</socialPropernessMatters>
     <ingestible>
-      <foodType>VegetableOrFruit, Liquor, VegetarianRoughAnimal, Seed, OmnivoreHuman, OmnivoreRoughAnimal</foodType>
+      <foodType>VegetableOrFruit</foodType>
       <drugCategory>Medical</drugCategory>
       <ingestCommandString>Ingest {0}</ingestCommandString>
       <ingestReportString>Ingesting {0}.</ingestReportString>
       <nurseable>true</nurseable>
       <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
       <baseIngestTicks>120</baseIngestTicks>
-	  <!--
       <joyKind>Chemical</joyKind>
       <joy>0.01</joy>
-	  -->
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
-          <offset>0.051</offset>
+          <offset>0.1</offset>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>CK_AteRawJitterBerries</hediffDef>
-          <severity>1</severity>
+          <severity>0.3</severity>
           <toleranceChemical>Jitter</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>CK_JitterTolerance</hediffDef>
-          <severity>0.04</severity>
+          <severity>0.02</severity>
         </li>
-		<li Class="IngestionOutcomeDoer_GiveHediff" MayRequire="vanillaexpanded.vbrewe">
-			<hediffDef>VBE_CaffeineTolerance</hediffDef>
-			<severity>0.01</severity>
-			<divideByBodySize>false</divideByBodySize>
-			<multiplyByGeneToleranceFactors>false</multiplyByGeneToleranceFactors>
-		</li> 
       </outcomeDoers>
     </ingestible>
-	<thingCategories>
-		<li MayRequire="VanillaExpanded.VPlantsE">VCE_Fruit</li>
-		<li>Drugs</li>
-	</thingCategories>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>30</daysToRotStart>
+        <daysToRotStart>14</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
       <li Class="CompProperties_Drug">
         <chemical>Jitter</chemical>
-        <addictiveness>0.08</addictiveness>
-        <minToleranceToAddict>0.13</minToleranceToAddict>
+        <addictiveness>0.008</addictiveness>
+        <minToleranceToAddict>0.3</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.03</existingAddictionSeverityOffset>
-        <needLevelOffset>2</needLevelOffset>
+        <needLevelOffset>1</needLevelOffset>
         <listOrder>20</listOrder>
       </li>
-		<li Class="CompProperties_Drug" MayRequire="vanillaexpanded.vbrewe">
-			<chemical>VBE_Caffeine</chemical>
-			<addictiveness>0.15</addictiveness>
-			<minToleranceToAddict>0.25</minToleranceToAddict>
-			<existingAddictionSeverityOffset>0.5</existingAddictionSeverityOffset>
-			<needLevelOffset>2</needLevelOffset>
-			<listOrder>21</listOrder>
-		</li>
     </comps>
   </ThingDef>
   <HediffDef>
@@ -190,7 +166,7 @@
         <capMods>
           <li>
             <capacity>Moving</capacity>
-            <offset>0.25</offset>
+            <offset>0.05</offset>
           </li>
         </capMods>
       </li>
@@ -204,7 +180,7 @@
     <stages>
       <li>
         <label>speed from jitter</label>
-        <description>Those jitter berries... it tastes like garbage, but man are they strong.</description>
+        <description>Those jitter berries... tastes like s%$#, but man are they strong.</description>
         <baseMoodEffect>2</baseMoodEffect>
       </li>
     </stages>
@@ -252,13 +228,10 @@
       </li>
       <li>
         <label>withdrawal</label>
-		<statOffsets>
-			<RestFallRateFactor>2</RestFallRateFactor>
-		</statOffsets>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <setMax>0.95</setMax>
+            <offset>-0.05</offset>
           </li>
           <li>
             <capacity>Moving</capacity>
@@ -279,7 +252,7 @@
       </li>
       <li>
         <label>Jitter withdrawal</label>
-        <description>I really need jitter... even those disgusting raw berries...</description>
+        <description>I really need jitter... Even those disgusting raw berries</description>
         <baseMoodEffect>-5</baseMoodEffect>
       </li>
     </stages>
@@ -297,10 +270,9 @@
       <Mass>0.025</Mass>
       <Nutrition>0.05</Nutrition>
     </statBases>
-	<stackLimit>400</stackLimit>
     <ingestible>
-      <foodType>CarnivoreAnimal, OmnivoreRoughAnimal, OmnivoreAnimal, VegetarianRoughAnimal, AnimalProduct, Meal, Processed, Fluid, Kibble</foodType>
-      <preferability>RawTasty</preferability>
+      <foodType>AnimalProduct</foodType>
+      <preferability>MealFine</preferability>
       <joy>0.05</joy>
       <joyKind>Gluttonous</joyKind>
       <ingestEffect>EatVegetarian</ingestEffect>
@@ -313,7 +285,7 @@
   <ThingDef ParentName="RoughPlantBase">
     <defName>CK_DreamVineRoot</defName>
     <label>dream root</label>
-    <description>Dream Vine Roots are traditionally used to induce vivid lucid dreams during the initiation process of shamans to help them remember their dreams. It makes its users sleepy and has oddly similar effects to alcohol (although shamans dismiss this as propaganda against their beliefs).</description>
+    <description>Dream Vine Roots are traditionally used to induce vivid lucid dreams during the initiation process of shamans to help them remember their dreams.</description>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/DreamVineRoot</texPath>
     </graphicData>
@@ -322,25 +294,37 @@
       <Nutrition>0.01</Nutrition>
     </statBases>
     <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Drug">
+        <chemical>Alcohol</chemical>
+        <addictiveness>0.003</addictiveness>
+        <minToleranceToAddict>0.5</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.10</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>10</listOrder>
+      </li>
+    </comps>
     <ingestible>
-      <foodType>VegetableOrFruit, Liquor, VegetarianRoughAnimal, Seed, OmnivoreHuman, OmnivoreRoughAnimal</foodType>
-	  <preferability>RawBad</preferability>
+      <foodType>VegetableOrFruit</foodType>
       <ingestSound>RawVegetable_Eat</ingestSound>
       <drugCategory>Social</drugCategory>
       <ingestCommandString>Ingest {0}</ingestCommandString>
       <ingestReportString>Ingesting {0}.</ingestReportString>
-      <maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
+      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
       <baseIngestTicks>120</baseIngestTicks>
-      <joyKind>Gluttonous</joyKind>
-      <joy>0.041</joy>
-      <nurseable>false</nurseable>
+      <joyKind>Chemical</joyKind>
+      <joy>0.1</joy>
+      <nurseable>true</nurseable>
       <outcomeDoers>
-        <li Class="IngestionOutcomeDoer_OffsetNeed">
-          <need>Rest</need>
-          <offset>-0.0251</offset>
-        </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>TSP_CK_DreamRoot_High</hediffDef>
+          <hediffDef>AlcoholHigh</hediffDef>
           <severity>0.1</severity>
           <toleranceChemical>Alcohol</toleranceChemical>
         </li>
@@ -350,179 +334,37 @@
         </li>
       </outcomeDoers>
     </ingestible>
-    <thingCategories>
-      <li>PlantMatter</li>
-	  <li>Drugs</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>30</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
-      <li Class="CompProperties_Drug">
-        <chemical>Alcohol</chemical>
-        <addictiveness>0.08</addictiveness>
-        <minToleranceToAddict>0.3</minToleranceToAddict>
-        <existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
-        <needLevelOffset>1.1</needLevelOffset>
-        <listOrder>10</listOrder>
-      </li>
-    </comps>
   </ThingDef>
-  <HediffDef>
-    <defName>TSP_CK_DreamRoot_High</defName>
-    <label>dream root high</label>
-    <labelNoun>dream root inebriation</labelNoun>
-    <description>The active ingredients of dream roots in the bloodstream.</description>
-    <!-- <hediffClass>Hediff_Alcohol</hediffClass> -->
-	<hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <isBad>false</isBad>
-    <comps>
-      <li Class="HediffCompProperties_Effecter">
-        <stateEffecter>Drunk</stateEffecter>
-        <severityIndices>3~5</severityIndices>
-      </li>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1</severityPerDay>
-        <showHoursToRecover>true</showHoursToRecover>
-      </li>
-    </comps>
-      <stages>
-        <li>
-          <label>warm</label>
-          <painFactor>0.9</painFactor>
-		  <tale>Drunk</tale>
-		  <statOffsets>
-			<RestFallRateFactor>0.16</RestFallRateFactor>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.17</offset>
-              </li>
-              <li>
-                <capacity>Manipulation</capacity>
-                <offset>-0.02</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.25</minSeverity>
-          <label>tipsy</label>
-          <painFactor>0.8</painFactor>
-		  <statOffsets>
-			<RestFallRateFactor>0.31</RestFallRateFactor>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.13</offset>
-              </li>
-              <li>
-                <capacity>Moving</capacity>
-                <offset>-0.05</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.4</minSeverity>
-          <label>drunk</label>
-          <painFactor>0.5</painFactor>
-		  <statOffsets>
-			<RestFallRateFactor>0.41</RestFallRateFactor>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.07</offset>
-              </li>
-              <li>
-                <capacity>Moving</capacity>
-                <offset>-0.15</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.7</minSeverity>
-          <label>hammered</label>
-          <painFactor>0.3</painFactor>
-          <painOffset>0.05</painOffset>
-		  <statOffsets>
-			<RestFallRateFactor>0.5</RestFallRateFactor>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.05</offset>
-              </li>
-              <li>
-                <capacity>Moving</capacity>
-                <offset>-0.2</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.9</minSeverity>
-          <label>plastered</label>
-          <painFactor>0.1</painFactor>
-		  <socialFightChanceFactor>0.30</socialFightChanceFactor>
-		  <statOffsets>
-			<RestFallRateFactor>0.75</RestFallRateFactor>
-		  </statOffsets>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>0.03</offset>
-              </li>
-              <li>
-                <capacity>Moving</capacity>
-                <offset>-0.3</offset>
-              </li>
-            </capMods>
-        </li>
-      </stages>
-  </HediffDef>
   <ThoughtDef>
-    <defName>TSP_CK_DreamVine_Inebriated</defName>
+    <defName>Inebriated</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>TSP_CK_DreamRoot_High</hediff>
-    <validWhileDespawned>true</validWhileDespawned>
-    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <hediff>AlcoholHigh</hediff>
     <stages>
-		<!--
       <li>
         <label>buzzed-hidden</label>
         <description>Should not appear.</description>
         <baseMoodEffect>0</baseMoodEffect>
         <visible>false</visible>
       </li>
-	  -->
       <li>
-        <label>Dreamy (warm)</label>
-        <description>I can't wait to go to sleep tonight!</description>
-        <baseMoodEffect>3</baseMoodEffect>
-      </li>
-      <li>
-        <label>Dreamy (tipsy)</label>
-        <description>I shall remember my dreams!</description>
+        <label>Inebriated (warm)</label>
+        <description>I just feel a bit more relaxed. That's good.</description>
         <baseMoodEffect>8</baseMoodEffect>
       </li>
       <li>
-        <label>Dreamy (drunk)</label>
-        <description>I dreamed about Randy Random last night!</description>
-        <baseMoodEffect>10</baseMoodEffect>
+        <label>Inebriated (tipsy)</label>
+        <description>I'm a bit wobbly! And this is quite enjoyable.</description>
+        <baseMoodEffect>12</baseMoodEffect>
       </li>
       <li>
-        <label>Dreamy (hammered)</label>
-        <description>THE POWER WITHIN. THE POWER WITHIN. THE POWER WITHIN.</description>
-        <baseMoodEffect>14</baseMoodEffect>
+        <label>Inebriated (drunk)</label>
+        <description>I feel so uninhibited and unafraid! This is a great time!</description>
+        <baseMoodEffect>18</baseMoodEffect>
       </li>
       <li>
-        <label>Dreamy (plastered)</label>
-        <description>I CAN SEE EVERYTHING.</description>
-        <baseMoodEffect>28</baseMoodEffect>
+        <label>Inebriated (hammered)</label>
+        <description>Wooo! What is going on?</description>
+        <baseMoodEffect>24</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

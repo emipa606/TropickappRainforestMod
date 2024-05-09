@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Defs>
   <!--========================== Food crops =============================-->
-  <ThingDef ParentName="TSP_CK_TropicalCrop_Base">
+  <ThingDef ParentName="PlantBase">
     <defName>CK_PlantTaro</defName>
     <label>taro plant</label>
-    <description>The root vegetables most commonly known as taro refers to a tropical plant grown primarily for its edible corms. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears". Harvests quickly. A strong, versatile crop.</description>
+    <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears". Harvests quickly. A strong, versatile crop.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Nutrition>0.20</Nutrition>
@@ -16,7 +15,7 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>10</pathCost>
-    <ingestible></ingestible>
+    <ingestible />
     <plant>
       <fertilitySensitivity>0.2</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
@@ -35,7 +34,7 @@
       <purpose>Food</purpose>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="TSP_CK_TropicalCrop_Base">
+  <ThingDef ParentName="PlantBase">
     <defName>CK_PlantJitterWeed</defName>
     <label>jitter weed</label>
     <description>A weedy plant which yields jitter berries.</description>
@@ -50,6 +49,7 @@
     <selectable>true</selectable>
     <pathCost>15</pathCost>
     <plant>
+      <sowMinSkill>4</sowMinSkill>
       <fertilitySensitivity>1</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestWork>400</harvestWork>
@@ -65,16 +65,12 @@
       <growDays>8</growDays>
       <visualSizeRange>0.8~1.8</visualSizeRange>
       <wildOrder>2</wildOrder>
-      <sowResearchPrerequisites>
-        <li>PsychoidBrewing</li>
-      </sowResearchPrerequisites>
-	  <wildBiomes></wildBiomes>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="TSP_CK_TropicalCrop_Base">
+  <ThingDef ParentName="PlantBase">
     <defName>CK_PlantLemongrass</defName>
     <label>lemongrass</label>
-    <description>Cymbopogon, better known as lemongrass, is a genus of Asian, African, Australian, and tropical island plants in the grass family. Some species (particularly Cymbopogon citratus) are commonly cultivated as culinary and medicinal herbs because of their scent, resembling that of lemons. Lemongrass is widely used as a culinary herb in Oriental cuisines and also as a medicinal herb in India. It has a subtle citrus flavor and can be dried and powdered, or used fresh. It is commonly used in teas, soups, and curries. It is also suitable for use with poultry, fish, beef, and seafood. It is often used as a tea in African regions such as Togo, south eastern Ghana Volta Region and the Congo, and Latin American regions such as Mexico.</description>
+    <description>Lemongrass.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Nutrition>0.18</Nutrition>
@@ -105,7 +101,7 @@
       <purpose>Food</purpose>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="TSP_CK_TropicalCrop_Base">
+  <ThingDef ParentName="TreeBase">
     <defName>CK_PlantTreeCoconutPalm</defName>
     <label>coconut palm tree</label>
     <description>The coconut tree is a member of the palm tree family and the only living species of the genus Cocos. The term "coconut" can refer to the whole coconut palm, the seed, or the fruit. The term is derived from the 16th-century Portuguese and Spanish word coco meaning "head" or "skull" after the three indentations on the coconut shell that resemble facial features.
@@ -135,29 +131,26 @@
       <harvestAfterGrowth>0.20</harvestAfterGrowth>
       <visualSizeRange>0.8~2.8</visualSizeRange>
       <mustBeWildToSow>false</mustBeWildToSow>
-      <sowResearchPrerequisites Inherit="False">
-        <li>TreeSowing</li>
+      <sowResearchPrerequisites>
+        <li>CK_TropicalWoodGrowing</li>
       </sowResearchPrerequisites>
       <sowMinSkill>5</sowMinSkill>
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
-	  <wildBiomes>
-	  </wildBiomes>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="TSP_CK_TropicalCrop_Base">
+  <ThingDef ParentName="PlantBase">
     <defName>CK_PlantTreeBanana</defName>
-    <label>banana plant</label>
-    <description>The banana plant is the largest herbaceous flowering plant. It is a herb, not a tree. All the above-ground parts of a banana plant grow from a structure usually called a "corm". Plants are normally tall and fairly sturdy, and are often mistaken for trees, but what appears to be a trunk is actually a "false stem" or pseudostem. Bananas grow in a wide variety of soils, as long as the soil is at least 60 cm deep, has good drainage and is not compacted. Cultivated banana plants vary in height depending on the variety and growing conditions. Most are around 5 m (16 ft) tall, with a range from around 3 m (10 ft) to 7 m (23 ft) or more. Leaves are spirally arranged and they are easily torn by the wind, resulting in the familiar frond look.
+    <label>banana tree</label>
+    <description>The banana plant is the largest herbaceous flowering plant. All the above-ground parts of a banana plant grow from a structure usually called a "corm". Plants are normally tall and fairly sturdy, and are often mistaken for trees, but what appears to be a trunk is actually a "false stem" or pseudostem. Bananas grow in a wide variety of soils, as long as the soil is at least 60 cm deep, has good drainage and is not compacted. Cultivated banana plants vary in height depending on the variety and growing conditions. Most are around 5 m (16 ft) tall, with a range from around 3 m (10 ft) to 7 m (23 ft) or more. Leaves are spirally arranged and they are easily torn by the wind, resulting in the familiar frond look.
 
-      When a banana plant is mature, the corm stops producing new leaves and begins to form a flower spike or inflorescence. The banana fruits develop from the banana heart, in a large hanging cluster, made up of tiers (called "hands"). Individual banana fruits average 125 grams (0.276 lb), of which approximately 75% is water and 25% dry matter. In cultivated varieties, the seeds are diminished nearly to non-existence; their remnants are tiny black specks in the interior of the fruit.
+      When a banana plant is mature, the corm stops producing new leaves and begins to form a flower spike or inflorescence. The banana fruits develop from the banana heart, in a large hanging cluster, made up of tiers (called "hands"). Individual banana fruits (commonly known as a banana or "finger") average 125 grams (0.276 lb), of which approximately 75% is water and 25% dry matter. In cultivated varieties, the seeds are diminished nearly to non-existence; their remnants are tiny black specks in the interior of the fruit.
 
       Bananas are naturally slightly radioactive, more so than most other fruits, because of their potassium content and the small amounts of the isotope potassium-40 found in naturally occurring potassium. The banana equivalent dose of radiation is sometimes used in nuclear communication to compare radiation levels and exposures.</description>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <Nutrition>1.50</Nutrition>
-	  <Mass>0.276</Mass>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/TreeBanana</texPath>
@@ -167,12 +160,12 @@
       </shadowData>
     </graphicData>
     <passability>PassThroughOnly</passability>
-    <blockWind>false</blockWind>
+    <blockWind>true</blockWind>
     <selectable>true</selectable>
     <fillPercent>0.35</fillPercent>
     <pathCost>80</pathCost>
     <ingestible>
-      <preferability>RawTasty</preferability>
+      <preferability>RawBad</preferability>
     </ingestible>
     <plant>
       <growDays>17</growDays>
@@ -183,10 +176,9 @@
       <harvestYield>50</harvestYield>
       <harvestMinGrowth>0.80</harvestMinGrowth>
       <harvestFailable>false</harvestFailable>
-	  <blockAdjacentSow>false</blockAdjacentSow>
+      <blockAdjacentSow>true</blockAdjacentSow>
       <sowTags>
         <li>Ground</li>
-		<li>Hydroponic</li>
       </sowTags>
       <visualSizeRange>0.8~2.6</visualSizeRange>
       <fertilityMin>0.7</fertilityMin>
@@ -194,21 +186,20 @@
       <fertilitySensitivity>0.5</fertilitySensitivity>
       <sowMinSkill>5</sowMinSkill>
       <sowResearchPrerequisites>
-        <li>TreeSowing</li>
+        <li>CK_TropicalWoodGrowing</li>
       </sowResearchPrerequisites>
       <wildClusterRadius>8</wildClusterRadius>
       <wildClusterWeight>24</wildClusterWeight>
       <wildOrder>3</wildOrder>
       <interferesWithRoof>true</interferesWithRoof>
-	  <wildBiomes></wildBiomes>
     </plant>
   </ThingDef>
   <!--====================== Production crops ===========================-->
   <!--========================== Drug crops =============================-->
-  <ThingDef ParentName="TSP_CK_TropicalCrop_Base">
+  <ThingDef ParentName="BushBase">
     <defName>CK_PlantBushDreamVine</defName>
     <label>dream vine</label>
-    <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; side effects include hallucinations, nausea, and vomiting.</description>
+    <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; side effects include hallucinations, nausea, and vomiting</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <Nutrition>0.35</Nutrition>
@@ -241,14 +232,10 @@
       <wildClusterRadius>3</wildClusterRadius>
       <wildClusterWeight>4</wildClusterWeight>
       <topWindExposure>0.2</topWindExposure>
-      <sowResearchPrerequisites>
-        <li>PsychoidBrewing</li>
-      </sowResearchPrerequisites>
-	  <wildBiomes></wildBiomes>
     </plant>
   </ThingDef>
   <!--========================= Special - Apiary ========================-->
-  <ThingDef ParentName="TSP_CK_TropicalCrop_Base">
+  <ThingDef ParentName="TreeBase">
     <defName>CK_SpecialTreeApiary</defName>
     <label>apiary</label>
     <description>A beekeeping structure that will slowly fill with honey.</description>
@@ -257,48 +244,27 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <pathCost>200</pathCost>
-	<passability>Standable</passability>
     <statBases>
-      <MaxHitPoints>1300</MaxHitPoints>
+      <MaxHitPoints>300</MaxHitPoints>
       <Beauty>0</Beauty>
-	  <Cleanliness>-1</Cleanliness>
     </statBases>
     <plant>
       <sowMinSkill>7</sowMinSkill>
-      <growDays>22</growDays>
+      <growDays>25</growDays>
       <harvestWork>1000</harvestWork>
       <harvestedThingDef>CK_Honeycomb</harvestedThingDef>
       <mustBeWildToSow>false</mustBeWildToSow>
-	  <dieIfLeafless>false</dieIfLeafless>
-	  <forceIsTree>false</forceIsTree>
-	  <blockAdjacentSow>false</blockAdjacentSow>
-      <harvestYield>45</harvestYield>
-      <harvestAfterGrowth>0.37</harvestAfterGrowth>
-      <harvestMinGrowth>0.99</harvestMinGrowth>
-      <harvestFailable>false</harvestFailable>
-      <harvestTag>Wood</harvestTag>
-      <fertilityMin>0</fertilityMin>
-      <fertilitySensitivity>0</fertilitySensitivity>
+      <harvestYield>60</harvestYield>
+      <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <harvestMinGrowth>0.80</harvestMinGrowth>
+      <harvestFailable>true</harvestFailable>
+      <harvestTag>Standard</harvestTag>
+      <fertilityMin>0.1</fertilityMin>
+      <fertilitySensitivity>0.2</fertilitySensitivity>
       <visualSizeRange>1.5~1.5</visualSizeRange>
-	  <interferesWithRoof>false</interferesWithRoof>
-	  <topWindExposure>0</topWindExposure>
-	  <growMinGlow>0</growMinGlow>
-	  <growOptimalGlow>0.0001</growOptimalGlow> <!-- Grows anywhere, in any light -->
-	  <immatureGraphicPath>Things/Plant/Apiary/Apiary</immatureGraphicPath>
-	  <leaflessGraphicPath>Things/Plant/Apiary/Apiary</leaflessGraphicPath>
-	  <cavePlant>false</cavePlant>
-	  <sowTags>
-		<li>Ground</li>
-		<li>Decorative</li>
-		<li>Mashed_Ashlands_Ash</li>
-		<li>Mashed_Ashlands_AshPlanter</li>
-	  </sowTags>
       <sowResearchPrerequisites>
         <li>CK_Beekeeping</li>
       </sowResearchPrerequisites>
-	  <purpose>Food</purpose>
-	  <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
-	  <wildBiomes Inherit="False"></wildBiomes>
     </plant>
   </ThingDef>
 </Defs>

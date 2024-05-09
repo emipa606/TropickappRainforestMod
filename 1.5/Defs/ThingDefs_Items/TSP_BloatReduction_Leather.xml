@@ -1,128 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="BaseFilth">
-		<defName>CK_LeatherArcticHare</defName>
-		<label>arctic hare leather (ERROR)</label>
-		<description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
-		<selectable>true</selectable>
-		<statBases>
-			<MarketValue>0</MarketValue>
-			<Beauty>0</Beauty>
-			<Cleanliness>0</Cleanliness>
-		</statBases>
-		<graphicData Inherit="False">
-			<texPath>Things/Item/Resource/Leather/Leather_a</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<color>(250,250,250)</color>
-		</graphicData>
-		<filth>
-			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
-			<disappearsInDays>0.001~0.01</disappearsInDays>
-			<rainWashes>true</rainWashes>
-			<cleaningWorkToReduceThickness>1</cleaningWorkToReduceThickness>
-			<canFilthAttach>false</canFilthAttach>
-			<cleaningSound>Vomit</cleaningSound>
-		</filth>
-	</ThingDef>
-	
-	<ThingDef ParentName="BaseFilth">
-		<defName>CK_LeatherKomodoDragon</defName>
-		<label>Komodo dragon leather (ERROR)</label>
-		<description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
-		<selectable>true</selectable>
-		<statBases>
-			<MarketValue>0</MarketValue>
-			<Beauty>0</Beauty>
-			<Cleanliness>0</Cleanliness>
-		</statBases>
-		<graphicData Inherit="False">
-			<texPath>Things/Item/Resource/Leather/Leather_a</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<color>(100,115,60)</color>
-		</graphicData>
-		<filth>
-			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
-			<disappearsInDays>0.001~0.01</disappearsInDays>
-			<rainWashes>true</rainWashes>
-			<cleaningWorkToReduceThickness>1</cleaningWorkToReduceThickness>
-			<canFilthAttach>false</canFilthAttach>
-			<cleaningSound>Vomit</cleaningSound>
-		</filth>
-	</ThingDef>
-	
-	<ThingDef ParentName="BaseFilth">
-		<defName>CK_LeatherMonkey</defName>
-		<label>monkey hide (ERROR)</label>
-		<description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
-		<selectable>true</selectable>
-		<statBases>
-			<MarketValue>0</MarketValue>
-			<Beauty>0</Beauty>
-			<Cleanliness>0</Cleanliness>
-		</statBases>
-		<graphicData Inherit="False">
-			<texPath>Things/Item/Resource/Leather/Leather_a</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<color>(124,53,29)</color>
-		</graphicData>
-		<filth>
-			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
-			<disappearsInDays>0.001~0.01</disappearsInDays>
-			<rainWashes>true</rainWashes>
-			<cleaningWorkToReduceThickness>1</cleaningWorkToReduceThickness>
-			<canFilthAttach>false</canFilthAttach>
-			<cleaningSound>Vomit</cleaningSound>
-		</filth>
-	</ThingDef>
-	
-	<ThingDef ParentName="BaseFilth">
-		<defName>CK_LeatherPython</defName>
-		<label>python skin (ERROR)</label>
-		<description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
-		<selectable>true</selectable>
-		<statBases>
-			<MarketValue>0</MarketValue>
-			<Beauty>0</Beauty>
-			<Cleanliness>0</Cleanliness>
-		</statBases>
-		<graphicData Inherit="False">
-			<texPath>Things/Item/Resource/Leather/Leather_a</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<color>(51,102,0)</color>
-		</graphicData>
-		<filth>
-			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
-			<disappearsInDays>0.001~0.01</disappearsInDays>
-			<rainWashes>true</rainWashes>
-			<cleaningWorkToReduceThickness>1</cleaningWorkToReduceThickness>
-			<canFilthAttach>false</canFilthAttach>
-			<cleaningSound>Vomit</cleaningSound>
-		</filth>
-	</ThingDef>	
-	
-	<ThingDef ParentName="BaseFilth">
-		<defName>CK_LeatherJaguar</defName>
-		<label>jaguar skin (ERROR)</label>
-		<description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
-		<selectable>true</selectable>
-		<statBases>
-			<MarketValue>0</MarketValue>
-			<Beauty>0</Beauty>
-			<Cleanliness>0</Cleanliness>
-		</statBases>
-		<graphicData Inherit="False">
-			<texPath>Things/Item/Resource/Leather/Leather_a</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<color>(230,150,60)</color>
-		</graphicData>
-		<filth>
-			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
-			<disappearsInDays>0.001~0.01</disappearsInDays>
-			<rainWashes>true</rainWashes>
-			<cleaningWorkToReduceThickness>1</cleaningWorkToReduceThickness>
-			<canFilthAttach>false</canFilthAttach>
-			<cleaningSound>Vomit</cleaningSound>
-		</filth>
-	</ThingDef>
+  <ThingDef ParentName="BaseFilth">
+    <defName>CK_LeatherArcticHare</defName>
+    <label>arctic hare leather (ERROR)</label>
+    <description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
+    <selectable>true</selectable>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Beauty>0</Beauty>
+      <Cleanliness>0</Cleanliness>
+    </statBases>
+    <graphicData Inherit="False">
+      <texPath>Things/Item/Resource/Leather/Leather_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(250,250,250)</color>
+    </graphicData>
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>0.001~0.01</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>1</cleaningWorkToReduceThickness>
+      <canFilthAttach>false</canFilthAttach>
+      <cleaningSound>Vomit</cleaningSound>
+    </filth>
+  </ThingDef>
+  <ThingDef ParentName="BaseFilth">
+    <defName>CK_LeatherKomodoDragon</defName>
+    <label>Komodo dragon leather (ERROR)</label>
+    <description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
+    <selectable>true</selectable>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Beauty>0</Beauty>
+      <Cleanliness>0</Cleanliness>
+    </statBases>
+    <graphicData Inherit="False">
+      <texPath>Things/Item/Resource/Leather/Leather_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(100,115,60)</color>
+    </graphicData>
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>0.001~0.01</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>1</cleaningWorkToReduceThickness>
+      <canFilthAttach>false</canFilthAttach>
+      <cleaningSound>Vomit</cleaningSound>
+    </filth>
+  </ThingDef>
+  <ThingDef ParentName="BaseFilth">
+    <defName>CK_LeatherMonkey</defName>
+    <label>monkey hide (ERROR)</label>
+    <description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
+    <selectable>true</selectable>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Beauty>0</Beauty>
+      <Cleanliness>0</Cleanliness>
+    </statBases>
+    <graphicData Inherit="False">
+      <texPath>Things/Item/Resource/Leather/Leather_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(124,53,29)</color>
+    </graphicData>
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>0.001~0.01</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>1</cleaningWorkToReduceThickness>
+      <canFilthAttach>false</canFilthAttach>
+      <cleaningSound>Vomit</cleaningSound>
+    </filth>
+  </ThingDef>
+  <ThingDef ParentName="BaseFilth">
+    <defName>CK_LeatherPython</defName>
+    <label>python skin (ERROR)</label>
+    <description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
+    <selectable>true</selectable>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Beauty>0</Beauty>
+      <Cleanliness>0</Cleanliness>
+    </statBases>
+    <graphicData Inherit="False">
+      <texPath>Things/Item/Resource/Leather/Leather_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(51,102,0)</color>
+    </graphicData>
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>0.001~0.01</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>1</cleaningWorkToReduceThickness>
+      <canFilthAttach>false</canFilthAttach>
+      <cleaningSound>Vomit</cleaningSound>
+    </filth>
+  </ThingDef>
+  <ThingDef ParentName="BaseFilth">
+    <defName>CK_LeatherJaguar</defName>
+    <label>jaguar skin (ERROR)</label>
+    <description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</description>
+    <selectable>true</selectable>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Beauty>0</Beauty>
+      <Cleanliness>0</Cleanliness>
+    </statBases>
+    <graphicData Inherit="False">
+      <texPath>Things/Item/Resource/Leather/Leather_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(230,150,60)</color>
+    </graphicData>
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>0.001~0.01</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>1</cleaningWorkToReduceThickness>
+      <canFilthAttach>false</canFilthAttach>
+      <cleaningSound>Vomit</cleaningSound>
+    </filth>
+  </ThingDef>
 </Defs>

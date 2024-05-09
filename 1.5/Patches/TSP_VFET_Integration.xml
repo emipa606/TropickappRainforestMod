@@ -1,27 +1,25 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Shamelessly taken from Sirmashedforbrains' Mods -->
-
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Factions Expanded - Tribals</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[@Name="TSP_CK_TropicalCrop_Base"]/plant/sowResearchPrerequisites</xpath>
-					<value>
-						<li>VFET_Agriculture</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="CK_SpecialTreeApiary"]/plant/sowResearchPrerequisites</xpath>
-					<value>
-						<li>VFET_Agriculture</li>
-					</value>
-				</li>
-			</operations>
-		</match>
-	</Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Tribals</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[@Name="TSP_CK_TropicalCrop_Base"]/plant/sowResearchPrerequisites</xpath>
+          <value>
+            <li>VFET_Agriculture</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="CK_SpecialTreeApiary"]/plant/sowResearchPrerequisites</xpath>
+          <value>
+            <li>VFET_Agriculture</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
 </Patch>

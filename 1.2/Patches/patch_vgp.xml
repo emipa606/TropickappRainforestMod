@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Bamboo"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = "CK_PlantTreeBamboo"]/plant</xpath>
+          <value>
+            <harvestedThingDef>Bamboo</harvestedThingDef>
+            <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName = "CK_PlantTreeBamboo"]/plant/harvestYield</xpath>
+          <value>
+            <harvestYield>25</harvestYield>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
