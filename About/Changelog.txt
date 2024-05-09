@@ -1,5 +1,8 @@
 # Changelog for TropickappRainforestMod
 
+1.5.1 - Fixed old preview image
+
+
 1.5.0 - Updated for 1.5, rework by Turtleshroom
 
 
