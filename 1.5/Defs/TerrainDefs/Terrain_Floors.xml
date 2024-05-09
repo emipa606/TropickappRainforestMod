@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ================= Misc ================= -->
+  <TerrainDef ParentName="FloorBase">
+    <defName>CK_TrampledEarthWithLine</defName>
+    <label>trampled vegetation</label>
+    <renderPrecedence>233</renderPrecedence>
+    <description>Cut plants trampled and stomped in order to keep vegetation from regrowing - Can only be designated over fertile soil (needs plants).</description>
+    <texturePath>Terrain/Surfaces/TrampledEarthLineFloor</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-1.5</Cleanliness>
+      <WorkToBuild>300</WorkToBuild>
+    </statBases>
+    <affordances>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>0</fertility>
+    <terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+    <takeFootprints>True</takeFootprints>
+  </TerrainDef>
+  <TerrainDef ParentName="FloorBase">
+    <defName>CK_PackedDirt</defName>
+    <label>packed dirt</label>
+    <texturePath>Terrain/Surfaces/PackedDirt</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>360</renderPrecedence>
+    <description>Roughly packed dirt, good for roads and outdoor walkways. Can only be designated over diggable soil.</description>
+    <pathCost>1</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>700</WorkToBuild>
+    </statBases>
+    <affordances>
+      <li>Diggable</li>
+    </affordances>
+    <scatterType>Rocky</scatterType>
+    <terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+    <fertility>0.0</fertility>
+    <takeFootprints>True</takeFootprints>
+  </TerrainDef>
+</Defs>

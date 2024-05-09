@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Per Mlie's word and honor, "don't break compatibility with existing saved games" extends so far as "don't create errors in saved games". While I think this is overkill, I respect Mlie's integrity and have incorporated these back into the Mod. -->
+
+	<!--
+		MEATS MERGED: 
+		Meat_CK_Panda
+		Meat_CK_WhiteTiger
+		Meat_CK_SnowLeopard
+		Meat_CK_Jaguar
+		Meat_CK_ArcticHare
+		Meat_CK_Tapir
+		Meat_CK_Okapi
+		Meat_CK_Python
+	-->
+
+<Defs>
+	<ThingDef ParentName="BaseFilth">
+		<defName>Meat_CK_Panda</defName>
+		<label>stupid panda meat bloat (ERROR)</label>
+		<category>Filth</category>
+		<description>If this is ever encountered in the game as an item, you have encountered an error in the TKAPP Tropical Rainforest Mod. Please inform Mlie's Github repository's Issues, because it is not meant to be seen.</description>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/MeatFoodRaw/MeatBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<selectable>true</selectable>
+		<stackLimit>100</stackLimit>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<tradeability>None</tradeability>
+		<pathCost>0</pathCost>
+		<ingestible>
+			<foodType>CarnivoreAnimalStrict, CarnivoreAnimal, Meat, Kibble</foodType>
+			<preferability>MealLavish</preferability>
+		</ingestible>
+		<filth Inherit="False">
+			<cleaningSound Inherit="False">Metal_Drop</cleaningSound>
+		</filth>
+		<thingCategories Inherit="False"></thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseFilth">
+		<defName>Meat_CK_WhiteTiger</defName>
+		<label>stupid white tiger meat bloat (ERROR)</label>
+		<category>Filth</category>
+		<description>If this is ever encountered in the game as an item, you have encountered an error in the TKAPP Tropical Rainforest Mod. Please inform Mlie's Github repository's Issues, because it is not meant to be seen.</description>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/MeatFoodRaw/MeatBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<selectable>true</selectable>
+		<stackLimit>100</stackLimit>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<tradeability>None</tradeability>
+		<pathCost>0</pathCost>
+		<ingestible>
+			<foodType>CarnivoreAnimalStrict, CarnivoreAnimal, Meat, Kibble</foodType>
+			<preferability>MealLavish</preferability>
+		</ingestible>
+		<filth Inherit="False">
+			<cleaningSound Inherit="False">Metal_Drop</cleaningSound>
+		</filth>
+		<thingCategories Inherit="False"></thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseFilth">
+		<defName>Meat_CK_SnowLeopard</defName>
+		<label>stupid snow leopard meat bloat (ERROR)</label>
+		<category>Filth</category>
+		<description>If this is ever encountered in the game as an item, you have encountered an error in the TKAPP Tropical Rainforest Mod. Please inform Mlie's Github repository's Issues, because it is not meant to be seen.</description>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/MeatFoodRaw/MeatBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<selectable>true</selectable>
+		<stackLimit>100</stackLimit>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<tradeability>None</tradeability>
+		<pathCost>0</pathCost>
+		<ingestible>
+			<foodType>CarnivoreAnimalStrict, CarnivoreAnimal, Meat, Kibble</foodType>
+			<preferability>MealLavish</preferability>
+		</ingestible>
+		<filth Inherit="False">
+			<cleaningSound Inherit="False">Metal_Drop</cleaningSound>
+		</filth>
+		<thingCategories Inherit="False"></thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseFilth">
+		<defName>Meat_CK_Jaguar</defName>
+		<label>stupid jaguar meat bloat (ERROR)</label>
+		<category>Filth</category>
+		<description>If this is ever encountered in the game as an item, you have encountered an error in the TKAPP Tropical Rainforest Mod. Please inform Mlie's Github repository's Issues, because it is not meant to be seen.</description>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/MeatFoodRaw/MeatBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<selectable>true</selectable>
+		<stackLimit>100</stackLimit>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<tradeability>None</tradeability>
+		<pathCost>0</pathCost>
+		<ingestible>
+			<foodType>CarnivoreAnimalStrict, CarnivoreAnimal, Meat, Kibble</foodType>
+			<preferability>MealLavish</preferability>
+		</ingestible>
+		<filth Inherit="False">
+			<cleaningSound Inherit="False">Metal_Drop</cleaningSound>
+		</filth>
+		<thingCategories Inherit="False"></thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseFilth">
+		<defName>Meat_CK_ArcticHare</defName>
+		<label>stupid arctic hare meat bloat (ERROR)</label>
+		<category>Filth</category>
+		<description>If this is ever encountered in the game as an item, you have encountered an error in the TKAPP Tropical Rainforest Mod. Please inform Mlie's Github repository's Issues, because it is not meant to be seen.</description>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/MeatFoodRaw/MeatBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<selectable>true</selectable>
+		<stackLimit>100</stackLimit>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<tradeability>None</tradeability>
+		<pathCost>0</pathCost>
+		<ingestible>
+			<foodType>CarnivoreAnimalStrict, CarnivoreAnimal, Meat, Kibble</foodType>
+			<preferability>MealLavish</preferability>
+		</ingestible>
+		<filth Inherit="False">
+			<cleaningSound Inherit="False">Metal_Drop</cleaningSound>
+		</filth>
+		<thingCategories Inherit="False"></thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseFilth">
+		<defName>Meat_CK_Tapir</defName>
+		<label>stupid tapir meat bloat (ERROR)</label>
+		<category>Filth</category>
+		<description>If this is ever encountered in the game as an item, you have encountered an error in the TKAPP Tropical Rainforest Mod. Please inform Mlie's Github repository's Issues, because it is not meant to be seen.</description>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/MeatFoodRaw/MeatBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<selectable>true</selectable>
+		<stackLimit>100</stackLimit>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<tradeability>None</tradeability>
+		<pathCost>0</pathCost>
+		<ingestible>
+			<foodType>CarnivoreAnimalStrict, CarnivoreAnimal, Meat, Kibble</foodType>
+			<preferability>MealLavish</preferability>
+		</ingestible>
+		<filth Inherit="False">
+			<cleaningSound Inherit="False">Metal_Drop</cleaningSound>
+		</filth>
+		<thingCategories Inherit="False"></thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseFilth">
+		<defName>Meat_CK_Okapi</defName>
+		<label>stupid tapir meat bloat (ERROR)</label>
+		<category>Filth</category>
+		<description>If this is ever encountered in the game as an item, you have encountered an error in the TKAPP Tropical Rainforest Mod. Please inform Mlie's Github repository's Issues, because it is not meant to be seen.</description>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/MeatFoodRaw/MeatBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<selectable>true</selectable>
+		<stackLimit>100</stackLimit>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<tradeability>None</tradeability>
+		<pathCost>0</pathCost>
+		<ingestible>
+			<foodType>CarnivoreAnimalStrict, CarnivoreAnimal, Meat, Kibble</foodType>
+			<preferability>MealLavish</preferability>
+		</ingestible>
+		<filth Inherit="False">
+			<cleaningSound Inherit="False">Metal_Drop</cleaningSound>
+		</filth>
+		<thingCategories Inherit="False"></thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseFilth">
+		<defName>Meat_CK_Python</defName>
+		<label>stupid tapir meat bloat (ERROR)</label>
+		<category>Filth</category>
+		<description>If this is ever encountered in the game as an item, you have encountered an error in the TKAPP Tropical Rainforest Mod. Please inform Mlie's Github repository's Issues, because it is not meant to be seen.</description>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/MeatFoodRaw/MeatBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<selectable>true</selectable>
+		<stackLimit>100</stackLimit>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<tradeability>None</tradeability>
+		<pathCost>0</pathCost>
+		<ingestible>
+			<foodType>CarnivoreAnimalStrict, CarnivoreAnimal, Meat, Kibble</foodType>
+			<preferability>MealLavish</preferability>
+		</ingestible>
+		<filth Inherit="False">
+			<cleaningSound Inherit="False">Metal_Drop</cleaningSound>
+		</filth>
+		<thingCategories Inherit="False"></thingCategories>
+	</ThingDef>
+</Defs>
