@@ -43,8 +43,13 @@ Removed the need for ModCheck and Harmony by using vanilla-patching.
 Initial loading of a new map may take a while due to the large amount of plants that need to spawn.
 
 Added patches for:
-[url=https://steamcommunity.com/workshop/filedetails/?id=2312280343][RF] Archipelagos (Continued)[/url]
-[url=https://steamcommunity.com/workshop/filedetails/?id=2038001322]Biomes! Islands[/url]
+[list]
+[*] [url=https://steamcommunity.com/workshop/filedetails/?id=2312280343][RF] Archipelagos (Continued)[/url]
+[*] [url=https://steamcommunity.com/workshop/filedetails/?id=2038001322]Biomes! Islands[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948]Vanilla Factions Animals Expanded[/url] 
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2858079457]Vanilla Factions Animals Expanded (Royal)[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2690125435]Feles of the Rim[/url]
+[/list]
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
@@ -113,5 +118,5 @@ ____________________________________
 [/list]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2028973691][img]https://img.shields.io/github/v/release/emipa606/TropickappRainforestMod?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.2</modVersion>
 </ModMetaData>

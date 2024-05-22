@@ -950,6 +950,8 @@
         <!-- PERMAFROST ZONE -->
         <Permafrost MayRequire="mlie.rfpermafrost">0.05</Permafrost>
       </wildBiomes>
+      <burnedThingDef Inherit="False" />
+      <smashedThingDef Inherit="False" />
     </plant>
     <thingCategories>
       <li>Stumps</li>

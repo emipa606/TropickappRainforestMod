@@ -1,4 +1,4 @@
-# TropickappRainforestMod
+# [Tropi[CKAPP] Rainforest Mod (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2028973691)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 Update of KapTaiN_KaVerNs mod
@@ -8,8 +8,15 @@ Removed the need for ModCheck and Harmony by using vanilla-patching.
 Initial loading of a new map may take a while due to the large amount of plants that need to spawn.
 
 Added patches for:
-[https://steamcommunity.com/workshop/filedetails/?id=2312280343][RF]( Archipelagos (Continued))
-[https://steamcommunity.com/workshop/filedetails/?id=2038001322](Biomes! Islands)
+
+
+-  [https://steamcommunity.com/workshop/filedetails/?id=2312280343][RF]( Archipelagos (Continued))
+-  [https://steamcommunity.com/workshop/filedetails/?id=2038001322](Biomes! Islands)
+-  [https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948](Vanilla Factions Animals Expanded) 
+-  [https://steamcommunity.com/sharedfiles/filedetails/?id=2858079457](Vanilla Factions Animals Expanded (Royal))
+-  [https://steamcommunity.com/sharedfiles/filedetails/?id=2690125435](Feles of the Rim)
+
+
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 	

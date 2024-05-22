@@ -1,5 +1,8 @@
 # Changelog for TropickappRainforestMod
 
+1.5.2 - Fixed research position and tree-remains reference loop
+
+
 1.5.1 - Fixed old preview image
 
 
