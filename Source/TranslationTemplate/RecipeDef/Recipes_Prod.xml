@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make neutroamine -->
+  <CK_MakeNeutroamine.label>make neutroamine</CK_MakeNeutroamine.label>
+  <!-- EN: Make neutroamine from dream vine roots. -->
+  <CK_MakeNeutroamine.description>Make neutroamine from dream vine roots.</CK_MakeNeutroamine.description>
+  <!-- EN: Making neutroamine. -->
+  <CK_MakeNeutroamine.jobString>Making neutroamine.</CK_MakeNeutroamine.jobString>
+</LanguageData>

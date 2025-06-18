@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: junglefowl -->
+  <CK_Junglefowl.label>junglefowl</CK_Junglefowl.label>
+  <!-- EN: jungle hen -->
+  <CK_Junglefowl.labelFemale>jungle hen</CK_Junglefowl.labelFemale>
+  <!-- EN: jungle cockeral -->
+  <CK_Junglefowl.labelMale>jungle cockeral</CK_Junglefowl.labelMale>
+  <!-- EN: junglefowl -->
+  <CK_Junglefowl.labelPlural>junglefowl</CK_Junglefowl.labelPlural>
+  <!-- EN: jungle chick -->
+  <CK_Junglefowl.lifeStages.jungle_chick.label>jungle chick</CK_Junglefowl.lifeStages.jungle_chick.label>
+  <!-- EN: peafowl -->
+  <CK_Peafowl.label>peafowl</CK_Peafowl.label>
+  <!-- EN: peahen -->
+  <CK_Peafowl.labelFemale>peahen</CK_Peafowl.labelFemale>
+  <!-- EN: peacock -->
+  <CK_Peafowl.labelMale>peacock</CK_Peafowl.labelMale>
+  <!-- EN: peafowl -->
+  <CK_Peafowl.labelPlural>peafowl</CK_Peafowl.labelPlural>
+  <!-- EN: peachick -->
+  <CK_Peafowl.lifeStages.peachick.label>peachick</CK_Peafowl.lifeStages.peachick.label>
+</LanguageData>

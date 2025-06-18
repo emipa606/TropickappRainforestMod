@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: speed from jitter -->
+  <CK_AteRawJitterBerries.stages.speed_from_jitter.label>speed from jitter</CK_AteRawJitterBerries.stages.speed_from_jitter.label>
+  <!-- EN: Those jitter berries... it tastes like garbage, but man are they strong. -->
+  <CK_AteRawJitterBerries.stages.speed_from_jitter.description>Those jitter berries... it tastes like garbage, but man are they strong.</CK_AteRawJitterBerries.stages.speed_from_jitter.description>
+  <!-- EN: Jitter withdrawal -->
+  <CK_JitterWithdrawal.stages.Jitter_withdrawal.label>Jitter withdrawal</CK_JitterWithdrawal.stages.Jitter_withdrawal.label>
+  <!-- EN: I really need jitter... even those disgusting raw berries... -->
+  <CK_JitterWithdrawal.stages.Jitter_withdrawal.description>I really need jitter... even those disgusting raw berries...</CK_JitterWithdrawal.stages.Jitter_withdrawal.description>
+  <!-- EN: Dreamy (warm) -->
+  <TSP_CK_DreamVine_Inebriated.stages.Dreamy_warm.label>Dreamy (warm)</TSP_CK_DreamVine_Inebriated.stages.Dreamy_warm.label>
+  <!-- EN: I can't wait to go to sleep tonight! -->
+  <TSP_CK_DreamVine_Inebriated.stages.Dreamy_warm.description>I can't wait to go to sleep tonight!</TSP_CK_DreamVine_Inebriated.stages.Dreamy_warm.description>
+  <!-- EN: Dreamy (tipsy) -->
+  <TSP_CK_DreamVine_Inebriated.stages.Dreamy_tipsy.label>Dreamy (tipsy)</TSP_CK_DreamVine_Inebriated.stages.Dreamy_tipsy.label>
+  <!-- EN: I shall remember my dreams! -->
+  <TSP_CK_DreamVine_Inebriated.stages.Dreamy_tipsy.description>I shall remember my dreams!</TSP_CK_DreamVine_Inebriated.stages.Dreamy_tipsy.description>
+  <!-- EN: Dreamy (drunk) -->
+  <TSP_CK_DreamVine_Inebriated.stages.Dreamy_drunk.label>Dreamy (drunk)</TSP_CK_DreamVine_Inebriated.stages.Dreamy_drunk.label>
+  <!-- EN: I dreamed about Randy Random last night! -->
+  <TSP_CK_DreamVine_Inebriated.stages.Dreamy_drunk.description>I dreamed about Randy Random last night!</TSP_CK_DreamVine_Inebriated.stages.Dreamy_drunk.description>
+  <!-- EN: Dreamy (hammered) -->
+  <TSP_CK_DreamVine_Inebriated.stages.Dreamy_hammered.label>Dreamy (hammered)</TSP_CK_DreamVine_Inebriated.stages.Dreamy_hammered.label>
+  <!-- EN: THE POWER WITHIN. THE POWER WITHIN. THE POWER WITHIN. -->
+  <TSP_CK_DreamVine_Inebriated.stages.Dreamy_hammered.description>THE POWER WITHIN. THE POWER WITHIN. THE POWER WITHIN.</TSP_CK_DreamVine_Inebriated.stages.Dreamy_hammered.description>
+  <!-- EN: Dreamy (plastered) -->
+  <TSP_CK_DreamVine_Inebriated.stages.Dreamy_plastered.label>Dreamy (plastered)</TSP_CK_DreamVine_Inebriated.stages.Dreamy_plastered.label>
+  <!-- EN: I CAN SEE EVERYTHING. -->
+  <TSP_CK_DreamVine_Inebriated.stages.Dreamy_plastered.description>I CAN SEE EVERYTHING.</TSP_CK_DreamVine_Inebriated.stages.Dreamy_plastered.description>
+</LanguageData>

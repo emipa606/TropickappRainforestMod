@@ -1,6 +1,7 @@
 # [Tropi[CKAPP] Rainforest Mod (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2028973691)
 
 ![Image](https://i.imgur.com/buuPQel.png)
+
 Update of KapTaiN_KaVerNs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1110093272
 
@@ -10,11 +11,11 @@ Initial loading of a new map may take a while due to the large amount of plants 
 Added patches for:
 
 
--  [https://steamcommunity.com/workshop/filedetails/?id=2312280343][RF]( Archipelagos (Continued))
--  [https://steamcommunity.com/workshop/filedetails/?id=2038001322](Biomes! Islands)
--  [https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948](Vanilla Factions Animals Expanded) 
--  [https://steamcommunity.com/sharedfiles/filedetails/?id=2858079457](Vanilla Factions Animals Expanded (Royal))
--  [https://steamcommunity.com/sharedfiles/filedetails/?id=2690125435](Feles of the Rim)
+-  [[RF] Archipelagos (Continued)](https://steamcommunity.com/workshop/filedetails/?id=2312280343)
+-  [Biomes! Islands](https://steamcommunity.com/workshop/filedetails/?id=2038001322)
+-  [Vanilla Factions Animals Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948) 
+-  [Vanilla Factions Animals Expanded (Royal)](https://steamcommunity.com/sharedfiles/filedetails/?id=2858079457)
+-  [Feles of the Rim](https://steamcommunity.com/sharedfiles/filedetails/?id=2690125435)
 
 
 
@@ -70,14 +71,15 @@ ____________________________________
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
+
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-[https://steamcommunity.com/sharedfiles/filedetails/changelog/2028973691]![Image]((https://img.shields.io/github/v/release/emipa606/TropickappRainforestMod?label=latest%20version&style=plastic&color=9f1111&labelColor=black))
+[![Image](https://img.shields.io/github/v/release/emipa606/TropickappRainforestMod?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2028973691) | tags:  survival

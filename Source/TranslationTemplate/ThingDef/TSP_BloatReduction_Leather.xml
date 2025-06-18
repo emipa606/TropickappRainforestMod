@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: arctic hare leather (ERROR) -->
+  <CK_LeatherArcticHare.label>arctic hare leather (ERROR)</CK_LeatherArcticHare.label>
+  <!-- EN: This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom. -->
+  <CK_LeatherArcticHare.description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</CK_LeatherArcticHare.description>
+  <!-- EN: jaguar skin (ERROR) -->
+  <CK_LeatherJaguar.label>jaguar skin (ERROR)</CK_LeatherJaguar.label>
+  <!-- EN: This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom. -->
+  <CK_LeatherJaguar.description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</CK_LeatherJaguar.description>
+  <!-- EN: Komodo dragon leather (ERROR) -->
+  <CK_LeatherKomodoDragon.label>Komodo dragon leather (ERROR)</CK_LeatherKomodoDragon.label>
+  <!-- EN: This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom. -->
+  <CK_LeatherKomodoDragon.description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</CK_LeatherKomodoDragon.description>
+  <!-- EN: monkey hide (ERROR) -->
+  <CK_LeatherMonkey.label>monkey hide (ERROR)</CK_LeatherMonkey.label>
+  <!-- EN: This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom. -->
+  <CK_LeatherMonkey.description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</CK_LeatherMonkey.description>
+  <!-- EN: python skin (ERROR) -->
+  <CK_LeatherPython.label>python skin (ERROR)</CK_LeatherPython.label>
+  <!-- EN: This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom. -->
+  <CK_LeatherPython.description>This is an error in the TKAPP Tropical Rainforest Mod. You are not supposed to see this in the game. If you do, please report it as a bug to Mlie or TurtleShroom.</CK_LeatherPython.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: artic hare -->
+  <CK_ArcticHare.label>artic hare</CK_ArcticHare.label>
+  <!-- EN: An artic hare -->
+  <CK_ArcticHare.description>An artic hare</CK_ArcticHare.description>
+  <!-- EN: head -->
+  <CK_ArcticHare.tools.head.label>head</CK_ArcticHare.tools.head.label>
+</LanguageData>

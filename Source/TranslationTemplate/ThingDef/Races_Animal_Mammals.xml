@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: okapi -->
+  <CK_Okapi.label>okapi</CK_Okapi.label>
+  <!-- EN: A giraffid artiodactyl mammal native to old Earth Central Africa. Okapis are primarily diurnal but may be active for a few hours in darkness. They are essentially solitary, coming together only to breed. Okapis are herbivores, feeding on tree leaves and buds, grasses, ferns, fruits, and fungi. Okapis inhabit canopy forests at altitudes of 500–1,500 m (1,600–4,900 ft). -->
+  <CK_Okapi.description>A giraffid artiodactyl mammal native to old Earth Central Africa. Okapis are primarily diurnal but may be active for a few hours in darkness. They are essentially solitary, coming together only to breed. Okapis are herbivores, feeding on tree leaves and buds, grasses, ferns, fruits, and fungi. Okapis inhabit canopy forests at altitudes of 500–1,500 m (1,600–4,900 ft).</CK_Okapi.description>
+  <!-- EN: left hoof -->
+  <CK_Okapi.tools.left_hoof.label>left hoof</CK_Okapi.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <CK_Okapi.tools.right_hoof.label>right hoof</CK_Okapi.tools.right_hoof.label>
+  <!-- EN: teeth -->
+  <CK_Okapi.tools.teeth.label>teeth</CK_Okapi.tools.teeth.label>
+  <!-- EN: head -->
+  <CK_Okapi.tools.head.label>head</CK_Okapi.tools.head.label>
+  <!-- EN: tapir -->
+  <CK_Tapir.label>tapir</CK_Tapir.label>
+  <!-- EN: A large, herbivorous mammal, similar in shape to a pig, with a short, prehensile snout. Tapirs inhabit jungle and forest regions. Their closest relatives are the other odd-toed ungulates, which include horses, donkeys, zebras and rhinoceroses. Tapirs are generally shy, but when scared they can defend themselves with their very powerful jaws. -->
+  <CK_Tapir.description>A large, herbivorous mammal, similar in shape to a pig, with a short, prehensile snout. Tapirs inhabit jungle and forest regions. Their closest relatives are the other odd-toed ungulates, which include horses, donkeys, zebras and rhinoceroses. Tapirs are generally shy, but when scared they can defend themselves with their very powerful jaws.</CK_Tapir.description>
+  <!-- EN: left claw -->
+  <CK_Tapir.tools.left_claw.label>left claw</CK_Tapir.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <CK_Tapir.tools.right_claw.label>right claw</CK_Tapir.tools.right_claw.label>
+  <!-- EN: head -->
+  <CK_Tapir.tools.head.label>head</CK_Tapir.tools.head.label>
+</LanguageData>

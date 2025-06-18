@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: beekeeping -->
+  <CK_Beekeeping.label>beekeeping</CK_Beekeeping.label>
+  <!-- EN: Allows colonists to use apiaries in growing zones. -->
+  <CK_Beekeeping.description>Allows colonists to use apiaries in growing zones.</CK_Beekeeping.description>
+</LanguageData>

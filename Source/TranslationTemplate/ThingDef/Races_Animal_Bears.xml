@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: lesser panda -->
+  <CK_Panda.label>lesser panda</CK_Panda.label>
+  <!-- EN: The lesser panda is a smaller descendant of the giant panda, a bear native to Old Earth's south-central China. It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. Though it belongs to the order Carnivora, the lesser panda's diet is almost exclsively bamboo. Wild panda bears, when fighting starvation, will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents or carrion. In captivity, they may also receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas. -->
+  <CK_Panda.description>The lesser panda is a smaller descendant of the giant panda, a bear native to Old Earth's south-central China. It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. Though it belongs to the order Carnivora, the lesser panda's diet is almost exclsively bamboo. Wild panda bears, when fighting starvation, will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents or carrion. In captivity, they may also receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas.</CK_Panda.description>
+  <!-- EN: left claw -->
+  <CK_Panda.tools.left_claw.label>left claw</CK_Panda.tools.left_claw.label>
+  <!-- EN: claw -->
+  <CK_Panda.tools.left_claw.labelNoLocation>claw</CK_Panda.tools.left_claw.labelNoLocation>
+  <!-- EN: right claw -->
+  <CK_Panda.tools.right_claw.label>right claw</CK_Panda.tools.right_claw.label>
+  <!-- EN: claw -->
+  <CK_Panda.tools.right_claw.labelNoLocation>claw</CK_Panda.tools.right_claw.labelNoLocation>
+  <!-- EN: head -->
+  <CK_Panda.tools.head.label>head</CK_Panda.tools.head.label>
+</LanguageData>

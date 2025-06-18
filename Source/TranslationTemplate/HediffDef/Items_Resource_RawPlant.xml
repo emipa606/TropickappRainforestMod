@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Jitter rush -->
+  <CK_AteRawJitterBerries.label>Jitter rush</CK_AteRawJitterBerries.label>
+  <!-- EN: Jitter rush -->
+  <CK_AteRawJitterBerries.description>Jitter rush</CK_AteRawJitterBerries.description>
+  <!-- EN: speed from jitter -->
+  <CK_AteRawJitterBerries.stages.speed_from_jitter.label>speed from jitter</CK_AteRawJitterBerries.stages.speed_from_jitter.label>
+  <!-- EN: Jitter dependence -->
+  <CK_JitterAddiction.label>Jitter dependence</CK_JitterAddiction.label>
+  <!-- EN: Jitter dependence -->
+  <CK_JitterAddiction.description>Jitter dependence</CK_JitterAddiction.description>
+  <!-- EN: withdrawal -->
+  <CK_JitterAddiction.stages.withdrawal.label>withdrawal</CK_JitterAddiction.stages.withdrawal.label>
+  <!-- EN: Jitter tolerance -->
+  <CK_JitterTolerance.label>Jitter tolerance</CK_JitterTolerance.label>
+  <!-- EN: Jitter tolerance -->
+  <CK_JitterTolerance.description>Jitter tolerance</CK_JitterTolerance.description>
+  <!-- EN: small -->
+  <CK_JitterTolerance.stages.small.label>small</CK_JitterTolerance.stages.small.label>
+  <!-- EN: large -->
+  <CK_JitterTolerance.stages.large.label>large</CK_JitterTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <CK_JitterTolerance.stages.massive.label>massive</CK_JitterTolerance.stages.massive.label>
+  <!-- EN: dream root high -->
+  <TSP_CK_DreamRoot_High.label>dream root high</TSP_CK_DreamRoot_High.label>
+  <!-- EN: The active ingredients of dream roots in the bloodstream. -->
+  <TSP_CK_DreamRoot_High.description>The active ingredients of dream roots in the bloodstream.</TSP_CK_DreamRoot_High.description>
+  <!-- EN: dream root inebriation -->
+  <TSP_CK_DreamRoot_High.labelNoun>dream root inebriation</TSP_CK_DreamRoot_High.labelNoun>
+  <!-- EN: warm -->
+  <TSP_CK_DreamRoot_High.stages.warm.label>warm</TSP_CK_DreamRoot_High.stages.warm.label>
+  <!-- EN: tipsy -->
+  <TSP_CK_DreamRoot_High.stages.tipsy.label>tipsy</TSP_CK_DreamRoot_High.stages.tipsy.label>
+  <!-- EN: drunk -->
+  <TSP_CK_DreamRoot_High.stages.drunk.label>drunk</TSP_CK_DreamRoot_High.stages.drunk.label>
+  <!-- EN: hammered -->
+  <TSP_CK_DreamRoot_High.stages.hammered.label>hammered</TSP_CK_DreamRoot_High.stages.hammered.label>
+  <!-- EN: plastered -->
+  <TSP_CK_DreamRoot_High.stages.plastered.label>plastered</TSP_CK_DreamRoot_High.stages.plastered.label>
+</LanguageData>

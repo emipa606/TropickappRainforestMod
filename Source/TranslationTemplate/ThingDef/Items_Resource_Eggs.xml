@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: junglefowl egg (fert.) -->
+  <CK_EggJunglefowlFertilized.label>junglefowl egg (fert.)</CK_EggJunglefowlFertilized.label>
+  <!-- EN: Fertilized junglefowl egg. If all goes well, it should hatch into a baby junglefowl. It can be eaten raw, but it's much better cooked. -->
+  <CK_EggJunglefowlFertilized.description>Fertilized junglefowl egg. If all goes well, it should hatch into a baby junglefowl. It can be eaten raw, but it's much better cooked.</CK_EggJunglefowlFertilized.description>
+  <!-- EN: junglehen egg (unfert.) -->
+  <CK_EggJunglefowlUnfertilized.label>junglehen egg (unfert.)</CK_EggJunglefowlUnfertilized.label>
+  <!-- EN: Unfertilized junglefowl egg. It can be eaten raw, but it's much, much better cooked. -->
+  <CK_EggJunglefowlUnfertilized.description>Unfertilized junglefowl egg. It can be eaten raw, but it's much, much better cooked.</CK_EggJunglefowlUnfertilized.description>
+  <!-- EN: Komodo dragon egg (fert.) -->
+  <CK_EggKomodoFertilized.label>Komodo dragon egg (fert.)</CK_EggKomodoFertilized.label>
+  <!-- EN: Fertilized Komodo dragon egg. If all goes well, it should hatch into a baby Komodo dragon. It can be eaten raw, but it's much better cooked. -->
+  <CK_EggKomodoFertilized.description>Fertilized Komodo dragon egg. If all goes well, it should hatch into a baby Komodo dragon. It can be eaten raw, but it's much better cooked.</CK_EggKomodoFertilized.description>
+  <!-- EN: Komodo dragon egg (unfert.) -->
+  <CK_EggKomodoUnFertilized.label>Komodo dragon egg (unfert.)</CK_EggKomodoUnFertilized.label>
+  <!-- EN: Unfertilized Komodo dragon egg. It can be eaten raw, but it's much better cooked. -->
+  <CK_EggKomodoUnFertilized.description>Unfertilized Komodo dragon egg. It can be eaten raw, but it's much better cooked.</CK_EggKomodoUnFertilized.description>
+  <!-- EN: peafowl egg (fert.) -->
+  <CK_EggPeafowlFertilized.label>peafowl egg (fert.)</CK_EggPeafowlFertilized.label>
+  <!-- EN: Fertilized peafowl egg. If all goes well, it should hatch into a baby peafowl. It can be eaten raw, but it's much better cooked. -->
+  <CK_EggPeafowlFertilized.description>Fertilized peafowl egg. If all goes well, it should hatch into a baby peafowl. It can be eaten raw, but it's much better cooked.</CK_EggPeafowlFertilized.description>
+  <!-- EN: peafowl egg (unfert.) -->
+  <CK_EggPeafowlUnfertilized.label>peafowl egg (unfert.)</CK_EggPeafowlUnfertilized.label>
+  <!-- EN: Unfertilized peafowl egg. It can be eaten raw, but it's much, much better cooked. -->
+  <CK_EggPeafowlUnfertilized.description>Unfertilized peafowl egg. It can be eaten raw, but it's much, much better cooked.</CK_EggPeafowlUnfertilized.description>
+  <!-- EN: Python egg (fert.) -->
+  <CK_EggPythonFertilized.label>Python egg (fert.)</CK_EggPythonFertilized.label>
+  <!-- EN: Fertilized python egg. If all goes well, it should hatch into a baby python. It can be eaten raw, but it's much better cooked. -->
+  <CK_EggPythonFertilized.description>Fertilized python egg. If all goes well, it should hatch into a baby python. It can be eaten raw, but it's much better cooked.</CK_EggPythonFertilized.description>
+  <!-- EN: Python egg (unfert.) -->
+  <CK_EggPythonUnFertilized.label>Python egg (unfert.)</CK_EggPythonUnFertilized.label>
+  <!-- EN: Unfertilized python egg. It can be eaten raw, but it's much better cooked. -->
+  <CK_EggPythonUnFertilized.description>Unfertilized python egg. It can be eaten raw, but it's much better cooked.</CK_EggPythonUnFertilized.description>
+</LanguageData>

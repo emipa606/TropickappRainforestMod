@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: pandaskin -->
+  <CK_LeatherPanda.label>pandaskin</CK_LeatherPanda.label>
+  <!-- EN: The strong furry leather of a giant panda. Compared to most leather, it is quite a bit tougher and a bit better at all kinds of temperature regulation. -->
+  <CK_LeatherPanda.description>The strong furry leather of a giant panda. Compared to most leather, it is quite a bit tougher and a bit better at all kinds of temperature regulation.</CK_LeatherPanda.description>
+  <!-- EN: snow leopard skin -->
+  <CK_LeatherSnowLeopard.label>snow leopard skin</CK_LeatherSnowLeopard.label>
+  <!-- EN: A soft furry pelt harvested from a snow leopard. It is difficult to pierce and insulates well against cold. -->
+  <CK_LeatherSnowLeopard.description>A soft furry pelt harvested from a snow leopard. It is difficult to pierce and insulates well against cold.</CK_LeatherSnowLeopard.description>
+  <!-- EN: tiger skin -->
+  <CK_LeatherTiger.label>tiger skin</CK_LeatherTiger.label>
+  <!-- EN: A soft furry pelt harvested from a tiger. It is difficult to pierce and insulates well against heat. -->
+  <CK_LeatherTiger.description>A soft furry pelt harvested from a tiger. It is difficult to pierce and insulates well against heat.</CK_LeatherTiger.description>
+  <!-- EN: white tiger skin -->
+  <CK_LeatherWhiteTiger.label>white tiger skin</CK_LeatherWhiteTiger.label>
+  <!-- EN: A soft furry pelt harvested from a white tiger. It is difficult to pierce and insulates well against heat. -->
+  <CK_LeatherWhiteTiger.description>A soft furry pelt harvested from a white tiger. It is difficult to pierce and insulates well against heat.</CK_LeatherWhiteTiger.description>
+</LanguageData>

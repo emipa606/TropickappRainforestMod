@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Komodo Dragon -->
+  <CK_KomodoDragon.label>Komodo Dragon</CK_KomodoDragon.label>
+  <!-- EN: Also known as the monitor lizard, this is a large species of lizard found in Indonesian islands on old Earth. Komodo dragon group behaviour in hunting is exceptional in the reptile world./nAs a result of their size, these lizards dominated the ecosystems in which they lived. The diet of the Komodo dragon mainly consists of deer, though they also eat considerable amounts of carrion. Komodo dragons also occasionally attack humans. -->
+  <CK_KomodoDragon.description>Also known as the monitor lizard, this is a large species of lizard found in Indonesian islands on old Earth. Komodo dragon group behaviour in hunting is exceptional in the reptile world./nAs a result of their size, these lizards dominated the ecosystems in which they lived. The diet of the Komodo dragon mainly consists of deer, though they also eat considerable amounts of carrion. Komodo dragons also occasionally attack humans.</CK_KomodoDragon.description>
+  <!-- EN: left claw -->
+  <CK_KomodoDragon.tools.left_claw.label>left claw</CK_KomodoDragon.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <CK_KomodoDragon.tools.right_claw.label>right claw</CK_KomodoDragon.tools.right_claw.label>
+  <!-- EN: venomous bite -->
+  <CK_KomodoDragon.tools.venomous_bite.label>venomous bite</CK_KomodoDragon.tools.venomous_bite.label>
+  <!-- EN: head -->
+  <CK_KomodoDragon.tools.head.label>head</CK_KomodoDragon.tools.head.label>
+</LanguageData>

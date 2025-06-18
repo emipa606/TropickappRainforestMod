@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: wild cotton plant -->
+  <CK_PlantWildCotton.label>wild cotton plant</CK_PlantWildCotton.label>
+  <!-- EN: Yields cotton, a fine plant fiber used to make cloth. -->
+  <CK_PlantWildCotton.description>Yields cotton, a fine plant fiber used to make cloth.</CK_PlantWildCotton.description>
+  <!-- EN: wild psychoid plant -->
+  <CK_PlantWildPsychoid.label>wild psychoid plant</CK_PlantWildPsychoid.label>
+  <!-- EN: A leafy plant. Its leaves can be refined into various forms of the psychoid drug. -->
+  <CK_PlantWildPsychoid.description>A leafy plant. Its leaves can be refined into various forms of the psychoid drug.</CK_PlantWildPsychoid.description>
+  <!-- EN: wild rice plant -->
+  <CK_PlantWildRice.label>wild rice plant</CK_PlantWildRice.label>
+  <!-- EN: A short, fast-growing crop that yields small edible grains. Its great nutritional ouput and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil. -->
+  <CK_PlantWildRice.description>A short, fast-growing crop that yields small edible grains. Its great nutritional ouput and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</CK_PlantWildRice.description>
+  <!-- EN: wild smokeleaf plant -->
+  <CK_PlantWildSmokeleaf.label>wild smokeleaf plant</CK_PlantWildSmokeleaf.label>
+  <!-- EN: A leafy plant cultivated for its psychological effects. Smokeleaf leaves can be prepared into joints at the crafting spot. -->
+  <CK_PlantWildSmokeleaf.description>A leafy plant cultivated for its psychological effects. Smokeleaf leaves can be prepared into joints at the crafting spot.</CK_PlantWildSmokeleaf.description>
+</LanguageData>

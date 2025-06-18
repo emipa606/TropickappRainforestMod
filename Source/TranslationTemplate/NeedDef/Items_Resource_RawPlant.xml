@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Jitter -->
+  <CK_Chemical_Jitter.label>Jitter</CK_Chemical_Jitter.label>
+  <!-- EN: Because of a developed Jitter dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms. -->
+  <CK_Chemical_Jitter.description>Because of a developed Jitter dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</CK_Chemical_Jitter.description>
+</LanguageData>

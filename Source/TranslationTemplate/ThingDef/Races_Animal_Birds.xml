@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: junglefowl -->
+  <CK_Junglefowl.label>junglefowl</CK_Junglefowl.label>
+  <!-- EN: The junglefowl is a tropical member of the family Phasianidae, which is the same as pheasants, chickens and peafowl. It is thought to be ancestral to the domestic chicken. The red junglefowl was first domesticated, at least, from 5400 BC in Old Earth's China. -->
+  <CK_Junglefowl.description>The junglefowl is a tropical member of the family Phasianidae, which is the same as pheasants, chickens and peafowl. It is thought to be ancestral to the domestic chicken. The red junglefowl was first domesticated, at least, from 5400 BC in Old Earth's China.</CK_Junglefowl.description>
+  <!-- EN: talons -->
+  <CK_Junglefowl.tools.talons.label>talons</CK_Junglefowl.tools.talons.label>
+  <!-- EN: beak -->
+  <CK_Junglefowl.tools.beak-0.label>beak</CK_Junglefowl.tools.beak-0.label>
+  <!-- EN: head -->
+  <CK_Junglefowl.tools.head-0.label>head</CK_Junglefowl.tools.head-0.label>
+  <!-- EN: claws -->
+  <CK_Junglefowl.tools.claws.label>claws</CK_Junglefowl.tools.claws.label>
+  <!-- EN: beak -->
+  <CK_Junglefowl.tools.beak-1.label>beak</CK_Junglefowl.tools.beak-1.label>
+  <!-- EN: head -->
+  <CK_Junglefowl.tools.head-1.label>head</CK_Junglefowl.tools.head-1.label>
+  <!-- EN: peacock -->
+  <CK_Peafowl.label>peacock</CK_Peafowl.label>
+  <!-- EN: A peafowl -->
+  <CK_Peafowl.description>A peafowl</CK_Peafowl.description>
+  <!-- EN: peacock meat -->
+  <CK_Peafowl.race.meatLabel>peacock meat</CK_Peafowl.race.meatLabel>
+  <!-- EN: talons -->
+  <CK_Peafowl.tools.talons.label>talons</CK_Peafowl.tools.talons.label>
+  <!-- EN: beak -->
+  <CK_Peafowl.tools.beak-0.label>beak</CK_Peafowl.tools.beak-0.label>
+  <!-- EN: head -->
+  <CK_Peafowl.tools.head-0.label>head</CK_Peafowl.tools.head-0.label>
+  <!-- EN: claws -->
+  <CK_Peafowl.tools.claws.label>claws</CK_Peafowl.tools.claws.label>
+  <!-- EN: beak -->
+  <CK_Peafowl.tools.beak-1.label>beak</CK_Peafowl.tools.beak-1.label>
+  <!-- EN: head -->
+  <CK_Peafowl.tools.head-1.label>head</CK_Peafowl.tools.head-1.label>
+</LanguageData>

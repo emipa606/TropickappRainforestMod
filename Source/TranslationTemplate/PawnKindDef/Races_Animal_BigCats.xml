@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: jaguar -->
+  <CK_Jaguar.label>jaguar</CK_Jaguar.label>
+  <!-- EN: snow leopard -->
+  <CK_SnowLeopard.label>snow leopard</CK_SnowLeopard.label>
+  <!-- EN: tiger -->
+  <CK_Tiger.label>tiger</CK_Tiger.label>
+  <!-- EN: white tiger -->
+  <CK_WhiteTiger.label>white tiger</CK_WhiteTiger.label>
+</LanguageData>

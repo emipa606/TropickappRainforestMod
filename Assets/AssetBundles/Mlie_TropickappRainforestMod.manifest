@@ -1,0 +1,106 @@
+ManifestFileVersion: 0
+CRC: 2350254162
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4ace3ddebc42d7297923116cc29ed549
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4ace3ddebc42d7297923116cc29ed549
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/DreamVine/BushDreamVine_crop.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Item/Resource/PlantFoodRaw/CoffeeBeans.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Item/Resource/PlantFoodRaw/Coconuts.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Peafowl_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Jaguar_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/ArcticHare_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/CK_TreePalm/TreePalmB.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/TreeStranglerFig/TreeStranglerFigB.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/ElephantPack_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Fern/FernD.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Taro/TaroA.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/ElephantPack_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Junglehen_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Jaguar_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/CK_TreeBamboo/TreeBamboo.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Fern/FernA.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/TreeCoconutPalm/TreeCoconutPalm.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/SnowLeopard_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Panda_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Terrain/Surfaces/TrampledEarthLineFloor.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/SnowLeopard_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/ArcticHare_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Humanlike/Apparel/SafariHat/SafariHat_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Fern/FernB.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Tapir_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/TreeMahogany/TreeMahoganyB.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Junglefowl_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/TreeSickly/TreeSickly.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/PottedBromeliad/PottedBromeliad.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/DreamVine/BushDreamVine.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/TreeHive/TreeHive.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/CK_Rafflesia/Rafflesia.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Item/Resource/PlantFoodRaw/JitterBerries.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Tiger_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Tapir_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Coffea/BushCoffea.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Bromeliad/Bromeliad.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Humanlike/Apparel/SafariHat/SafariHat_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/WhiteTiger_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/CoffeaCrop/BushCoffea.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Monkey_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Item/Resource/PlantFoodRaw/BananaFruit.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Lemongrass/Lemongrass.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/DreamVineCrop/BushDreamVine.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Junglefowl_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Elephant/ElephantPack_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Tapir_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/CK_Palm/BushPalmB.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/WhiteTiger_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Item/Resource/PlantFoodRaw/TaroRoot.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Item/Resource/PlantFoodRaw/DreamVineRoot.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Tiger_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Cobra/Cobra_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/ElephantPack_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Peafowl_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Monkey_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/TreeHive/TreeHive_Leafless.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/PottedHeliconia/PottedHeliconia.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Cobra/Cobra_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Humanlike/Apparel/SafariHat/SafariHat_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Peafowl_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Panda_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/ArcticHare_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Cobra/Cobra_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Item/Resource/PlantFoodRaw/Lemongrass/Lemongrass_A.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Panda_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Monkey_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Tiger_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Item/Resource/PlantFoodRaw/Honeycomb.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/TreeBanana/TreeBanana.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Elephant/ElephantPack_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Elephant/ElephantPack_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/WhiteTiger_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Heliconia/Heliconia.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Junglehen_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Jaguar_south.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Apiary/Apiary.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Junglehen_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Junglefowl_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Humanlike/Apparel/SafariHat/SafariHat.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Coffea/BushCoffea_crop.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Okapi_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Okapi_east.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Plant/Fern/FernC.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Item/Resource/PlantFoodRaw/Lemongrass/Lemongrass_B.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/SnowLeopard_north.png
+- Assets/Data/Mlie.TropickappRainforestMod/Textures/Things/Pawn/Animal/Okapi_south.png
+Dependencies: []
