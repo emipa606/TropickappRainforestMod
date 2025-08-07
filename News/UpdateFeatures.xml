@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="TropickappRainforestMod_UpdateFeatureBase">
+		<modNameReadable>TropickappRainforestMod</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2028973691</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="TropickappRainforestMod_UpdateFeatureBase">
+		<defName>TropickappRainforestMod_1_6_0</defName>
+		<assemblyVersion>1.6.0</assemblyVersion>
+		<content>This mod will not be further updated, please use CKAPP Tropical Rainforest Mod (Continued) (TSP) by TurtleShroom instead.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

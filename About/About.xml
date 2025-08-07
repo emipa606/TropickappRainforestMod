@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Tropi[CKAPP] Rainforest Mod (Continued)</name>
+  <name>[Depricated] Tropi[CKAPP] Rainforest Mod (Continued)</name>
   <packageId>Mlie.TropickappRainforestMod</packageId>
   <author>Mlie</author>
   <url>https://github.com/emipa606/TropickappRainforestMod</url>
@@ -52,11 +52,13 @@ Added patches for:
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2690125435]Feles of the Rim[/url]
 [/list]
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://i.imgur.com/3npT60J.png[/img]
+
+This mod has been replaced by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3544154279]CKAPP Tropical Rainforest Mod (Continued) (TSP)[/url] by TurtleShroom
 
 [table]
 	[tr]
-		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/TropickappRainforestMod][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
     [tr]
@@ -111,7 +113,7 @@ ____________________________________
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
@@ -119,5 +121,5 @@ ____________________________________
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2028973691][img]https://img.shields.io/github/v/release/emipa606/TropickappRainforestMod?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  survival</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>

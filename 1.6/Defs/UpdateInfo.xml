@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TabulaRasa.UpdateDef Abstract="true" Name="TropickappRainforestMod_UpdateInfoBase">
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2028973691</linkUrl>
+		<banner>UpdateInfo/TropickappRainforestMod</banner>
+	</TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="TropickappRainforestMod_UpdateInfoBase" MayRequire="neronix17.toolbox">
+		<defName>TropickappRainforestMod_1_6_0</defName>
+		<date>2025/8/7</date>
+		<content>This mod will not be further updated, please use CKAPP Tropical Rainforest Mod (Continued) (TSP) by TurtleShroom instead.</content>
+	</TabulaRasa.UpdateDef>
+</Defs>
+

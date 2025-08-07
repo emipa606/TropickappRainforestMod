@@ -3,7 +3,13 @@
   "CanAdd": "0",
   "CanRemove": "1",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-18T20:58:29.9567089+02:00",
+  "LastXmlCleaning": "2025-08-07T20:45:01.8680655+02:00",
   "SocialImageSet": true,
-  "SearchTags": " survival"
+  "SearchTags": " survival",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 374653,
+  "CodeBaseSize": 88
 }

@@ -1,5 +1,8 @@
 # Changelog for TropickappRainforestMod
 
+1.6.1 - Last update, added end-of-life message
+
+
 1.6.0 - Updated to 1.6
 
 

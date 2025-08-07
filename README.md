@@ -1,4 +1,4 @@
-# [Tropi[CKAPP] Rainforest Mod (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2028973691)
+# [[Depricated] Tropi[CKAPP] Rainforest Mod (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2028973691)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -19,7 +19,9 @@ Added patches for:
 
 
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.imgur.com/3npT60J.png)
+
+This mod has been replaced by [CKAPP Tropical Rainforest Mod (Continued) (TSP)](https://steamcommunity.com/sharedfiles/filedetails/?id=3544154279) by TurtleShroom
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -74,7 +76,7 @@ ____________________________________
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
